@@ -1,0 +1,2964 @@
+{
+  "market": "Manchester",
+  "fetchedAt": "2026-10-16T16:14:41.967Z",
+  "properties": [
+    {
+      "id": "R92178777",
+      "address": "Tudor House, 11 Chapel Walks, Manchester, M2",
+      "postcode": "M2 1HN",
+      "price": 525000,
+      "lat": 53.481824,
+      "lng": -2.243983,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 787,
+      "daysOnMarket": 59,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92178777",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1712,
+        "monthlyLow": 1452,
+        "monthlyHigh": 2002,
+        "sampleSize": 15,
+        "radiusMiles": 0.24,
+        "searchPostcode": "M2 1HN",
+        "fetchedAt": "2026-10-16T16:14:43.831Z",
+        "comparables": [
+          {
+            "address": "Cross Street, Manchester, Greater Manchester M2, M2 4JE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74496525"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "Police Street, Manchester, Greater Manchester, M2, M2 7LU",
+            "monthlyRent": 1798,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93641601"
+          },
+          {
+            "address": "Police Street, Manchester, Greater Manchester M2, M2 7LP",
+            "monthlyRent": 1898,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74352193"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R91843293",
+      "address": "8 King Street, Deansgate, Manchester City Centre, M2",
+      "postcode": "M2 6AQ",
+      "price": 480000,
+      "lat": 53.481547,
+      "lng": -2.247147,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 1075,
+      "daysOnMarket": 68,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91843293",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1712,
+        "monthlyLow": 1452,
+        "monthlyHigh": 2002,
+        "sampleSize": 15,
+        "radiusMiles": 0.24,
+        "searchPostcode": "M2 1HN",
+        "fetchedAt": "2026-10-16T16:14:43.831Z",
+        "comparables": [
+          {
+            "address": "Cross Street, Manchester, Greater Manchester M2, M2 4JE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74496525"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "Police Street, Manchester, Greater Manchester, M2, M2 7LU",
+            "monthlyRent": 1798,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93641601"
+          },
+          {
+            "address": "Police Street, Manchester, Greater Manchester M2, M2 7LP",
+            "monthlyRent": 1898,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74352193"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R92869650",
+      "address": "King Street, Manchester, M2",
+      "postcode": "M2 6AQ",
+      "price": 350000,
+      "lat": 53.481255,
+      "lng": -2.24733,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": null,
+      "daysOnMarket": 39,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92869650",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1712,
+        "monthlyLow": 1452,
+        "monthlyHigh": 2002,
+        "sampleSize": 15,
+        "radiusMiles": 0.24,
+        "searchPostcode": "M2 1HN",
+        "fetchedAt": "2026-10-16T16:14:43.831Z",
+        "comparables": [
+          {
+            "address": "Cross Street, Manchester, Greater Manchester M2, M2 4JE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74496525"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "Police Street, Manchester, Greater Manchester, M2, M2 7LU",
+            "monthlyRent": 1798,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93641601"
+          },
+          {
+            "address": "Police Street, Manchester, Greater Manchester M2, M2 7LP",
+            "monthlyRent": 1898,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74352193"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R164386706",
+      "address": "The Birchin, 1 Joiner Street, Northern Quarter",
+      "postcode": "M4 1PH",
+      "price": 65000,
+      "lat": 53.482532,
+      "lng": -2.23802,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 284,
+      "daysOnMarket": 424,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164386706",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R93021045",
+      "address": "Joiner Street, Manchester, Greater Manchester",
+      "postcode": "M4 1PH",
+      "price": 150000,
+      "lat": 53.482532,
+      "lng": -2.23802,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 504,
+      "daysOnMarket": 36,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93021045",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R158634269",
+      "address": "No. 1 Deansgate, Manchester",
+      "postcode": "M3 1AZ",
+      "price": 275000,
+      "lat": 53.483539,
+      "lng": -2.245873,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 689,
+      "daysOnMarket": 599,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/158634269",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1452,
+        "monthlyLow": 1352,
+        "monthlyHigh": 1798,
+        "sampleSize": 15,
+        "radiusMiles": 0.17,
+        "searchPostcode": "M3 1AZ",
+        "fetchedAt": "2026-10-16T16:14:49.422Z",
+        "comparables": [
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
+            "monthlyRent": 1174,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
+          },
+          {
+            "address": "City Heights, Manchester, M3, M3 5AS",
+            "monthlyRent": 1599,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
+            "monthlyRent": 1352,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R170675129",
+      "address": "Joiner Street, Manchester, Greater Manchester",
+      "postcode": "M4 1PP",
+      "price": 140000,
+      "lat": 53.482667,
+      "lng": -2.237901,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 649,
+      "daysOnMarket": 112,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170675129",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "Z71641932",
+      "address": "18 Church Street, Manchester, Greater Manchester M4",
+      "postcode": "M4 1PN",
+      "price": 150000,
+      "lat": 53.482847,
+      "lng": -2.237932,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 621,
+      "daysOnMarket": 358,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/71641932",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "Z73015516",
+      "address": "Church Street, Manchester M4",
+      "postcode": "M4 1PN",
+      "price": 99950,
+      "lat": 53.482847,
+      "lng": -2.237932,
+      "propertyType": "Flat",
+      "bedrooms": 0,
+      "floorAreaSqFt": 377,
+      "daysOnMarket": 177,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73015516",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1049,
+        "monthlyLow": 923,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.57,
+        "searchPostcode": "M4 1PN",
+        "fetchedAt": "2026-10-16T16:14:54.948Z",
+        "comparables": [
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 949,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/62104212"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, M4 1PH",
+            "monthlyRent": 901,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92362419"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AG",
+            "monthlyRent": 1200,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93022113"
+          },
+          {
+            "address": "The Grand, 1 Aytoun Street, City Centre, M1 3DB",
+            "monthlyRent": 1001,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92312319"
+          },
+          {
+            "address": "Angel Gardens, M4, M4 4GE",
+            "monthlyRent": 1174,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94329771"
+          },
+          {
+            "address": "City Suites, Chapel Street, Manchester, M3 7NH",
+            "monthlyRent": 1274,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93538341"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R164900990",
+      "address": "Church Street, Manchester, Manchester, M4 1PN",
+      "postcode": "M4 1PN",
+      "price": 95000,
+      "lat": 53.48298,
+      "lng": -2.237967,
+      "propertyType": "Flat",
+      "bedrooms": 0,
+      "floorAreaSqFt": 316,
+      "daysOnMarket": 424,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164900990",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1049,
+        "monthlyLow": 923,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.57,
+        "searchPostcode": "M4 1PN",
+        "fetchedAt": "2026-10-16T16:14:54.948Z",
+        "comparables": [
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 949,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/62104212"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, M4 1PH",
+            "monthlyRent": 901,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92362419"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AG",
+            "monthlyRent": 1200,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93022113"
+          },
+          {
+            "address": "The Grand, 1 Aytoun Street, City Centre, M1 3DB",
+            "monthlyRent": 1001,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92312319"
+          },
+          {
+            "address": "Angel Gardens, M4, M4 4GE",
+            "monthlyRent": 1174,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94329771"
+          },
+          {
+            "address": "City Suites, Chapel Street, Manchester, M3 7NH",
+            "monthlyRent": 1274,
+            "bedrooms": null,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93538341"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "Z74261487",
+      "address": "23 Church Street, Manchester M4",
+      "postcode": "M4 1PY",
+      "price": 240000,
+      "lat": 53.48343,
+      "lng": -2.238493,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 711,
+      "daysOnMarket": 30,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74261487",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R88560366",
+      "address": "High Street, Manchester",
+      "postcode": "M4 1ED",
+      "price": 99000,
+      "lat": 53.483574,
+      "lng": -2.238448,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 420,
+      "daysOnMarket": 155,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88560366",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties",
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R171584873",
+      "address": "56 High Street, Manchester, M4 1ED",
+      "postcode": "M4 1ED",
+      "price": 120000,
+      "lat": 53.483574,
+      "lng": -2.238448,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 431,
+      "daysOnMarket": 261,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171584873",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties",
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R168274910",
+      "address": "High Street, Manchester, M4",
+      "postcode": "M4 1ED",
+      "price": 214000,
+      "lat": 53.48359,
+      "lng": -2.238446,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 932,
+      "daysOnMarket": 360,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/168274910",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R93210549",
+      "address": "Union Street, Manchester",
+      "postcode": "M4 1PT",
+      "price": 175000,
+      "lat": 53.483438,
+      "lng": -2.237631,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 452,
+      "daysOnMarket": 31,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93210549",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R91637601",
+      "address": "Oldham Street, Manchester, M1",
+      "postcode": "M1 1JQ",
+      "price": 150000,
+      "lat": 53.481867,
+      "lng": -2.236138,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": null,
+      "daysOnMarket": 74,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91637601",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1443,
+        "monthlyLow": 1200,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.12,
+        "searchPostcode": "M1 1JQ",
+        "fetchedAt": "2026-10-16T16:14:57.952Z",
+        "comparables": [
+          {
+            "address": "Chatsworth House, Manchester, M1, M1 1BY",
+            "monthlyRent": 1192,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93182205"
+          },
+          {
+            "address": "Chatsworth House, 19 Lever Street, Manchester, M1 1BY",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92678220"
+          },
+          {
+            "address": "Oldham Street, Manchester M1, M1 1JN",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74420717"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AF",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92558241"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R174549308",
+      "address": "50 Princess Street, Manchester, Manchester City Centre, M1",
+      "postcode": "M1 6HR",
+      "price": 280000,
+      "lat": 53.476748,
+      "lng": -2.239702,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": null,
+      "daysOnMarket": 184,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174549308",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1443,
+        "monthlyLow": 1200,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.12,
+        "searchPostcode": "M1 1JQ",
+        "fetchedAt": "2026-10-16T16:14:57.952Z",
+        "comparables": [
+          {
+            "address": "Chatsworth House, Manchester, M1, M1 1BY",
+            "monthlyRent": 1192,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93182205"
+          },
+          {
+            "address": "Chatsworth House, 19 Lever Street, Manchester, M1 1BY",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92678220"
+          },
+          {
+            "address": "Oldham Street, Manchester M1, M1 1JN",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74420717"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AF",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92558241"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R173698505",
+      "address": "Flat 57, Century Buildings, 14 St. Marys Parsonage, Manchester",
+      "postcode": "M3 2DD",
+      "price": 220000,
+      "lat": 53.48286,
+      "lng": -2.249143,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": null,
+      "daysOnMarket": 206,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173698505",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1452,
+        "monthlyLow": 1352,
+        "monthlyHigh": 1798,
+        "sampleSize": 15,
+        "radiusMiles": 0.17,
+        "searchPostcode": "M3 1AZ",
+        "fetchedAt": "2026-10-16T16:14:49.422Z",
+        "comparables": [
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
+            "monthlyRent": 1174,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
+          },
+          {
+            "address": "City Heights, Manchester, M3, M3 5AS",
+            "monthlyRent": 1599,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
+            "monthlyRent": 1352,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R88970838",
+      "address": "Century Buildings, St Mary`s Parsonage, Deansgate",
+      "postcode": "M3 2DD",
+      "price": 220000,
+      "lat": 53.48286,
+      "lng": -2.249143,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 716,
+      "daysOnMarket": 143,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88970838",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1304,
+        "monthlyLow": 1248,
+        "monthlyHigh": 1400,
+        "sampleSize": 15,
+        "radiusMiles": 0.16,
+        "searchPostcode": "M3 2DD",
+        "fetchedAt": "2026-10-16T16:15:00.518Z",
+        "comparables": [
+          {
+            "address": "102 Century Buildings M3, M3 2DE",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74512040"
+          },
+          {
+            "address": "Century Buildings, St. Marys Parsonage, Manchester, M3 2DE",
+            "monthlyRent": 1352,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93665613"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford M3, M3 5NB",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74417881"
+          },
+          {
+            "address": "Century Buildings, St Mary`S Parsonage M3, M3 2WJ",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517697"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford, M3 5NE",
+            "monthlyRent": 1248,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93042408"
+          },
+          {
+            "address": "Riverside Quay Street, Salford, M3, M3 5GD",
+            "monthlyRent": 1374,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91441626"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R162473045",
+      "address": "Lever Street, Manchester, M1",
+      "postcode": "M1 1BY",
+      "price": 160000,
+      "lat": 53.481846,
+      "lng": -2.235193,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 667,
+      "daysOnMarket": 508,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/162473045",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties",
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1443,
+        "monthlyLow": 1200,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.12,
+        "searchPostcode": "M1 1JQ",
+        "fetchedAt": "2026-10-16T16:14:57.952Z",
+        "comparables": [
+          {
+            "address": "Chatsworth House, Manchester, M1, M1 1BY",
+            "monthlyRent": 1192,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93182205"
+          },
+          {
+            "address": "Chatsworth House, 19 Lever Street, Manchester, M1 1BY",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92678220"
+          },
+          {
+            "address": "Oldham Street, Manchester M1, M1 1JN",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74420717"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AF",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92558241"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R159291476",
+      "address": "Century Buildings, St Mary's Parsonage, Manchester",
+      "postcode": "M3 2DE",
+      "price": 1900000,
+      "lat": 53.481998,
+      "lng": -2.25007,
+      "propertyType": "Flat",
+      "bedrooms": 5,
+      "floorAreaSqFt": 2777,
+      "daysOnMarket": 585,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/159291476",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": null,
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null,
+      "rentError": "Not enough matching rental evidence. Enter your own rent estimate."
+    },
+    {
+      "id": "Z73934868",
+      "address": "The Smithfield Buildings, 44 Tib Street, Northern Quarter, Manchester M4",
+      "postcode": "M4 1LA",
+      "price": 320000,
+      "lat": 53.48286,
+      "lng": -2.235671,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 1166,
+      "daysOnMarket": 68,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73934868",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R92663310",
+      "address": "The Edge, Clowes Street, Manchester City Centre, Salford, M3",
+      "postcode": "M3 5NF",
+      "price": 185000,
+      "lat": 53.48362,
+      "lng": -2.248847,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 496,
+      "daysOnMarket": 45,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92663310",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1304,
+        "monthlyLow": 1248,
+        "monthlyHigh": 1400,
+        "sampleSize": 15,
+        "radiusMiles": 0.16,
+        "searchPostcode": "M3 2DD",
+        "fetchedAt": "2026-10-16T16:15:00.518Z",
+        "comparables": [
+          {
+            "address": "102 Century Buildings M3, M3 2DE",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74512040"
+          },
+          {
+            "address": "Century Buildings, St. Marys Parsonage, Manchester, M3 2DE",
+            "monthlyRent": 1352,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93665613"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford M3, M3 5NB",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74417881"
+          },
+          {
+            "address": "Century Buildings, St Mary`S Parsonage M3, M3 2WJ",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517697"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford, M3 5NE",
+            "monthlyRent": 1248,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93042408"
+          },
+          {
+            "address": "Riverside Quay Street, Salford, M3, M3 5GD",
+            "monthlyRent": 1374,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91441626"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R175041365",
+      "address": "Flat 3, 3 Dale Street, Manchester, M1",
+      "postcode": "M1 1BA",
+      "price": 250000,
+      "lat": 53.482426,
+      "lng": -2.235227,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": null,
+      "daysOnMarket": 80,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/175041365",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1443,
+        "monthlyLow": 1200,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.12,
+        "searchPostcode": "M1 1JQ",
+        "fetchedAt": "2026-10-16T16:14:57.952Z",
+        "comparables": [
+          {
+            "address": "Chatsworth House, Manchester, M1, M1 1BY",
+            "monthlyRent": 1192,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93182205"
+          },
+          {
+            "address": "Chatsworth House, 19 Lever Street, Manchester, M1 1BY",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92678220"
+          },
+          {
+            "address": "Oldham Street, Manchester M1, M1 1JN",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74420717"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AF",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92558241"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R171835835",
+      "address": "Clowes Street, Salford, M3",
+      "postcode": "M3 5ND",
+      "price": 815000,
+      "lat": 53.483595,
+      "lng": -2.249009,
+      "propertyType": "Flat",
+      "bedrooms": 3,
+      "floorAreaSqFt": 2955,
+      "daysOnMarket": 255,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171835835",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 2474,
+        "monthlyLow": 1850,
+        "monthlyHigh": 2986,
+        "sampleSize": 15,
+        "radiusMiles": 0.39,
+        "searchPostcode": "M3 5ND",
+        "fetchedAt": "2026-10-16T16:15:06.432Z",
+        "comparables": [
+          {
+            "address": "The Edge, Clowes Street M3, M3 5NB",
+            "monthlyRent": 1798,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73529204"
+          },
+          {
+            "address": "Colliers Yard, Salford, M3 7HN",
+            "monthlyRent": 2860,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94220445"
+          },
+          {
+            "address": "Cortland, Bankside Blvd, M3, M3 7HD",
+            "monthlyRent": 2986,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89089803"
+          },
+          {
+            "address": "Anaconda Cut, 100 Greengate M3, M3 7NG",
+            "monthlyRent": 2327,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74432179"
+          },
+          {
+            "address": "Anaconda Cut, 100 Greengate M3, M3 7NG",
+            "monthlyRent": 2375,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74518850"
+          },
+          {
+            "address": "Anaconda Cut, 100 Greengate M3, M3 7NG",
+            "monthlyRent": 2999,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74277241"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R174287897",
+      "address": "The Edge, Clowes Street, Salford",
+      "postcode": "M3 5NA",
+      "price": 350000,
+      "lat": 53.483551,
+      "lng": -2.24912,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 1000,
+      "daysOnMarket": 189,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174287897",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1452,
+        "monthlyLow": 1352,
+        "monthlyHigh": 1798,
+        "sampleSize": 15,
+        "radiusMiles": 0.17,
+        "searchPostcode": "M3 1AZ",
+        "fetchedAt": "2026-10-16T16:14:49.422Z",
+        "comparables": [
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
+            "monthlyRent": 1174,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
+          },
+          {
+            "address": "City Heights, Manchester, M3, M3 5AS",
+            "monthlyRent": 1599,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
+            "monthlyRent": 1352,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R171751364",
+      "address": "The Edge, Clowes Street, Salford, M3 5NF",
+      "postcode": "M3 5NF",
+      "price": 400000,
+      "lat": 53.483552,
+      "lng": -2.249121,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 1190,
+      "daysOnMarket": 257,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171751364",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1452,
+        "monthlyLow": 1352,
+        "monthlyHigh": 1798,
+        "sampleSize": 15,
+        "radiusMiles": 0.17,
+        "searchPostcode": "M3 1AZ",
+        "fetchedAt": "2026-10-16T16:14:49.422Z",
+        "comparables": [
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
+            "monthlyRent": 1174,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
+          },
+          {
+            "address": "City Heights, Manchester, M3, M3 5AS",
+            "monthlyRent": 1599,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
+            "monthlyRent": 1352,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R90475659",
+      "address": "China House, Harter Street, Manchester",
+      "postcode": "M1 6HP",
+      "price": 180000,
+      "lat": 53.476287,
+      "lng": -2.240059,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 677,
+      "daysOnMarket": 106,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90475659",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1335,
+        "monthlyLow": 1101,
+        "monthlyHigh": 1638,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M1 6HP",
+        "fetchedAt": "2026-10-16T16:15:09.095Z",
+        "comparables": [
+          {
+            "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
+            "monthlyRent": 1101,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94006980"
+          },
+          {
+            "address": "Apt 102, Waterloo Street #033369 M1, M1 6HX",
+            "monthlyRent": 1400,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/68180568"
+          },
+          {
+            "address": "Princess Street, Manchester, M1, M1 6HR",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92599458"
+          },
+          {
+            "address": "50 Princess Street, Manchester M1, M1 6HR",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74298376"
+          },
+          {
+            "address": "M-One, 50 Princess Street, Manchester, M1 6HR, M1 6HR",
+            "monthlyRent": 1248,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92999115"
+          },
+          {
+            "address": "Basil House, Portland Street, Manchester, M1 6AA",
+            "monthlyRent": 1469,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94134210"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "O13983786",
+      "address": "Great Northern Tower, Watson Street, Manchester, M3 4EE",
+      "postcode": "M3 4EE",
+      "price": 150000,
+      "lat": 53.4772443,
+      "lng": -2.2481309,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 505,
+      "daysOnMarket": 1058,
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/13983786",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1304,
+        "monthlyLow": 1248,
+        "monthlyHigh": 1400,
+        "sampleSize": 15,
+        "radiusMiles": 0.16,
+        "searchPostcode": "M3 2DD",
+        "fetchedAt": "2026-10-16T16:15:00.518Z",
+        "comparables": [
+          {
+            "address": "102 Century Buildings M3, M3 2DE",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74512040"
+          },
+          {
+            "address": "Century Buildings, St. Marys Parsonage, Manchester, M3 2DE",
+            "monthlyRent": 1352,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93665613"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford M3, M3 5NB",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74417881"
+          },
+          {
+            "address": "Century Buildings, St Mary`S Parsonage M3, M3 2WJ",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517697"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford, M3 5NE",
+            "monthlyRent": 1248,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93042408"
+          },
+          {
+            "address": "Riverside Quay Street, Salford, M3, M3 5GD",
+            "monthlyRent": 1374,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91441626"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "O13523823",
+      "address": "Great Northern Tower, 1 Watson Street, Manchester, Greater Manchester, M3",
+      "postcode": "M3 4EE",
+      "price": 280000,
+      "lat": 53.477244,
+      "lng": -2.248131,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 875,
+      "daysOnMarket": 105,
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/13523823",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1452,
+        "monthlyLow": 1352,
+        "monthlyHigh": 1798,
+        "sampleSize": 15,
+        "radiusMiles": 0.17,
+        "searchPostcode": "M3 1AZ",
+        "fetchedAt": "2026-10-16T16:14:49.422Z",
+        "comparables": [
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
+            "monthlyRent": 1174,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
+          },
+          {
+            "address": "City Heights, Manchester, M3, M3 5AS",
+            "monthlyRent": 1599,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
+            "monthlyRent": 1352,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R92711379",
+      "address": "Thomas Street, Manchester, M4",
+      "postcode": "M4 1LQ",
+      "price": 300000,
+      "lat": 53.483526,
+      "lng": -2.235524,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 780,
+      "daysOnMarket": 44,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92711379",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "Z73235683",
+      "address": "Oldham Street, Manchester M4",
+      "postcode": "M4 1LP",
+      "price": 190000,
+      "lat": 53.483123,
+      "lng": -2.234894,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": null,
+      "daysOnMarket": 151,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73235683",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R168405656",
+      "address": "High Street, Manchester, M4",
+      "postcode": "M4 1HQ",
+      "price": 140000,
+      "lat": 53.48466,
+      "lng": -2.236616,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 495,
+      "daysOnMarket": 156,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/168405656",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties",
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1096,
+        "monthlyLow": 997,
+        "monthlyHigh": 1200,
+        "sampleSize": 15,
+        "radiusMiles": 0.09,
+        "searchPostcode": "M4 1PH",
+        "fetchedAt": "2026-10-16T16:14:46.844Z",
+        "comparables": [
+          {
+            "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
+            "monthlyRent": 1001,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94077984"
+          },
+          {
+            "address": "The Birchin, 1 Joiner Street, Manchester M4, M4 1PH",
+            "monthlyRent": 1049,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74254727"
+          },
+          {
+            "address": "The Birchin :: Manchester, M4 1PH",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92405826"
+          },
+          {
+            "address": "Pall Mall, 18 Church Street, Northern Quarter, Manchester M4, M4 1PN",
+            "monthlyRent": 997,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73161193"
+          },
+          {
+            "address": "Light House, Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1127,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74051401"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94328571"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R174221831",
+      "address": "The Edge, Clowes Street, Salford",
+      "postcode": "M3 5NE",
+      "price": 180000,
+      "lat": 53.483814,
+      "lng": -2.249862,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 548,
+      "daysOnMarket": 189,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174221831",
+      "summary": "",
+      "strategies": [
+        "Price reduced properties",
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1304,
+        "monthlyLow": 1248,
+        "monthlyHigh": 1400,
+        "sampleSize": 15,
+        "radiusMiles": 0.16,
+        "searchPostcode": "M3 2DD",
+        "fetchedAt": "2026-10-16T16:15:00.518Z",
+        "comparables": [
+          {
+            "address": "102 Century Buildings M3, M3 2DE",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74512040"
+          },
+          {
+            "address": "Century Buildings, St. Marys Parsonage, Manchester, M3 2DE",
+            "monthlyRent": 1352,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93665613"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford M3, M3 5NB",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74417881"
+          },
+          {
+            "address": "Century Buildings, St Mary`S Parsonage M3, M3 2WJ",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517697"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford, M3 5NE",
+            "monthlyRent": 1248,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93042408"
+          },
+          {
+            "address": "Riverside Quay Street, Salford, M3, M3 5GD",
+            "monthlyRent": 1374,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91441626"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R91980603",
+      "address": "Great Northern Tower, 1 Watson Street, Manchester City Centre, M3",
+      "postcode": "M3 4EP",
+      "price": 200000,
+      "lat": 53.476826,
+      "lng": -2.248527,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 824,
+      "daysOnMarket": 65,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91980603",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1452,
+        "monthlyLow": 1352,
+        "monthlyHigh": 1798,
+        "sampleSize": 15,
+        "radiusMiles": 0.17,
+        "searchPostcode": "M3 1AZ",
+        "fetchedAt": "2026-10-16T16:14:49.422Z",
+        "comparables": [
+          {
+            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
+          },
+          {
+            "address": "1 Deansgate, Manchester, M3 1AZ",
+            "monthlyRent": 2500,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
+          },
+          {
+            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
+            "monthlyRent": 1174,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
+          },
+          {
+            "address": "City Heights, Manchester, M3, M3 5AS",
+            "monthlyRent": 1599,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
+          },
+          {
+            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
+            "monthlyRent": 1369,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
+          },
+          {
+            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
+            "monthlyRent": 1352,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R94093488",
+      "address": "Clowes Street, Salford, M3",
+      "postcode": "M3 5NG",
+      "price": 182000,
+      "lat": 53.484061,
+      "lng": -2.24972,
+      "propertyType": "Flat",
+      "bedrooms": 1,
+      "floorAreaSqFt": 497,
+      "daysOnMarket": 9,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94093488",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1304,
+        "monthlyLow": 1248,
+        "monthlyHigh": 1400,
+        "sampleSize": 15,
+        "radiusMiles": 0.16,
+        "searchPostcode": "M3 2DD",
+        "fetchedAt": "2026-10-16T16:15:00.518Z",
+        "comparables": [
+          {
+            "address": "102 Century Buildings M3, M3 2DE",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74512040"
+          },
+          {
+            "address": "Century Buildings, St. Marys Parsonage, Manchester, M3 2DE",
+            "monthlyRent": 1352,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93665613"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford M3, M3 5NB",
+            "monthlyRent": 1200,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74417881"
+          },
+          {
+            "address": "Century Buildings, St Mary`S Parsonage M3, M3 2WJ",
+            "monthlyRent": 1300,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517697"
+          },
+          {
+            "address": "The Edge, Clowes Street, Salford, M3 5NE",
+            "monthlyRent": 1248,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93042408"
+          },
+          {
+            "address": "Riverside Quay Street, Salford, M3, M3 5GD",
+            "monthlyRent": 1374,
+            "bedrooms": 1,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91441626"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R90003303",
+      "address": "Northern Quarter, M4",
+      "postcode": "M4 1BF",
+      "price": 199950,
+      "lat": 53.484844,
+      "lng": -2.236578,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 665,
+      "daysOnMarket": 117,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90003303",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R94378338",
+      "address": "Tiber Place, 29 Tib Street, Manchester",
+      "postcode": "M4 1LX",
+      "price": 325000,
+      "lat": 53.483753,
+      "lng": -2.234994,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 743,
+      "daysOnMarket": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94378338",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1421,
+        "monthlyLow": 1296,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.11,
+        "searchPostcode": "M4 1PP",
+        "fetchedAt": "2026-10-16T16:14:52.260Z",
+        "comparables": [
+          {
+            "address": "Joiner Street, Manchester M4, M4 1PR",
+            "monthlyRent": 1950,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74183599"
+          },
+          {
+            "address": "Church Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74517624"
+          },
+          {
+            "address": "The Birchin, Joiner Street, Manchester M4, M4 1PN",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/70973475"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94105632"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R94268109",
+      "address": "Linter Building, 44 Whitworth Street, City Centre",
+      "postcode": "M1 3AJ",
+      "price": 370000,
+      "lat": 53.476339,
+      "lng": -2.237351,
+      "propertyType": "Flat",
+      "bedrooms": 2,
+      "floorAreaSqFt": 947,
+      "daysOnMarket": 4,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94268109",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 1443,
+        "monthlyLow": 1200,
+        "monthlyHigh": 1651,
+        "sampleSize": 15,
+        "radiusMiles": 0.12,
+        "searchPostcode": "M1 1JQ",
+        "fetchedAt": "2026-10-16T16:14:57.952Z",
+        "comparables": [
+          {
+            "address": "Chatsworth House, Manchester, M1, M1 1BY",
+            "monthlyRent": 1192,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93182205"
+          },
+          {
+            "address": "Chatsworth House, 19 Lever Street, Manchester, M1 1BY",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92678220"
+          },
+          {
+            "address": "Oldham Street, Manchester M1, M1 1JN",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74420717"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, Greater Manchester, M4, M4 1AE",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93138840"
+          },
+          {
+            "address": "Transmission House, 11 Tib Street, Manchester City Centre, M4, M4 1AE",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93461520"
+          },
+          {
+            "address": "Transmission House, Manchester, M4, M4 1AF",
+            "monthlyRent": 1452,
+            "bedrooms": 2,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92558241"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R175034762",
+      "address": "Linter Building, 44 Whitworth Street, City Centre",
+      "postcode": "M1 3AW",
+      "price": 465000,
+      "lat": 53.476339,
+      "lng": -2.237351,
+      "propertyType": "Flat",
+      "bedrooms": 3,
+      "floorAreaSqFt": 980,
+      "daysOnMarket": 80,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/175034762",
+      "summary": "",
+      "strategies": [
+        "Chain free properties"
+      ],
+      "fetchedAt": "2026-10-16T16:14:41.967Z",
+      "rent": {
+        "monthlyEstimate": 2665,
+        "monthlyLow": 1898,
+        "monthlyHigh": 2899,
+        "sampleSize": 15,
+        "radiusMiles": 0.22,
+        "searchPostcode": "M1 3AW",
+        "fetchedAt": "2026-10-16T16:15:12.056Z",
+        "comparables": [
+          {
+            "address": "Linter, Manchester New Square Manchester M1, M1 3AW",
+            "monthlyRent": 2448,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92129241"
+          },
+          {
+            "address": "Cotton Mill, Manchester M1, M1 7AX",
+            "monthlyRent": 1898,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74341600"
+          },
+          {
+            "address": "Cotton Mill, City Centre M1, M1 7AX",
+            "monthlyRent": 1898,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93588516"
+          },
+          {
+            "address": "Sackville Place, Manchester M1, M1 7AT",
+            "monthlyRent": 1751,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73166873"
+          },
+          {
+            "address": "Portland Street, Manchester, Greater Manchester, M1, M1 4GS",
+            "monthlyRent": 2799,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/87879894"
+          },
+          {
+            "address": "Piccadilly Place, Manchester M1, M1 3BR",
+            "monthlyRent": 1850,
+            "bedrooms": 3,
+            "propertyType": "flat",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/61342743"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    }
+  ],
+  "warnings": [
+    "Asking-rent samples are shared by postcode district, bedroom count and property type. Each sample shows its search postcode and radius; it is not a property valuation."
+  ],
+  "scope": "Up to 40 nearest high-yield, reduced-price or chain-free strategy matches within 8 miles of central Manchester. This is a selected sample, not the whole market."
+}

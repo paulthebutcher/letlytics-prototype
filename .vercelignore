@@ -1,0 +1,9 @@
+inbox
+mission
+research
+tests
+test-results
+playwright-report
+node_modules
+.git
+.env*

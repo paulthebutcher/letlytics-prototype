@@ -1,0 +1,97 @@
+{
+  "fetchedAt": "2026-10-16T16:28:58.625Z",
+  "records": {
+    "M2 1HN:Flat": {
+      "status": "empty",
+      "postcode": "M2 1HN",
+      "propertyType": "Flat",
+      "fetchedAt": "2026-10-16T16:15:12.739Z",
+      "periodStart": "2023-10-16",
+      "sales": [],
+      "count": 0,
+      "medianPrice": null,
+      "truncated": false,
+      "scope": "Up to 12 flat sales in M2 1HN, past 36 months. Standard category A, existing buildings only; mixed tenures.",
+      "caveat": "Recorded sales in the same postcode and property type are context, not a valuation or an exact property match. Bedrooms, floor area and condition are unknown. This small, selected cohort may not be representative; recent registrations can be missing.",
+      "attribution": "Contains HM Land Registry data © Crown copyright and database right 2021. This data is licensed under the Open Government Licence v3.0.",
+      "sourceUrl": "https://landregistry.data.gov.uk/app/ppd/",
+      "message": "No qualifying recorded sales found. This does not mean no properties have sold; recent registrations and excluded transaction types may be absent."
+    },
+    "M4 1PH:Flat": {
+      "status": "ready",
+      "postcode": "M4 1PH",
+      "propertyType": "Flat",
+      "fetchedAt": "2026-10-16T16:28:58.625Z",
+      "periodStart": "2023-10-16",
+      "sales": [
+        {
+          "id": "50D10B84-2F4E-B8D0-E063-4704A8C08D98",
+          "price": 141500,
+          "date": "2025-12-19",
+          "address": "APARTMENT 105, THE BIRCHIN, 1, JOINER STREET",
+          "postcode": "M4 1PH",
+          "propertyType": "Flat",
+          "tenure": "Leasehold",
+          "newBuild": false,
+          "category": "A",
+          "sourceUrl": "https://landregistry.data.gov.uk/data/ppi/transaction/50D10B84-2F4E-B8D0-E063-4704A8C08D98/current"
+        },
+        {
+          "id": "31C68072-4976-FEE3-E063-4804A8C04F37",
+          "price": 122000,
+          "date": "2025-02-21",
+          "address": "APARTMENT 402, THE BIRCHIN, 1, JOINER STREET",
+          "postcode": "M4 1PH",
+          "propertyType": "Flat",
+          "tenure": "Leasehold",
+          "newBuild": false,
+          "category": "A",
+          "sourceUrl": "https://landregistry.data.gov.uk/data/ppi/transaction/31C68072-4976-FEE3-E063-4804A8C04F37/current"
+        },
+        {
+          "id": "2D4D7609-2FC6-BDF9-E063-4804A8C0672F",
+          "price": 220000,
+          "date": "2025-01-10",
+          "address": "APARTMENT 609, THE BIRCHIN, 1, JOINER STREET",
+          "postcode": "M4 1PH",
+          "propertyType": "Flat",
+          "tenure": "Leasehold",
+          "newBuild": false,
+          "category": "A",
+          "sourceUrl": "https://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-2FC6-BDF9-E063-4804A8C0672F/current"
+        },
+        {
+          "id": "2859C1AC-2ADF-52B4-E063-4804A8C05948",
+          "price": 150000,
+          "date": "2024-11-15",
+          "address": "APARTMENT 509, THE BIRCHIN, 1, JOINER STREET",
+          "postcode": "M4 1PH",
+          "propertyType": "Flat",
+          "tenure": "Leasehold",
+          "newBuild": false,
+          "category": "A",
+          "sourceUrl": "https://landregistry.data.gov.uk/data/ppi/transaction/2859C1AC-2ADF-52B4-E063-4804A8C05948/current"
+        },
+        {
+          "id": "12A8BAB6-5C9C-2125-E063-4804A8C08CC1",
+          "price": 119000,
+          "date": "2024-02-05",
+          "address": "APARTMENT 1, THE BIRCHIN, 1, JOINER STREET",
+          "postcode": "M4 1PH",
+          "propertyType": "Flat",
+          "tenure": "Leasehold",
+          "newBuild": false,
+          "category": "A",
+          "sourceUrl": "https://landregistry.data.gov.uk/data/ppi/transaction/12A8BAB6-5C9C-2125-E063-4804A8C08CC1/current"
+        }
+      ],
+      "count": 5,
+      "medianPrice": 141500,
+      "truncated": false,
+      "scope": "Up to 12 flat sales in M4 1PH, past 36 months. Standard category A, existing buildings only; mixed tenures.",
+      "caveat": "Recorded sales in the same postcode and property type are context, not a valuation or an exact property match. Bedrooms, floor area and condition are unknown. This small, selected cohort may not be representative; recent registrations can be missing.",
+      "attribution": "Contains HM Land Registry data © Crown copyright and database right 2021. This data is licensed under the Open Government Licence v3.0.",
+      "sourceUrl": "https://landregistry.data.gov.uk/app/ppd/"
+    }
+  }
+}

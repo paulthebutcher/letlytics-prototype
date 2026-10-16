@@ -1,0 +1,72 @@
+name: Refresh property data
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-property-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check configuration
+        env:
+          PROPERTYDATA_API_KEY: ${{ secrets.PROPERTYDATA_API_KEY }}
+          SNAPSHOT_COMMIT_EMAIL: ${{ vars.SNAPSHOT_COMMIT_EMAIL }}
+        run: |
+          if [ -z "$PROPERTYDATA_API_KEY" ]; then
+            echo '::error::Add the PROPERTYDATA_API_KEY repository Actions secret.'
+            exit 1
+          fi
+          if [ -z "$SNAPSHOT_COMMIT_EMAIL" ]; then
+            echo '::error::Set SNAPSHOT_COMMIT_EMAIL to an email associated with the GitHub account authorized on your Vercel project.'
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Collect daily listings, rental evidence and recorded sales
+        env:
+          PROPERTYDATA_API_KEY: ${{ secrets.PROPERTYDATA_API_KEY }}
+        run: npm run data:refresh
+
+      - name: Validate the updated dataset
+        run: |
+          npm test
+          npm run build
+
+      - name: Commit the new dataset for Vercel
+        env:
+          SNAPSHOT_COMMIT_NAME: ${{ vars.SNAPSHOT_COMMIT_NAME || github.actor }}
+          SNAPSHOT_COMMIT_EMAIL: ${{ vars.SNAPSHOT_COMMIT_EMAIL }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "$SNAPSHOT_COMMIT_NAME"
+          git config user.email "$SNAPSHOT_COMMIT_EMAIL"
+          git add src/data/live-snapshot.json src/data/daily-sales.json
+          if git diff --cached --quiet; then
+            echo 'No dataset changes.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -m "Refresh daily property data"
+          git pull --rebase origin "$DEFAULT_BRANCH"
+          git push origin "HEAD:$DEFAULT_BRANCH"
+          echo 'Updated dataset committed. The connected Vercel Git integration can now deploy it.' >> "$GITHUB_STEP_SUMMARY"
