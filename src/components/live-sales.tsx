@@ -38,7 +38,7 @@ export function LiveSales({ property }: { property: LiveProperty }) {
     <section className="live-section live-sales">
       <div className="live-section-title">
         <History size={19} />
-        <h2>What actually sold nearby?</h2>
+        <h2>Recorded sales nearby</h2>
         <span className="live-evidence-tag">HM Land Registry</span>
       </div>
       <p className="live-section-copy">

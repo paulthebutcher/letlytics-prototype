@@ -1,4 +1,5 @@
 "use client";
+import { useEffect } from "react";
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -13,6 +14,8 @@ import {
 import { liveFinancials } from "@/lib/live-financials";
 import { useLive } from "./live-context";
 import {
+  PropertyPhoto,
+  focusScenarioField,
   LiveAssumptions,
   LiveBack,
   LiveState,
@@ -26,6 +29,10 @@ import { LiveSales } from "./live-sales";
 export function LiveAnalysis({ id }: { id: string }) {
   const { feed, assumptions, overrides } = useLive();
   const property = feed?.properties.find((p) => p.id === id);
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    if (hash.startsWith("scenario-")) focusScenarioField(hash);
+  }, [id]);
   if (!property)
     return (
       <main className="live-page">
@@ -41,6 +48,9 @@ export function LiveAnalysis({ id }: { id: string }) {
   const calculation = liveFinancials(p, assumptions, override);
   const f = calculation.financials;
   const hasMissing = calculation.missingCosts.length > 0;
+  const missingCount =
+    calculation.missingCosts.length +
+    (calculation.monthlyRent === null ? 1 : 0);
   const serviceCharge = override.annualServiceCharge ?? p.annualServiceCharge;
   const deposit = (calculation.purchasePrice * assumptions.depositPct) / 100;
   const costs: { label: string; detail?: string; amount: number | null }[] = f
@@ -97,21 +107,37 @@ export function LiveAnalysis({ id }: { id: string }) {
     <main className="live-page live-detail">
       <LiveBack />
       <div className="live-detail-heading">
-        <div>
-          <div className="live-eyebrow">
-            <MapPin size={13} />
-            {p.postcode}
+        <div className="live-detail-identity">
+          <PropertyPhoto key={p.id} property={p} hero />
+          <div>
+            <div className="live-eyebrow">
+              <MapPin size={13} />
+              {p.postcode}
+            </div>
+            <h1>{p.address}</h1>
+            <p>
+              {p.propertyType} ·{" "}
+              {p.bedrooms === null
+                ? "Bedrooms not supplied"
+                : `${p.bedrooms} ${p.bedrooms === 1 ? "bedroom" : "bedrooms"}`}
+              {p.floorAreaSqFt
+                ? ` · ${p.floorAreaSqFt.toLocaleString("en-GB")} sq ft`
+                : ""}
+            </p>
+            <div className="live-detail-facts">
+              <span>
+                EPC <b>{p.epcRating ?? "To confirm"}</b>
+              </span>
+              <span>
+                Tenure <b>{p.tenure ?? "To confirm"}</b>
+              </span>
+              {p.daysOnMarket !== null && (
+                <span>
+                  <b>{p.daysOnMarket}</b> days listed
+                </span>
+              )}
+            </div>
           </div>
-          <h1>{p.address}</h1>
-          <p>
-            {p.propertyType} ·{" "}
-            {p.bedrooms === null
-              ? "Bedrooms not supplied"
-              : `${p.bedrooms} bedrooms`}
-            {p.floorAreaSqFt
-              ? ` · ${p.floorAreaSqFt.toLocaleString("en-GB")} sq ft`
-              : ""}
-          </p>
         </div>
         <div className="live-detail-actions">
           {p.listingUrl && (
@@ -143,9 +169,12 @@ export function LiveAnalysis({ id }: { id: string }) {
                   <strong>{liveMoney(calculation.purchasePrice)}</strong>
                 </span>
               </div>
-              <a href="#scenario" className="live-scenario-jump">
+              <button
+                onClick={() => focusScenarioField("scenario-offer")}
+                className="live-scenario-jump"
+              >
                 Adjust offer &amp; financing <SlidersHorizontal size={13} />
-              </a>
+              </button>
             </div>
             <div className="live-cashflow-hero">
               <span>
@@ -164,18 +193,86 @@ export function LiveAnalysis({ id }: { id: string }) {
               </p>
             </div>
           </section>
-          {hasMissing && (
-            <div className="live-warning live-missing-costs">
-              <CircleHelp size={18} />
+          <div className="live-next-checks" aria-label="Next checks">
+            <div className="live-checks-heading">
+              <CircleHelp size={16} />
+              <strong>Before you take this further</strong>
+              <span>
+                {missingCount} missing {missingCount === 1 ? "input" : "inputs"}
+              </span>
+            </div>
+            {serviceCharge === null && (
+              <button onClick={() => focusScenarioField("scenario-charge")}>
+                <span>
+                  <strong>Confirm service / estate charges</strong>
+                  <small>
+                    Excluded from cash flow. Enter the annual charge, or a
+                    confirmed £0.
+                  </small>
+                </span>
+                <span>
+                  Add charge <ArrowUpRight size={14} />
+                </span>
+              </button>
+            )}
+            {assumptions.landlordPaysCouncilTax &&
+              (override.annualCouncilTax ?? p.annualCouncilTax) === null && (
+                <button
+                  onClick={() => focusScenarioField("scenario-council-tax")}
+                >
+                  <span>
+                    <strong>Add landlord council tax</strong>
+                    <small>
+                      You pay council tax in this scenario; the bill is still
+                      missing.
+                    </small>
+                  </span>
+                  <span>
+                    Add bill <ArrowUpRight size={14} />
+                  </span>
+                </button>
+              )}
+            {calculation.monthlyRent === null && (
+              <button onClick={() => focusScenarioField("scenario-rent")}>
+                <span>
+                  <strong>Set an achievable monthly rent</strong>
+                  <small>
+                    No suitable advertised-rent sample is available for this
+                    property.
+                  </small>
+                </span>
+                <span>
+                  Add rent <ArrowUpRight size={14} />
+                </span>
+              </button>
+            )}
+            {!hasMissing && calculation.monthlyRent !== null && (
+              <p>
+                <Check size={15} /> Rent and modelled operating costs supplied.
+                Check condition and lease terms with the agent.
+              </p>
+            )}
+          </div>
+          {f && f.grossYield >= 12 && (
+            <div className="live-price-check" id="price-check">
+              <CircleHelp size={17} />
               <div>
-                <strong>
-                  {calculation.missingCosts.join(" and ")} still to confirm
-                </strong>
+                <strong>Check the price and rent pairing</strong>
                 <p>
-                  These costs are excluded from the figures. Add the annual
-                  amounts in your scenario before using cash flow to compare
-                  opportunities.
+                  This scenario implies {livePercent(f.grossYield)} gross yield.
+                  Confirm whether the price is an auction guide, a share, or
+                  subject to restrictions, and whether the local rent sample
+                  fits this home.
                 </p>
+                <button onClick={() => focusScenarioField("scenario-offer")}>
+                  Review your offer
+                </button>
+                <a href="#rental-evidence">Inspect rent evidence</a>
+                {p.listingUrl && (
+                  <a href={p.listingUrl} target="_blank" rel="noreferrer">
+                    Check original listing ↗
+                  </a>
+                )}
               </div>
             </div>
           )}
@@ -206,12 +303,12 @@ export function LiveAnalysis({ id }: { id: string }) {
               </small>
             </div>
           </div>
-          <section className="live-section">
-            <div className="live-section-title">
+          <details className="live-section live-cashflow-breakdown" open>
+            <summary className="live-section-title">
               <Wallet size={19} />
-              <h2>Follow the cash flow</h2>
+              <h2>Monthly cash flow</h2>
               <span className="live-evidence-tag">Monthly · pre-tax</span>
-            </div>
+            </summary>
             {f ? (
               <>
                 <div className="live-cost-row live-rent-row">
@@ -234,11 +331,22 @@ export function LiveAnalysis({ id }: { id: string }) {
                       {cost.label}
                       {cost.detail && <small>{cost.detail}</small>}
                     </span>
-                    <strong>
-                      {cost.amount === null
-                        ? "Unknown"
-                        : `−${liveMoney(cost.amount)}`}
-                    </strong>
+                    {cost.amount === null ? (
+                      <button
+                        className="live-add-cost"
+                        onClick={() =>
+                          focusScenarioField(
+                            cost.label === "Council tax"
+                              ? "scenario-council-tax"
+                              : "scenario-charge",
+                          )
+                        }
+                      >
+                        Add amount <ArrowUpRight size={13} />
+                      </button>
+                    ) : (
+                      <strong>−{liveMoney(cost.amount)}</strong>
+                    )}
                   </div>
                 ))}
                 <div className="live-cost-total">
@@ -269,11 +377,11 @@ export function LiveAnalysis({ id }: { id: string }) {
                 </a>
               </div>
             )}
-          </section>
-          <section className="live-section">
+          </details>
+          <section className="live-section" id="rental-evidence">
             <div className="live-section-title">
               <FileSearch size={19} />
-              <h2>Where does the rent come from?</h2>
+              <h2>Rental evidence</h2>
             </div>
             {p.rent ? (
               <>
@@ -383,7 +491,7 @@ export function LiveAnalysis({ id }: { id: string }) {
           <section className="live-section">
             <div className="live-section-title">
               <Check size={19} />
-              <h2>Turn a shortlist into a decision</h2>
+              <h2>Agent checks</h2>
             </div>
             <div className="live-checklist">
               <div>

@@ -32,6 +32,26 @@ export function listingLink(value: unknown): string | null {
     return null;
   }
 }
+/** Only retain public image URLs, never credentials or arbitrary provider envelopes. */
+export function listingImage(value: unknown): string | null {
+  try {
+    const url = new URL(text(value));
+    if (
+      url.protocol !== "https:" ||
+      url.username ||
+      url.password ||
+      url.port ||
+      /^(localhost|127\.|10\.|192\.168\.|169\.254\.)/i.test(url.hostname) ||
+      [...url.searchParams.keys()].some((key) =>
+        /key|token|secret|signature|credential/i.test(key),
+      )
+    )
+      return null;
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
 export function normalizeListings(
   payload: unknown,
   fetchedAt: string,
@@ -91,6 +111,7 @@ export function normalizeListings(
         floorAreaSqFt: area !== null && area > 0 ? area : null,
         daysOnMarket: days !== null && days >= 0 ? days : null,
         listingUrl: listingLink(p.url),
+        imageUrl: listingImage(p.image_url),
         // Supplier summaries contain investment judgements; the UI uses facts and original-listing links instead.
         summary: "",
         strategies: Array.isArray(p.lists)

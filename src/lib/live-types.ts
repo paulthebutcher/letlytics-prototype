@@ -29,6 +29,7 @@ export interface LiveProperty {
   floorAreaSqFt: number | null;
   daysOnMarket: number | null;
   listingUrl: string | null;
+  imageUrl?: string | null;
   summary: string;
   strategies: string[];
   fetchedAt: string;

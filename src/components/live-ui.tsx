@@ -76,40 +76,50 @@ export function LiveState({
     </div>
   );
 }
-export function LiveIllustration({ flat = false }: { flat?: boolean }) {
+export function PropertyPhoto({
+  property,
+  hero = false,
+}: {
+  property: LiveProperty;
+  hero?: boolean;
+}) {
+  const [failedUrl, setFailedUrl] = useState<string | null>(null);
+  const image =
+    property.imageUrl && failedUrl !== property.imageUrl
+      ? property.imageUrl
+      : null;
   return (
-    <div className="live-property-art" aria-hidden="true">
-      <svg viewBox="0 0 110 90" fill="none">
-        <path d="M9 78H101" stroke="currentColor" opacity=".3" />
-        <path
-          d={flat ? "M26 77V16H84V77Z" : "M22 77V37L55 12L88 37V77Z"}
-          fill="currentColor"
-          opacity=".12"
+    <div className={`live-property-photo ${hero ? "hero" : ""}`}>
+      {image ? (
+        <img
+          src={image}
+          alt={`Listing photograph for ${property.address}`}
+          width={hero ? 320 : 192}
+          height={hero ? 240 : 160}
+          loading={hero ? "eager" : "lazy"}
+          decoding="async"
+          referrerPolicy="no-referrer"
+          onError={() => setFailedUrl(property.imageUrl ?? null)}
         />
-        <path
-          d={
-            flat
-              ? "M26 77V16H84V77M36 16V9H74V16"
-              : "M15 40L55 10L95 40M24 35V77H86V35"
-          }
-          stroke="currentColor"
-          strokeWidth="2"
-        />
-        <path
-          d="M48 77V57H62V77M32 43H43V54H32ZM67 43H78V54H67ZM32 62H43V72H32ZM67 62H78V72H67Z"
-          fill="currentColor"
-          opacity=".55"
-        />
-        {flat && (
-          <path
-            d="M32 25H43V36H32ZM50 25H61V36H50ZM67 25H78V36H67Z"
-            fill="currentColor"
-            opacity=".55"
-          />
-        )}
-      </svg>
+      ) : (
+        <div className="live-photo-fallback">
+          <Building2 size={24} strokeWidth={1.3} />
+          <span>Photo unavailable</span>
+        </div>
+      )}
     </div>
   );
+}
+export function focusScenarioField(id: string) {
+  const field = document.getElementById(id);
+  if (!field) return;
+  let ancestor = field.parentElement;
+  while (ancestor) {
+    if (ancestor instanceof HTMLDetailsElement) ancestor.open = true;
+    ancestor = ancestor.parentElement;
+  }
+  field.scrollIntoView({ behavior: "auto", block: "center" });
+  field.focus({ preventScroll: true });
 }
 export function NumericField({
   label,
@@ -123,6 +133,7 @@ export function NumericField({
   hint,
   optional = false,
   placeholder = "Unknown",
+  fieldId,
 }: {
   label: string;
   value: number | undefined;
@@ -135,8 +146,10 @@ export function NumericField({
   hint?: string;
   optional?: boolean;
   placeholder?: string;
+  fieldId?: string;
 }) {
-  const id = useId();
+  const generatedId = useId();
+  const id = fieldId ?? generatedId;
   const [draft, setDraft] = useState(value === undefined ? "" : String(value));
   useEffect(() => setDraft(value === undefined ? "" : String(value)), [value]);
   const commit = () => {
@@ -194,15 +207,17 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
     <section className="live-scenario" id="scenario">
       <div className="live-section-title">
         <SlidersHorizontal size={17} />
-        <h2>Make the numbers yours</h2>
+        <h2>Your scenario</h2>
       </div>
       <p className="live-small">
-        Financing and operating assumptions apply to every shortlisted property.
+        Offer, rent and charges apply here. Financing and cost assumptions apply
+        across your shortlist.
       </p>
       {property && (
         <div className="live-property-inputs">
           <span className="live-eyebrow">THIS PROPERTY</span>
           <NumericField
+            fieldId="scenario-offer"
             label="Offer / purchase price"
             prefix="£"
             value={o.purchasePrice ?? property.price}
@@ -214,6 +229,7 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
             hint={`Listed at ${liveMoney(property.price)}. Your offer changes this scenario only.`}
           />
           <NumericField
+            fieldId="scenario-rent"
             label="Monthly rent assumption"
             prefix="£"
             value={o.monthlyRent ?? property.rent?.monthlyEstimate}
@@ -231,6 +247,7 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
             }
           />
           <NumericField
+            fieldId="scenario-charge"
             label="Annual service / estate charge"
             prefix="£"
             value={
@@ -356,6 +373,7 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
         </label>
         {property && a.landlordPaysCouncilTax && (
           <NumericField
+            fieldId="scenario-council-tax"
             label="Annual council tax"
             value={o.annualCouncilTax ?? property.annualCouncilTax ?? undefined}
             onChange={(value) =>

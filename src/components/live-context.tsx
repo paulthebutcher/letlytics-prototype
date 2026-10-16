@@ -26,7 +26,7 @@ const initialFilters: Filters = {
   type: "all",
   budget: "all",
   sort: "price",
-  map: true,
+  map: false,
 };
 const STORAGE = "letlytics-live-session-v1";
 type LiveState = {

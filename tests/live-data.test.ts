@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   listingLink,
+  listingImage,
   normalizeListings,
   normalizeRent,
 } from "../src/lib/propertydata-normalize";
@@ -44,7 +45,7 @@ const rent = {
   },
 };
 
-test("listing whitelist keeps facts, preserves unknowns and strips provider envelopes/photos", () => {
+test("listing whitelist keeps facts and image URLs, preserves unknowns and strips provider envelopes", () => {
   const result = normalizeListings(
     {
       params: { key: "secret" },
@@ -63,7 +64,7 @@ test("listing whitelist keeps facts, preserves unknowns and strips provider enve
   assert.equal(result[0].epcRating, null);
   assert.equal(result[0].rent, null);
   assert.ok(!JSON.stringify(result).includes("key"));
-  assert.ok(!JSON.stringify(result).includes("photo"));
+  assert.equal(result[0].imageUrl, listing.image_url);
 });
 test("listing links permit only provider HTTPS outbound links", () => {
   assert.equal(listingLink("javascript:alert(1)"), null);
@@ -159,4 +160,19 @@ test("unconfirmed landlord council tax is visible only when liability is enabled
     ),
     150,
   );
+});
+
+test("image URLs reject credentials and non-HTTPS schemes", () => {
+  assert.equal(listingImage("javascript:alert(1)"), null);
+  assert.equal(listingImage("http://images.test/home.jpg"), null);
+  assert.equal(
+    listingImage("https://user:password@images.test/home.jpg"),
+    null,
+  );
+  assert.equal(
+    listingImage("https://images.test/home.jpg?api_key=secret"),
+    null,
+  );
+  assert.equal(listingImage("https://127.0.0.1/home.jpg"), null);
+  assert.equal(listingImage(listing.image_url), listing.image_url);
 });

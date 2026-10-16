@@ -6,6 +6,7 @@ import {
   ArrowRight,
   ArrowUpRight,
   Check,
+  SlidersHorizontal,
   List,
   Map as MapIcon,
   MapPin,
@@ -15,7 +16,8 @@ import {
 import { liveFinancials } from "@/lib/live-financials";
 import { useLive } from "./live-context";
 import {
-  LiveIllustration,
+  PropertyPhoto,
+  NumericField,
   ShortlistButton,
   liveMoney,
   livePercent,
@@ -26,7 +28,16 @@ const LiveMap = dynamic(() => import("./live-map"), {
 });
 
 export function LiveDiscover() {
-  const { feed, assumptions, overrides, filters, setFilters } = useLive();
+  const {
+    feed,
+    assumptions,
+    setAssumptions,
+    overrides,
+    filters,
+    setFilters,
+    selected,
+  } = useLive();
+  const [shortlistOnly, setShortlistOnly] = useState(false);
   const [focused, setFocused] = useState<string | null>(null);
   const entries = useMemo(
     () =>
@@ -42,6 +53,7 @@ export function LiveDiscover() {
         .filter(({ property: p }) => {
           const query = filters.query.toLowerCase().trim();
           return (
+            (!shortlistOnly || selected.includes(p.id)) &&
             (!query ||
               `${p.address} ${p.postcode}`.toLowerCase().includes(query)) &&
             (filters.type === "all" || p.propertyType === filters.type) &&
@@ -57,7 +69,7 @@ export function LiveDiscover() {
                 (a.calculation.financials?.grossYield ?? -Infinity)
               : a.property.price - b.property.price,
         ),
-    [feed, assumptions, overrides, filters],
+    [feed, assumptions, overrides, filters, shortlistOnly, selected],
   );
   const mapProperties = useMemo(
     () => entries.map((e) => e.property),
@@ -69,34 +81,86 @@ export function LiveDiscover() {
   const withRent = feed?.properties.filter((p) => p.rent).length ?? 0;
   return (
     <main className="live-page">
-      <section className="live-intro">
+      <section className="live-discover-heading">
         <div>
-          <div className="live-eyebrow">PROPERTY EXPLORER</div>
-          <h1>
-            Real properties.
-            <br />
-            <span>Clearer next moves.</span>
-          </h1>
-          <p>Find a candidate, test your numbers, then check the evidence.</p>
+          <div className="live-eyebrow">BUY-TO-LET WORKSPACE</div>
+          <h1>{feed.market} investment properties</h1>
+          <p>Screen the opportunity. Test your offer. Check the evidence.</p>
         </div>
-        <div className="live-market-card">
-          <div>
-            <MapPin size={15} />
-            <strong>{feed?.market ?? "Manchester"}</strong>
-            <span>Selected opportunities</span>
-          </div>
-          <div className="live-market-stats">
-            <span>
-              <strong>{feed?.properties.length ?? "—"}</strong>asking-price
-              listings
-            </span>
-            <span>
-              <strong>{withRent}</strong>
-              with rental evidence
-            </span>
-          </div>
+        <div className="live-coverage">
+          <strong>{feed.properties.length}</strong> listings <span>·</span>{" "}
+          <strong>{withRent}</strong> with rent evidence
         </div>
       </section>
+      <details className="live-finance-strip">
+        <summary>
+          <span>
+            <SlidersHorizontal size={16} /> Screening scenario
+          </span>
+          <strong>
+            {assumptions.depositPct}% deposit · {assumptions.mortgageRate}%{" "}
+            {assumptions.mortgageType}
+            {assumptions.mortgageType === "repayment"
+              ? ` · ${assumptions.mortgageTermYears} years`
+              : ""}
+          </strong>
+          <span className="live-finance-edit">Edit financing</span>
+        </summary>
+        <div className="live-finance-fields">
+          <NumericField
+            label="Deposit"
+            value={assumptions.depositPct}
+            suffix="%"
+            max={100}
+            onChange={(v) =>
+              setAssumptions({ depositPct: v ?? assumptions.depositPct })
+            }
+          />
+          <NumericField
+            label="Mortgage rate"
+            value={assumptions.mortgageRate}
+            suffix="%"
+            max={25}
+            step={0.1}
+            onChange={(v) =>
+              setAssumptions({ mortgageRate: v ?? assumptions.mortgageRate })
+            }
+          />
+          <label className="live-finance-type">
+            Mortgage type
+            <select
+              value={assumptions.mortgageType}
+              onChange={(e) =>
+                setAssumptions({
+                  mortgageType: e.target
+                    .value as typeof assumptions.mortgageType,
+                })
+              }
+            >
+              <option value="interest-only">Interest only</option>
+              <option value="repayment">Repayment</option>
+            </select>
+          </label>
+          {assumptions.mortgageType === "repayment" && (
+            <NumericField
+              label="Mortgage term"
+              value={assumptions.mortgageTermYears}
+              suffix="years"
+              min={1}
+              max={40}
+              onChange={(v) =>
+                setAssumptions({
+                  mortgageTermYears: v ?? assumptions.mortgageTermYears,
+                })
+              }
+            />
+          )}
+          <p>
+            Applies across your shortlist. Set property-specific offers, rent
+            and charges in the analysis.
+          </p>
+        </div>
+      </details>
       <div className="live-workspace">
         <div className="live-toolbar">
           <label className="live-search">
@@ -163,20 +227,28 @@ export function LiveDiscover() {
             </button>
           </div>
         </div>
-        <div className="live-workspace-note">
-          <span>
-            <Check size={14} />
-            Start with a real asking price. Adjust the offer and rent to suit
-            your strategy.
-          </span>
-        </div>
         <div className={`live-discovery-grid ${!filters.map ? "no-map" : ""}`}>
           <section className="live-results">
             <div className="live-results-heading">
-              <strong>
-                {entries.length}{" "}
-                {entries.length === 1 ? "property" : "properties"}
-              </strong>
+              <div className="live-result-tabs">
+                <button
+                  className={!shortlistOnly ? "active" : ""}
+                  aria-pressed={!shortlistOnly}
+                  onClick={() => setShortlistOnly(false)}
+                >
+                  All properties
+                </button>
+                <button
+                  className={shortlistOnly ? "active" : ""}
+                  aria-pressed={shortlistOnly}
+                  onClick={() => setShortlistOnly(true)}
+                >
+                  Shortlist <span>{selected.length}</span>
+                </button>
+                <span className="live-result-count">
+                  {entries.length} results
+                </span>
+              </div>
               <label>
                 Sort by
                 <select
@@ -186,7 +258,7 @@ export function LiveDiscover() {
                 >
                   <option value="price">Lowest asking price</option>
                   <option value="cashflow">
-                    Cash flow before unknown costs
+                    Cash flow (excludes missing costs)
                   </option>
                   <option value="yield">Gross yield</option>
                 </select>
@@ -199,7 +271,7 @@ export function LiveDiscover() {
                   key={p.id}
                 >
                   <Link href={`/live/${p.id}`} className="live-property-main">
-                    <LiveIllustration flat={p.propertyType === "Flat"} />
+                    <PropertyPhoto property={p} />
                     <div>
                       <span className="live-property-location">
                         {p.postcode} · {p.propertyType}
@@ -222,14 +294,30 @@ export function LiveDiscover() {
                               ? "asking-rent estimate"
                               : "rent to verify"}
                         </span>
-                        {c.financials && (
-                          <span>
-                            <strong>
-                              {livePercent(c.financials.grossYield)}
-                            </strong>
-                            gross yield
-                          </span>
-                        )}
+                        <span>
+                          <strong>
+                            {c.financials
+                              ? livePercent(c.financials.grossYield)
+                              : "—"}
+                          </strong>
+                          gross yield
+                        </span>
+                        <span className="live-card-cashflow">
+                          <strong
+                            className={
+                              c.financials && c.financials.monthlyCashFlow < 0
+                                ? "negative"
+                                : ""
+                            }
+                          >
+                            {c.financials
+                              ? `${liveMoney(c.financials.monthlyCashFlow)}`
+                              : "—"}
+                          </strong>
+                          {c.missingCosts.length
+                            ? "/mo before missing costs"
+                            : "/mo pre-tax cash flow"}
+                        </span>
                       </div>
                       {c.purchasePrice !== p.price && (
                         <p className="live-small">
@@ -239,13 +327,40 @@ export function LiveDiscover() {
                     </div>
                   </Link>
                   <div className="live-property-bottom">
-                    <span
-                      className={`live-readiness ${c.missingCosts.length ? "caution" : ""}`}
+                    <div className="live-card-checks">
+                      {!c.financials && (
+                        <Link href={`/live/${p.id}#scenario-rent`}>
+                          Add rent <ArrowRight size={12} />
+                        </Link>
+                      )}
+                      {c.missingCosts.length > 0 && (
+                        <Link
+                          href={`/live/${p.id}#${(overrides[p.id]?.annualServiceCharge ?? p.annualServiceCharge) === null ? "scenario-charge" : "scenario-council-tax"}`}
+                        >
+                          Confirm charges <ArrowRight size={12} />
+                        </Link>
+                      )}
+                      {c.financials && c.financials.grossYield >= 12 && (
+                        <Link href={`/live/${p.id}#price-check`}>
+                          Check price &amp; rent <ArrowRight size={12} />
+                        </Link>
+                      )}
+                      {c.financials && !c.missingCosts.length && (
+                        <span>
+                          <Check size={13} /> Costs supplied
+                        </span>
+                      )}
+                    </div>
+                    <button
+                      className="live-locate"
+                      aria-label={`Locate ${p.address} on map`}
+                      onClick={() => {
+                        setFilters({ map: true });
+                        setFocused(p.id);
+                      }}
                     >
-                      {c.financials
-                        ? `${liveMoney(c.financials.monthlyCashFlow)}/mo ${c.missingCosts.length ? "before unknown costs" : "pre-tax cash flow"}`
-                        : "Add rent to test cash flow"}
-                    </span>
+                      <MapPin size={14} />
+                    </button>
                     <ShortlistButton property={p} compact />
                   </div>
                 </article>
@@ -257,9 +372,10 @@ export function LiveDiscover() {
                   <p>Broaden your search or budget.</p>
                   <button
                     className="button secondary"
-                    onClick={() =>
-                      setFilters({ query: "", type: "all", budget: "all" })
-                    }
+                    onClick={() => {
+                      setFilters({ query: "", type: "all", budget: "all" });
+                      setShortlistOnly(false);
+                    }}
                   >
                     Reset filters
                   </button>
