@@ -8,6 +8,7 @@
     "start": "next start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "data:refresh": "tsx scripts/refresh-data.ts",
+    "image:generate": "node --import tsx scripts/generate-social-image.tsx",
     "test": "node --import tsx --test tests/*.test.ts"
   },
   "dependencies": {

@@ -78,3 +78,7 @@ Use the same routes on the Vercel preview hostname. Reset the demo before anothe
 - OpenStreetMap tiles and Google Fonts require external network access. The property list and calculations still work if tiles fail; a fallback font is available.
 - Figures are before tax. Buying costs are an editable allowance, not a statutory tax calculation. Ground rent, one-off repairs, sale costs and personal/company taxes are not separately modelled. Tenant-paid council tax has no void-period allowance.
 - Ten-year scenarios use assumed growth, a fixed mortgage rate and fixed insurance/service charges/council tax. They are not forecasts or investment recommendations.
+
+## Social previews
+
+Canonical and preview URLs use Vercel's production domain, with `letlytics-dev.vercel.app` as the local fallback. The branded preview is a static 1200 × 630 PNG at `/og/letlytics-v2.png`; regenerate it with `npm run image:generate`. It is checked in so link-preview crawlers can load it without a function or an API key.

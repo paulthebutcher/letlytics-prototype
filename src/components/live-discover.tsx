@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -39,6 +39,30 @@ export function LiveDiscover() {
   } = useLive();
   const [shortlistOnly, setShortlistOnly] = useState(false);
   const [focused, setFocused] = useState<string | null>(null);
+  const resultList = useRef<HTMLDivElement>(null);
+  const mapPanel = useRef<HTMLElement>(null);
+  const locateProperty = (id: string) => {
+    setFilters({ map: true });
+    setFocused(id);
+    requestAnimationFrame(() => {
+      if (window.matchMedia("(max-width: 760px)").matches) {
+        mapPanel.current?.scrollIntoView({ block: "center", behavior: "auto" });
+      }
+    });
+  };
+  useEffect(() => {
+    if (!focused || !filters.map || !resultList.current) return;
+    const list = resultList.current;
+    const card = list.querySelector<HTMLElement>(
+      `[data-property-id="${focused}"]`,
+    );
+    if (!card) return;
+    const bounds = list.getBoundingClientRect();
+    const item = card.getBoundingClientRect();
+    if (item.top < bounds.top || item.bottom > bounds.bottom) {
+      list.scrollBy({ top: item.top - bounds.top - 10, behavior: "auto" });
+    }
+  }, [focused, filters.map]);
   const entries = useMemo(
     () =>
       (feed?.properties ?? [])
@@ -264,11 +288,12 @@ export function LiveDiscover() {
                 </select>
               </label>
             </div>
-            <div className="live-results-list">
+            <div className="live-results-list" ref={resultList}>
               {entries.map(({ property: p, calculation: c }) => (
                 <article
                   className={`live-property-card ${focused === p.id ? "focused" : ""}`}
                   key={p.id}
+                  data-property-id={p.id}
                 >
                   <Link href={`/live/${p.id}`} className="live-property-main">
                     <PropertyPhoto property={p} />
@@ -354,10 +379,7 @@ export function LiveDiscover() {
                     <button
                       className="live-locate"
                       aria-label={`Locate ${p.address} on map`}
-                      onClick={() => {
-                        setFilters({ map: true });
-                        setFocused(p.id);
-                      }}
+                      onClick={() => locateProperty(p.id)}
                     >
                       <MapPin size={14} />
                     </button>
@@ -384,16 +406,16 @@ export function LiveDiscover() {
             </div>
           </section>
           {filters.map && (
-            <section className="live-map-panel" aria-label="Map of properties">
+            <section
+              ref={mapPanel}
+              className="live-map-panel"
+              aria-label="Map of properties"
+            >
               <LiveMap
                 properties={mapProperties}
                 focused={focused}
                 onFocus={setFocused}
               />
-              <div className="live-map-label">
-                <MapPin size={13} />
-                Asking prices · approximate locations
-              </div>
               {focusProperty && (
                 <div className="live-map-preview">
                   <button
@@ -403,15 +425,21 @@ export function LiveDiscover() {
                   >
                     <X size={16} />
                   </button>
-                  <span>
-                    {focusProperty.postcode} · {focusProperty.propertyType}
-                  </span>
-                  <strong>{focusProperty.address}</strong>
-                  <div>
-                    <b>{liveMoney(focusProperty.price)}</b>
-                    <Link href={`/live/${focusProperty.id}`}>
-                      Test the numbers <ArrowRight size={14} />
-                    </Link>
+                  <PropertyPhoto
+                    key={focusProperty.id}
+                    property={focusProperty}
+                  />
+                  <div className="live-map-preview-copy">
+                    <span>
+                      {focusProperty.postcode} · {focusProperty.propertyType}
+                    </span>
+                    <strong>{focusProperty.address}</strong>
+                    <div>
+                      <b>{liveMoney(focusProperty.price)}</b>
+                      <Link href={`/live/${focusProperty.id}`}>
+                        Test the numbers <ArrowRight size={14} />
+                      </Link>
+                    </div>
                   </div>
                 </div>
               )}

@@ -1,3 +1,6 @@
+import React from "react";
+import { mkdir, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
 export const alt = "Letlytics — Find potential. Test the numbers.";
@@ -93,3 +96,18 @@ export default function OpenGraphImage() {
     size,
   );
 }
+
+async function generate() {
+  const directory = join(process.cwd(), "public/og");
+  await mkdir(directory, { recursive: true });
+  await writeFile(
+    join(directory, "letlytics-v2.png"),
+    Buffer.from(await OpenGraphImage().arrayBuffer()),
+  );
+  console.log("Saved public/og/letlytics-v2.png (1200 × 630)");
+}
+
+generate().catch(() => {
+  console.error("Social image generation failed.");
+  process.exitCode = 1;
+});

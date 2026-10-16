@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
 
-export const SITE_URL = new URL("https://levlytics-prototype.vercel.app");
+// Vercel supplies the production domain, including after a project/domain rename.
+export const SITE_URL = new URL(
+  `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || "letlytics-dev.vercel.app"}`,
+);
 export const SITE_DESCRIPTION =
   "Screen Manchester property listings, test rental cash flow with your own assumptions, and compare buy-to-let opportunities with rental and sold-price evidence.";
 export const SOCIAL_IMAGE = {
-  url: "/opengraph-image",
+  url: new URL("/og/letlytics-v2.png", SITE_URL).href,
+  secureUrl: new URL("/og/letlytics-v2.png", SITE_URL).href,
+  type: "image/png",
   width: 1200,
   height: 630,
   alt: "Letlytics — Find potential. Test the numbers.",
