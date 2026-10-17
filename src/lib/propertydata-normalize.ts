@@ -114,6 +114,13 @@ export function normalizeListings(
         imageUrl: listingImage(p.image_url),
         // Supplier summaries contain investment judgements; the UI uses facts and original-listing links instead.
         summary: "",
+        providerDetails: {
+          type: text(p.type),
+          summary: text(p.summary).slice(0, 3000),
+          ...(numeric(p.years_remaining) !== null
+            ? { yearsRemaining: numeric(p.years_remaining)! }
+            : {}),
+        },
         strategies: Array.isArray(p.lists)
           ? p.lists.map((v) => text(asRecord(v).name)).filter(Boolean)
           : [],

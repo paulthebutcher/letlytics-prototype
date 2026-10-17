@@ -1,3 +1,5 @@
+import enrichment from "../data/listing-enrichment.json";
+import type { EnrichmentStore } from "./enrichment-types";
 import savedFeed from "../data/live-snapshot.json";
 import savedSales from "../data/daily-sales.json";
 import type { LiveFeed } from "./live-types";
@@ -9,7 +11,16 @@ import {
 
 // These are build inputs. Provider requests belong only to scripts/refresh-data.ts.
 export function getDailyFeed(): LiveFeed {
-  return savedFeed as LiveFeed;
+  const feed = savedFeed as LiveFeed;
+  const records = (enrichment as EnrichmentStore).records;
+  return {
+    ...feed,
+    properties: feed.properties.map((p) => ({
+      ...p,
+      enrichment:
+        records[p.id]?.listingUrl === p.listingUrl ? records[p.id] : undefined,
+    })),
+  };
 }
 
 export function getDailySales(query: SalesQuery): SalesEvidence {

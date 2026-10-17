@@ -24,6 +24,12 @@ import {
   liveMoney,
   livePercent,
 } from "./live-ui";
+import { ListingWarnings, ListingEvidence } from "./listing-evidence";
+import {
+  verifiedFact,
+  propertyLabel,
+  priceLabel,
+} from "@/lib/listing-evidence";
 import { LiveSales } from "./live-sales";
 
 export function LiveAnalysis({ id }: { id: string }) {
@@ -51,13 +57,17 @@ export function LiveAnalysis({ id }: { id: string }) {
   const missingCount =
     calculation.missingCosts.length +
     (calculation.monthlyRent === null ? 1 : 0);
-  const serviceCharge = override.annualServiceCharge ?? p.annualServiceCharge;
-  const deposit = (calculation.purchasePrice * assumptions.depositPct) / 100;
+  const serviceCharge = calculation.annualServiceCharge;
+  const deposit =
+    calculation.purchasePrice *
+    (calculation.cashOnly ? 1 : assumptions.depositPct / 100);
   const costs: { label: string; detail?: string; amount: number | null }[] = f
     ? [
         {
           label: "Mortgage",
-          detail: `${assumptions.mortgageRate}% · ${assumptions.mortgageType}`,
+          detail: calculation.cashOnly
+            ? "Cash purchase"
+            : `${assumptions.mortgageRate}% · ${assumptions.mortgageType}`,
           amount: f.monthlyMortgage,
         },
         {
@@ -84,7 +94,18 @@ export function LiveAnalysis({ id }: { id: string }) {
               : override.annualServiceCharge !== undefined
                 ? "Your input"
                 : "Listing data",
-          amount: serviceCharge === null ? null : f.monthlyServiceCharge,
+          amount: serviceCharge === null ? null : serviceCharge / 12,
+        },
+        {
+          label: "Ground rent",
+          detail:
+            calculation.annualGroundRent === null
+              ? "Unknown · excluded"
+              : "Included",
+          amount:
+            calculation.annualGroundRent === null
+              ? null
+              : calculation.annualGroundRent / 12,
         },
         ...(assumptions.landlordPaysCouncilTax
           ? [
@@ -116,20 +137,27 @@ export function LiveAnalysis({ id }: { id: string }) {
             </div>
             <h1>{p.address}</h1>
             <p>
-              {p.propertyType} ·{" "}
-              {p.bedrooms === null
-                ? "Bedrooms not supplied"
-                : `${p.bedrooms} ${p.bedrooms === 1 ? "bedroom" : "bedrooms"}`}
+              {propertyLabel(p)}
               {p.floorAreaSqFt
                 ? ` · ${p.floorAreaSqFt.toLocaleString("en-GB")} sq ft`
                 : ""}
             </p>
             <div className="live-detail-facts">
               <span>
-                EPC <b>{p.epcRating ?? "To confirm"}</b>
+                EPC{" "}
+                <b>
+                  {verifiedFact<string>(p, "epc") ??
+                    p.epcRating ??
+                    "To confirm"}
+                </b>
               </span>
               <span>
-                Tenure <b>{p.tenure ?? "To confirm"}</b>
+                Tenure{" "}
+                <b>
+                  {verifiedFact<string>(p, "tenure") ??
+                    p.tenure ??
+                    "To confirm"}
+                </b>
               </span>
               {p.daysOnMarket !== null && (
                 <span>
@@ -142,7 +170,7 @@ export function LiveAnalysis({ id }: { id: string }) {
         <div className="live-detail-actions">
           {p.listingUrl && (
             <a
-              href={p.listingUrl}
+              href={p.enrichment?.canonicalUrl ?? p.listingUrl}
               target="_blank"
               rel="noreferrer"
               className="button secondary"
@@ -153,6 +181,7 @@ export function LiveAnalysis({ id }: { id: string }) {
           <ShortlistButton property={p} />
         </div>
       </div>
+      <ListingWarnings property={p} />
       <div className="live-detail-layout">
         <div className="live-detail-main">
           <section className="live-decision-card">
@@ -160,7 +189,7 @@ export function LiveAnalysis({ id }: { id: string }) {
               <span className="live-eyebrow">YOUR PURCHASE SCENARIO</span>
               <div className="live-price-pair">
                 <span>
-                  <small>Asking price</small>
+                  <small>{priceLabel(p)} · provider</small>
                   <strong>{liveMoney(p.price)}</strong>
                 </span>
                 <ArrowDownRight size={24} />
@@ -188,7 +217,9 @@ export function LiveAnalysis({ id }: { id: string }) {
               </strong>
               <p>
                 {f
-                  ? `${assumptions.depositPct}% deposit · ${assumptions.mortgageRate}% ${assumptions.mortgageType}`
+                  ? calculation.cashOnly
+                    ? "Cash purchase · no mortgage"
+                    : `${assumptions.depositPct}% deposit · ${assumptions.mortgageRate}% ${assumptions.mortgageType}`
                   : "Enter an achievable rent to test cash flow."}
               </p>
             </div>
@@ -201,6 +232,15 @@ export function LiveAnalysis({ id }: { id: string }) {
                 {missingCount} missing {missingCount === 1 ? "input" : "inputs"}
               </span>
             </div>
+            {calculation.missingCosts.some((cost) =>
+              cost.startsWith("Auction fees"),
+            ) && (
+              <p>
+                Auction fee total is incomplete: confirm the percentage, minimum
+                and VAT with the agent before setting your all-in buying-cost
+                allowance.
+              </p>
+            )}
             {serviceCharge === null && (
               <button onClick={() => focusScenarioField("scenario-charge")}>
                 <span>
@@ -213,6 +253,19 @@ export function LiveAnalysis({ id }: { id: string }) {
                 <span>
                   Add charge <ArrowUpRight size={14} />
                 </span>
+              </button>
+            )}
+            {calculation.annualGroundRent === null && (
+              <button
+                onClick={() => focusScenarioField("scenario-ground-rent")}
+              >
+                <span>
+                  <strong>Confirm ground rent</strong>
+                  <small>
+                    Unknown and excluded. Add the annual amount or confirmed £0.
+                  </small>
+                </span>
+                <span>Add amount ↗</span>
               </button>
             )}
             {assumptions.landlordPaysCouncilTax &&
@@ -269,7 +322,11 @@ export function LiveAnalysis({ id }: { id: string }) {
                 </button>
                 <a href="#rental-evidence">Inspect rent evidence</a>
                 {p.listingUrl && (
-                  <a href={p.listingUrl} target="_blank" rel="noreferrer">
+                  <a
+                    href={p.enrichment?.canonicalUrl ?? p.listingUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Check original listing ↗
                   </a>
                 )}
@@ -284,8 +341,12 @@ export function LiveAnalysis({ id }: { id: string }) {
             </div>
             <div>
               <span>Initial cash needed</span>
-              <strong>{liveMoney(deposit + assumptions.buyingCosts)}</strong>
-              <small>{liveMoney(deposit)} deposit + buying costs</small>
+              <strong>{liveMoney(calculation.initialCash)}</strong>
+              <small>
+                {liveMoney(deposit)}{" "}
+                {calculation.cashOnly ? "cash purchase" : "deposit"} +{" "}
+                {liveMoney(calculation.buyingCosts)} all-in costs
+              </small>
             </div>
             <div>
               <span>Monthly rent assumption</span>
@@ -294,13 +355,7 @@ export function LiveAnalysis({ id }: { id: string }) {
                   ? liveMoney(calculation.monthlyRent)
                   : "—"}
               </strong>
-              <small>
-                {calculation.hasUserRent
-                  ? "Your input"
-                  : p.rent
-                    ? "Nearby asking-rent estimate"
-                    : "Needs your input"}
-              </small>
+              <small>{calculation.rentSource}</small>
             </div>
           </div>
           <details className="live-section live-cashflow-breakdown" open>
@@ -314,11 +369,7 @@ export function LiveAnalysis({ id }: { id: string }) {
                 <div className="live-cost-row live-rent-row">
                   <span>
                     Rent assumption
-                    <small>
-                      {calculation.hasUserRent
-                        ? "Your input"
-                        : "Advertised rents, not achieved rents"}
-                    </small>
+                    <small>{calculation.rentSource}</small>
                   </span>
                   <strong>{liveMoney(f.monthlyRent)}</strong>
                 </div>
@@ -338,7 +389,9 @@ export function LiveAnalysis({ id }: { id: string }) {
                           focusScenarioField(
                             cost.label === "Council tax"
                               ? "scenario-council-tax"
-                              : "scenario-charge",
+                              : cost.label === "Ground rent"
+                                ? "scenario-ground-rent"
+                                : "scenario-charge",
                           )
                         }
                       >
@@ -357,7 +410,7 @@ export function LiveAnalysis({ id }: { id: string }) {
                         : "Estimated cash flow"}
                     </strong>
                     <small>
-                      Before income tax, one-off repairs and ground rent
+                      Before income tax, unknown charges and one-off repairs
                     </small>
                   </div>
                   <strong className={f.monthlyCashFlow < 0 ? "negative" : ""}>
@@ -378,11 +431,92 @@ export function LiveAnalysis({ id }: { id: string }) {
               </div>
             )}
           </details>
+          {calculation.knownAcquisitionFees > 0 && (
+            <section className="live-section">
+              <div className="live-section-title">
+                <h2>Acquisition costs</h2>
+              </div>
+              {calculation.buyingCosts > assumptions.buyingCosts && (
+                <p className="live-evidence-alert">
+                  Your allowance is below the known fees. The calculation uses{" "}
+                  {liveMoney(calculation.buyingCosts, 2)}; increase the
+                  allowance further for taxes and legal costs.
+                </p>
+              )}
+              <p className="live-small">
+                Known fees are included within your all-in allowance, not added
+                twice. Confirm the tax treatment with your solicitor.
+              </p>
+              {calculation.auctionFee !== null && (
+                <div className="live-cost-row">
+                  <span>
+                    Auction reservation fee
+                    <small>
+                      Percentage of scenario price, subject to the stated
+                      minimum · includes VAT
+                    </small>
+                  </span>
+                  <strong>{liveMoney(calculation.auctionFee, 2)}</strong>
+                </div>
+              )}
+              {calculation.buyerPackFee !== null && (
+                <div className="live-cost-row">
+                  <span>Buyer information pack</span>
+                  <strong>{liveMoney(calculation.buyerPackFee, 2)}</strong>
+                </div>
+              )}
+              {verifiedFact<number>(p, "buyerCheckFee") !== null && (
+                <div className="live-cost-row">
+                  <span>
+                    Buyer checks
+                    <small>
+                      {override.buyerCount ?? 1} buyer(s) assumed · adjust in
+                      operating &amp; buying costs
+                    </small>
+                  </span>
+                  <strong>
+                    {liveMoney(
+                      verifiedFact<number>(p, "buyerCheckFee")! *
+                        (override.buyerCount ?? 1),
+                      2,
+                    )}
+                  </strong>
+                </div>
+              )}
+              <div className="live-cost-row">
+                <span>Remaining allowance for tax, legal and other fees</span>
+                <strong>
+                  {liveMoney(
+                    calculation.buyingCosts - calculation.knownAcquisitionFees,
+                    2,
+                  )}
+                </strong>
+              </div>
+              <div className="live-cost-total">
+                <strong>All-in buying-cost allowance</strong>
+                <strong>{liveMoney(calculation.buyingCosts, 2)}</strong>
+              </div>
+            </section>
+          )}
+          <ListingEvidence property={p} />
           <section className="live-section" id="rental-evidence">
             <div className="live-section-title">
               <FileSearch size={19} />
               <h2>Rental evidence</h2>
             </div>
+            {verifiedFact<number>(p, "agentRent") !== null && (
+              <p className="live-section-copy">
+                Agent estimate:{" "}
+                <strong>
+                  {liveMoney(verifiedFact<number>(p, "agentRent")!)} / month
+                </strong>
+                . This is not achieved rent. Select “Agent estimate” in your
+                scenario to use it.
+              </p>
+            )}
+            <p className="live-small">
+              Scenario uses: {calculation.rentSource}.
+            </p>
             {p.rent ? (
               <>
                 <p className="live-section-copy">
@@ -521,10 +655,20 @@ export function LiveAnalysis({ id }: { id: string }) {
             </div>
             <div className="live-known-facts">
               <span>
-                EPC <b>{p.epcRating ?? "Not supplied"}</b>
+                EPC{" "}
+                <b>
+                  {verifiedFact<string>(p, "epc") ??
+                    p.epcRating ??
+                    "Not supplied"}
+                </b>
               </span>
               <span>
-                Tenure <b>{p.tenure ?? "Not supplied"}</b>
+                Tenure{" "}
+                <b>
+                  {verifiedFact<string>(p, "tenure") ??
+                    p.tenure ??
+                    "Not supplied"}
+                </b>
               </span>
               <span>
                 Days on market <b>{p.daysOnMarket ?? "Not supplied"}</b>

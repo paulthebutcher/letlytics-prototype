@@ -9,6 +9,13 @@ import {
 } from "lucide-react";
 import { liveFinancials } from "@/lib/live-financials";
 import type { LiveCalculation, LiveProperty } from "@/lib/live-types";
+import { ListingWarnings } from "./listing-evidence";
+import {
+  propertyLabel,
+  verifiedFact,
+  factSource,
+  priceLabel,
+} from "@/lib/listing-evidence";
 import { useLive } from "./live-context";
 import {
   LiveAssumptions,
@@ -34,7 +41,15 @@ export function LiveCompare() {
     value: (e: Entry) => React.ReactNode;
     strong?: boolean;
   }[] = [
-    { label: "Asking price", value: ({ p }) => liveMoney(p.price) },
+    {
+      label: "Listed price",
+      value: ({ p }) => (
+        <>
+          {liveMoney(p.price)}
+          <small>{priceLabel(p)}</small>
+        </>
+      ),
+    },
     {
       label: "Your purchase price",
       value: ({ c }) => liveMoney(c.purchasePrice),
@@ -42,7 +57,7 @@ export function LiveCompare() {
     },
     {
       label: "Monthly rent",
-      hint: "Asking-rent estimate or your input",
+      hint: "Selected estimate or your input",
       value: ({ c }) =>
         c.monthlyRent !== null ? liveMoney(c.monthlyRent) : "Enter rent",
     },
@@ -75,12 +90,8 @@ export function LiveCompare() {
     },
     {
       label: "Initial cash",
-      hint: "Deposit + buying costs",
-      value: ({ c }) =>
-        liveMoney(
-          (c.purchasePrice * assumptions.depositPct) / 100 +
-            assumptions.buyingCosts,
-        ),
+      hint: "Cash funding + all-in buying costs",
+      value: ({ c }) => liveMoney(c.initialCash),
     },
     {
       label: "Monthly mortgage",
@@ -89,9 +100,8 @@ export function LiveCompare() {
     },
     {
       label: "Annual service / estate charge",
-      value: ({ p }) => {
-        const charge =
-          overrides[p.id]?.annualServiceCharge ?? p.annualServiceCharge;
+      value: ({ c }) => {
+        const charge = c.annualServiceCharge;
         return charge === null ? (
           <span className="live-unknown">Unknown · excluded</span>
         ) : (
@@ -100,22 +110,56 @@ export function LiveCompare() {
       },
     },
     {
+      label: "Annual ground rent",
+      value: ({ c }) =>
+        c.annualGroundRent === null
+          ? "Unknown · excluded"
+          : liveMoney(c.annualGroundRent, 2),
+    },
+    {
+      label: "Financing",
+      value: ({ c }) =>
+        c.cashOnly
+          ? "Cash purchase only"
+          : `${assumptions.depositPct}% deposit · ${assumptions.mortgageRate}% mortgage`,
+    },
+    {
+      label: "Known acquisition fees",
+      hint: "Included within all-in allowance",
+      value: ({ c }) =>
+        c.knownAcquisitionFees
+          ? liveMoney(c.knownAcquisitionFees, 2)
+          : "None verified · allowance only",
+    },
+    {
       label: "Rent evidence",
       value: ({ p, c }) => (
         <>
-          {c.hasUserRent
-            ? "Your assumption"
-            : p.rent
-              ? `${p.rent.sampleSize} rentals · shared area sample`
-              : "Not available"}
-          {p.rent && (
-            <small>
-              {p.rent.radiusMiles === null
-                ? p.rent.searchPostcode
-                : `${p.rent.searchPostcode} · ${p.rent.radiusMiles.toFixed(1)} miles`}{" "}
-              · {liveDate(p.rent.fetchedAt)}
-            </small>
-          )}
+          {c.rentSource}
+          {!c.hasUserRent &&
+            overrides[p.id]?.rentSource === "agent" &&
+            factSource(p, "agentRent") && (
+              <small>
+                <a
+                  href={factSource(p, "agentRent")!.sourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Agent advert ↗
+                </a>{" "}
+                · {liveDate(factSource(p, "agentRent")!.retrievedAt)}
+              </small>
+            )}
+          {p.rent &&
+            !c.hasUserRent &&
+            overrides[p.id]?.rentSource !== "agent" && (
+              <small>
+                {p.rent.radiusMiles === null
+                  ? p.rent.searchPostcode
+                  : `${p.rent.searchPostcode} · ${p.rent.radiusMiles.toFixed(1)} miles`}{" "}
+                · {liveDate(p.rent.fetchedAt)}
+              </small>
+            )}
         </>
       ),
     },
@@ -131,7 +175,7 @@ export function LiveCompare() {
     {
       label: "EPC / tenure",
       value: ({ p }) =>
-        `${p.epcRating ?? "EPC unknown"} · ${p.tenure ?? "tenure unknown"}`,
+        `${verifiedFact<string>(p, "epc") ?? p.epcRating ?? "EPC unknown"} · ${verifiedFact<string>(p, "tenure") ?? p.tenure ?? "tenure unknown"}`,
     },
   ];
   return (
@@ -187,9 +231,9 @@ export function LiveCompare() {
           <div className="live-warning">
             <p>
               Compare cash flow only after confirming missing charges. These
-              figures are pre-tax and exclude ground rent, one-off repairs and
-              sale costs. Individual offer, rent and cost inputs can be edited
-              on each property.
+              figures are pre-tax and exclude unknown charges, one-off repairs
+              and sale costs. Individual offer, rent and cost inputs can be
+              edited on each property.
             </p>
           </div>
           <div className="live-table-scroll live-comparison-wrap">
@@ -222,11 +266,8 @@ export function LiveCompare() {
                         <Link href={`/live/${p.id}`}>
                           <h2>{p.address}</h2>
                         </Link>
-                        <p>
-                          {p.bedrooms === null
-                            ? "Bedrooms not supplied"
-                            : `${p.bedrooms} bedrooms`}
-                        </p>
+                        <p>{propertyLabel(p)}</p>
+                        <ListingWarnings property={p} compact />
                         <Link
                           className="live-inline-link"
                           href={`/live/${p.id}`}

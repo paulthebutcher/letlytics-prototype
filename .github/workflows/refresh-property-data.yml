@@ -15,7 +15,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Check configuration
         env:
@@ -43,7 +43,7 @@ jobs:
 
       - run: npm ci
 
-      - name: Collect daily listings, rental evidence and recorded sales
+      - name: Collect daily listings, rental evidence and recorded sales and original listing evidence
         env:
           PROPERTYDATA_API_KEY: ${{ secrets.PROPERTYDATA_API_KEY }}
         run: npm run data:refresh
@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.name "$SNAPSHOT_COMMIT_NAME"
           git config user.email "$SNAPSHOT_COMMIT_EMAIL"
-          git add src/data/live-snapshot.json src/data/daily-sales.json
+          git add src/data/live-snapshot.json src/data/daily-sales.json src/data/listing-enrichment.json
           if git diff --cached --quiet; then
             echo 'No dataset changes.' >> "$GITHUB_STEP_SUMMARY"
             exit 0

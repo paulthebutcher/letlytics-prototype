@@ -111,13 +111,16 @@ test("missing rent yields no invented cash flow; explicit user inputs unlock a s
   const p = normalizeListings({ properties: [listing] }, date)[0];
   assert.equal(liveFinancials(p, DEFAULT_ASSUMPTIONS).financials, null);
   const draft = liveFinancials(p, DEFAULT_ASSUMPTIONS, { monthlyRent: 1200 });
-  assert.deepEqual(draft.missingCosts, ["Service / estate charges"]);
+  assert.deepEqual(draft.missingCosts, [
+    "Service / estate charges",
+    "Ground rent",
+  ]);
   assert.equal(draft.hasUserRent, true);
   const checked = liveFinancials(p, DEFAULT_ASSUMPTIONS, {
     monthlyRent: 1200,
     annualServiceCharge: 1200,
   });
-  assert.deepEqual(checked.missingCosts, []);
+  assert.deepEqual(checked.missingCosts, ["Ground rent"]);
   assert.equal(
     Math.round(
       draft.financials!.monthlyCashFlow - checked.financials!.monthlyCashFlow,
@@ -148,7 +151,7 @@ test("unconfirmed landlord council tax is visible only when liability is enabled
     { ...DEFAULT_ASSUMPTIONS, landlordPaysCouncilTax: true },
     { monthlyRent: 1200, annualServiceCharge: 0 },
   );
-  assert.deepEqual(r.missingCosts, ["Landlord council tax"]);
+  assert.deepEqual(r.missingCosts, ["Ground rent", "Landlord council tax"]);
   const full = liveFinancials(
     p,
     { ...DEFAULT_ASSUMPTIONS, landlordPaysCouncilTax: true },

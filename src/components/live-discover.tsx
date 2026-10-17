@@ -14,6 +14,8 @@ import {
   X,
 } from "lucide-react";
 import { liveFinancials } from "@/lib/live-financials";
+import { ListingWarnings } from "./listing-evidence";
+import { propertyLabel, priceLabel } from "@/lib/listing-evidence";
 import { useLive } from "./live-context";
 import {
   PropertyPhoto,
@@ -299,13 +301,14 @@ export function LiveDiscover() {
                     <PropertyPhoto property={p} />
                     <div>
                       <span className="live-property-location">
-                        {p.postcode} · {p.propertyType}
-                        {p.bedrooms !== null ? ` · ${p.bedrooms} bed` : ""}
+                        {p.postcode} · {propertyLabel(p)}
                       </span>
                       <h2>{p.address}</h2>
+                      <ListingWarnings property={p} compact />
                       <div className="live-card-metrics">
                         <span>
-                          <strong>{liveMoney(p.price)}</strong>asking price
+                          <strong>{liveMoney(p.price)}</strong>
+                          {priceLabel(p)}
                         </span>
                         <span>
                           <strong>
@@ -313,11 +316,7 @@ export function LiveDiscover() {
                               ? `${liveMoney(c.monthlyRent)}/mo`
                               : "—"}
                           </strong>
-                          {c.hasUserRent
-                            ? "your rent"
-                            : p.rent
-                              ? "asking-rent estimate"
-                              : "rent to verify"}
+                          {c.rentSource}
                         </span>
                         <span>
                           <strong>
@@ -325,7 +324,9 @@ export function LiveDiscover() {
                               ? livePercent(c.financials.grossYield)
                               : "—"}
                           </strong>
-                          gross yield
+                          {c.cashOnly
+                            ? "gross yield · cash purchase"
+                            : "gross yield"}
                         </span>
                         <span className="live-card-cashflow">
                           <strong
@@ -346,7 +347,7 @@ export function LiveDiscover() {
                       </div>
                       {c.purchasePrice !== p.price && (
                         <p className="live-small">
-                          Scenario uses your {liveMoney(c.purchasePrice)} offer.
+                          Scenario purchase price: {liveMoney(c.purchasePrice)}.
                         </p>
                       )}
                     </div>
@@ -360,7 +361,7 @@ export function LiveDiscover() {
                       )}
                       {c.missingCosts.length > 0 && (
                         <Link
-                          href={`/live/${p.id}#${(overrides[p.id]?.annualServiceCharge ?? p.annualServiceCharge) === null ? "scenario-charge" : "scenario-council-tax"}`}
+                          href={`/live/${p.id}#${c.annualServiceCharge === null ? "scenario-charge" : c.annualGroundRent === null ? "scenario-ground-rent" : "scenario-council-tax"}`}
                         >
                           Confirm charges <ArrowRight size={12} />
                         </Link>
@@ -453,7 +454,8 @@ export function LiveDiscover() {
             "Selected investment listings, not complete market coverage."}{" "}
           Screening figures use {assumptions.depositPct}% deposit and{" "}
           {assumptions.mortgageRate}% {assumptions.mortgageType} finance.
-          Unknown service / estate charges are excluded until supplied.
+          Cash-only listings use 100% cash funding. Unknown service charges and
+          ground rent are excluded until supplied.
         </p>
         <a href="https://propertydata.co.uk" target="_blank" rel="noreferrer">
           PropertyData <ArrowUpRight size={13} />

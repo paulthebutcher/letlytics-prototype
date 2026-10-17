@@ -12,6 +12,8 @@ import {
   RefreshCw,
   SlidersHorizontal,
 } from "lucide-react";
+import { liveFinancials } from "@/lib/live-financials";
+import { verifiedFact, factSource, priceLabel } from "@/lib/listing-evidence";
 import type { LiveProperty } from "@/lib/live-types";
 import { useLive } from "./live-context";
 
@@ -203,6 +205,14 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
     reset,
   } = useLive();
   const o = property ? (overrides[property.id] ?? {}) : {};
+  const c = property ? liveFinancials(property, a, o) : null;
+  const sourceHint = (key: "annualServiceCharge" | "annualGroundRent") => {
+    if (!property) return "";
+    const amount = verifiedFact<number>(property, key);
+    return amount === null
+      ? "Unknown and excluded. Enter 0 only if confirmed."
+      : `Source default: ${liveMoney(amount, 2)} / year. Your input takes priority.`;
+  };
   return (
     <section className="live-scenario" id="scenario">
       <div className="live-section-title">
@@ -220,95 +230,178 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
             fieldId="scenario-offer"
             label="Offer / purchase price"
             prefix="£"
-            value={o.purchasePrice ?? property.price}
+            value={
+              o.purchasePrice ??
+              verifiedFact<number>(property, "price") ??
+              property.price
+            }
             onChange={(value) =>
               setOverride(property.id, { purchasePrice: value })
             }
             min={1}
             step={1000}
-            hint={`Listed at ${liveMoney(property.price)}. Your offer changes this scenario only.`}
+            hint={`${priceLabel(property)} ${liveMoney(property.price)}. Your offer changes this scenario only.`}
           />
+          <label className="live-field">
+            Rent evidence used
+            <select
+              value={o.rentSource ?? "local"}
+              onChange={(event) =>
+                setOverride(property.id, {
+                  rentSource: event.target.value as "local" | "agent",
+                  monthlyRent: undefined,
+                })
+              }
+            >
+              <option value="local">
+                Local advertised-rent estimate
+                {property.rent
+                  ? ` · ${liveMoney(property.rent.monthlyEstimate)}`
+                  : " · unavailable"}
+              </option>
+              <option
+                value="agent"
+                disabled={verifiedFact<number>(property, "agentRent") === null}
+              >
+                Agent estimate
+                {verifiedFact<number>(property, "agentRent") !== null
+                  ? ` · ${liveMoney(verifiedFact<number>(property, "agentRent")!)}`
+                  : " · unavailable"}
+              </option>
+            </select>
+          </label>
           <NumericField
             fieldId="scenario-rent"
             label="Monthly rent assumption"
             prefix="£"
-            value={o.monthlyRent ?? property.rent?.monthlyEstimate}
+            value={c?.monthlyRent ?? undefined}
             onChange={(value) =>
               setOverride(property.id, { monthlyRent: value })
             }
             step={25}
             optional
-            hint={
-              o.monthlyRent !== undefined
-                ? "Your rent assumption. Clear to use available market evidence."
-                : property.rent
-                  ? "Based on nearby advertised asking rents. Edit after checking achievable rent."
-                  : "Enter a rent to calculate cash flow. Confirm it with a local letting agent."
-            }
+            hint={`${c?.rentSource}. Edit to use your own assumption; clear or reset to return to the selected source.`}
           />
           <NumericField
             fieldId="scenario-charge"
             label="Annual service / estate charge"
             prefix="£"
-            value={
-              o.annualServiceCharge ?? property.annualServiceCharge ?? undefined
-            }
+            value={c?.annualServiceCharge ?? undefined}
             onChange={(value) =>
               setOverride(property.id, { annualServiceCharge: value })
             }
             optional
-            hint="Not supplied by the listing feed. Enter 0 only if you have confirmed no charge applies."
+            step={0.01}
+            hint={sourceHint("annualServiceCharge")}
           />
+          {factSource(property, "annualServiceCharge") && (
+            <a
+              className="live-inline-link"
+              href={factSource(property, "annualServiceCharge")!.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Service charge source ↗
+            </a>
+          )}
+          <NumericField
+            fieldId="scenario-ground-rent"
+            label="Annual ground rent"
+            prefix="£"
+            value={c?.annualGroundRent ?? undefined}
+            optional
+            step={0.01}
+            onChange={(value) =>
+              setOverride(property.id, { annualGroundRent: value })
+            }
+            hint={sourceHint("annualGroundRent")}
+          />
+          {factSource(property, "annualGroundRent") && (
+            <a
+              className="live-inline-link"
+              href={factSource(property, "annualGroundRent")!.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ground rent source ↗
+            </a>
+          )}
+          <button
+            className="live-reset"
+            onClick={() =>
+              setOverride(property.id, {
+                purchasePrice: undefined,
+                monthlyRent: undefined,
+                annualServiceCharge: undefined,
+                annualGroundRent: undefined,
+                rentSource: undefined,
+                buyerCount: undefined,
+              })
+            }
+          >
+            Reset this property to source defaults
+          </button>
         </div>
       )}
-      <div className="live-field-grid">
-        <NumericField
-          label="Deposit"
-          value={a.depositPct}
-          onChange={(value) =>
-            setAssumptions({ depositPct: value ?? a.depositPct })
-          }
-          suffix="%"
-          min={0}
-          max={100}
-        />
-        <NumericField
-          label="Mortgage rate"
-          value={a.mortgageRate}
-          onChange={(value) =>
-            setAssumptions({ mortgageRate: value ?? a.mortgageRate })
-          }
-          suffix="%"
-          step={0.1}
-          max={30}
-        />
-      </div>
-      <div className="live-field">
-        <label htmlFor="live-mortgage-type">Mortgage type</label>
-        <select
-          id="live-mortgage-type"
-          value={a.mortgageType}
-          onChange={(event) =>
-            setAssumptions({
-              mortgageType: event.target.value as typeof a.mortgageType,
-            })
-          }
-        >
-          <option value="interest-only">Interest only</option>
-          <option value="repayment">Repayment</option>
-        </select>
-      </div>
-      {a.mortgageType === "repayment" && (
-        <NumericField
-          label="Mortgage term"
-          value={a.mortgageTermYears}
-          onChange={(value) =>
-            setAssumptions({ mortgageTermYears: value ?? a.mortgageTermYears })
-          }
-          suffix="years"
-          min={1}
-          max={40}
-        />
+      {c?.cashOnly ? (
+        <p className="live-evidence-alert">
+          Cash buyers only: 100% purchase funding is used. Shared mortgage
+          settings do not apply to this property.
+        </p>
+      ) : (
+        <>
+          <div className="live-field-grid">
+            <NumericField
+              label="Deposit"
+              value={a.depositPct}
+              onChange={(value) =>
+                setAssumptions({ depositPct: value ?? a.depositPct })
+              }
+              suffix="%"
+              min={0}
+              max={100}
+            />
+            <NumericField
+              label="Mortgage rate"
+              value={a.mortgageRate}
+              onChange={(value) =>
+                setAssumptions({ mortgageRate: value ?? a.mortgageRate })
+              }
+              suffix="%"
+              step={0.1}
+              max={30}
+            />
+          </div>
+          <div className="live-field">
+            <label htmlFor="live-mortgage-type">Mortgage type</label>
+            <select
+              id="live-mortgage-type"
+              value={a.mortgageType}
+              onChange={(event) =>
+                setAssumptions({
+                  mortgageType: event.target.value as typeof a.mortgageType,
+                })
+              }
+            >
+              <option value="interest-only">Interest only</option>
+              <option value="repayment">Repayment</option>
+            </select>
+          </div>
+          {a.mortgageType === "repayment" && (
+            <NumericField
+              label="Mortgage term"
+              value={a.mortgageTermYears}
+              onChange={(value) =>
+                setAssumptions({
+                  mortgageTermYears: value ?? a.mortgageTermYears,
+                })
+              }
+              suffix="years"
+              min={1}
+              max={40}
+            />
+          )}
+        </>
       )}
       <details className="live-advanced">
         <summary>Operating costs &amp; buying costs</summary>
@@ -341,14 +434,38 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
           prefix="£"
         />
         <NumericField
-          label="Buying costs"
+          label="All-in buying-cost allowance"
           value={a.buyingCosts}
           onChange={(value) =>
             setAssumptions({ buyingCosts: value ?? a.buyingCosts })
           }
           prefix="£"
-          hint="Your allowance for taxes, legal and acquisition fees. Not a stamp-duty calculation."
+          hint="Includes known auction, pack and buyer-check fees shown below; add enough for taxes and legal costs too. Known fees are not added twice. Not a stamp-duty calculation."
         />
+        {c && (
+          <p className="live-small">
+            Known acquisition fees:{" "}
+            {c.knownAcquisitionFees
+              ? liveMoney(c.knownAcquisitionFees, 2)
+              : "none verified"}{" "}
+            within {liveMoney(c.buyingCosts, 2)} total allowance. Remaining
+            allowance: {liveMoney(c.buyingCosts - c.knownAcquisitionFees, 2)}{" "}
+            for tax, legal and other fees.
+          </p>
+        )}
+        {property &&
+          verifiedFact<number>(property, "buyerCheckFee") !== null && (
+            <NumericField
+              label="Number of buyers (AML checks)"
+              value={o.buyerCount ?? 1}
+              min={1}
+              max={20}
+              onChange={(value) =>
+                setOverride(property.id, { buyerCount: value })
+              }
+              hint="One buyer assumed; each additional buyer adds the advertised check fee within your allowance."
+            />
+          )}
         {property && (
           <NumericField
             label="Vacancy allowance"
@@ -392,8 +509,8 @@ export function LiveAssumptions({ property }: { property?: LiveProperty }) {
       <div className="live-note">
         <AlertCircle size={14} />
         <p>
-          Pre-tax illustration. Ground rent, one-off repairs and sale costs are
-          excluded. Verify property condition and letting eligibility
+          Pre-tax illustration. Unknown charges, one-off repairs and sale costs
+          are excluded. Verify property condition and letting eligibility
           separately.
         </p>
       </div>

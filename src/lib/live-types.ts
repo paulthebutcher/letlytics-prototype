@@ -1,3 +1,4 @@
+import type { ListingEnrichment } from "./enrichment-types";
 import type { Assumptions, Financials } from "./types";
 
 export interface RentalComparable {
@@ -31,6 +32,12 @@ export interface LiveProperty {
   listingUrl: string | null;
   imageUrl?: string | null;
   summary: string;
+  providerDetails?: {
+    type?: string;
+    summary?: string;
+    yearsRemaining?: number;
+  };
+  enrichment?: ListingEnrichment;
   strategies: string[];
   fetchedAt: string;
   rent: RentalEvidence | null;
@@ -51,6 +58,9 @@ export interface LiveOverrides {
   monthlyRent?: number;
   annualServiceCharge?: number;
   annualCouncilTax?: number;
+  annualGroundRent?: number;
+  rentSource?: "local" | "agent";
+  buyerCount?: number;
   vacancyPct?: number;
   purchasePrice?: number;
 }
@@ -60,5 +70,15 @@ export interface LiveCalculation {
   purchasePrice: number;
   missingCosts: string[];
   hasUserRent: boolean;
+  rentSource: string;
+  cashOnly: boolean;
+  annualServiceCharge: number | null;
+  annualGroundRent: number | null;
+  knownAcquisitionFees: number;
+  auctionFee: number | null;
+  buyerPackFee: number | null;
+  buyingCosts: number;
+  initialCash: number;
+  warnings: string[];
 }
 export type LiveAssumptions = Assumptions;

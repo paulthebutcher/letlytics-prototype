@@ -1,0 +1,3107 @@
+{
+  "records": {
+    "R92178777": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92178777",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+      "attemptedAt": "2026-10-17T03:40:21.142Z",
+      "retrievedAt": "2026-10-17T03:40:22.344Z",
+      "enrichedAt": "2026-10-17T03:40:22.344Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "lease",
+          "value": "250 years from 28 February 2019",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+          "retrievedAt": "2026-10-17T03:40:22.336Z",
+          "excerpt": "250 years from 28 February 2019",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 2600,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+          "retrievedAt": "2026-10-17T03:40:22.336Z",
+          "excerpt": "Service Charges: £2,600 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 525000,
+          "excerpt": "£525,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+          "retrievedAt": "2026-10-17T03:40:22.336Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Guide price",
+          "excerpt": "Guide Price",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+          "retrievedAt": "2026-10-17T03:40:22.336Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+          "retrievedAt": "2026-10-17T03:40:22.336Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92178777#/",
+          "retrievedAt": "2026-10-17T03:40:22.336Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/92178777#/",
+          "attemptedAt": "2026-10-17T03:40:22.344Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[525000,2,\"Flat\",\"M2 1HN\",null,null]"
+    },
+    "R91843293": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91843293",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/91843293#/",
+      "attemptedAt": "2026-10-17T03:40:22.595Z",
+      "retrievedAt": "2026-10-17T03:40:30.504Z",
+      "enrichedAt": "2026-10-17T03:40:30.504Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91843293#/",
+          "retrievedAt": "2026-10-17T03:40:30.496Z",
+          "excerpt": "EPC Rating - C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 480000,
+          "excerpt": "£480,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91843293#/",
+          "retrievedAt": "2026-10-17T03:40:30.496Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91843293#/",
+          "retrievedAt": "2026-10-17T03:40:30.496Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 240,
+          "excerpt": "Portal lease years remaining: 240",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91843293#/",
+          "retrievedAt": "2026-10-17T03:40:30.496Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91843293#/",
+          "retrievedAt": "2026-10-17T03:40:30.496Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/91843293#/",
+          "attemptedAt": "2026-10-17T03:40:30.504Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[480000,2,\"Flat\",\"M2 6AQ\",null,null]"
+    },
+    "R92869650": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92869650",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/92869650#/",
+      "attemptedAt": "2026-10-17T03:40:30.754Z",
+      "retrievedAt": "2026-10-17T03:40:31.802Z",
+      "enrichedAt": "2026-10-17T03:40:31.802Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92869650#/",
+          "retrievedAt": "2026-10-17T03:40:31.798Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 350000,
+          "excerpt": "£350,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92869650#/",
+          "retrievedAt": "2026-10-17T03:40:31.798Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92869650#/",
+          "retrievedAt": "2026-10-17T03:40:31.798Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 237,
+          "excerpt": "Portal lease years remaining: 237",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92869650#/",
+          "retrievedAt": "2026-10-17T03:40:31.798Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92869650#/",
+          "retrievedAt": "2026-10-17T03:40:31.798Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/92869650#/",
+          "attemptedAt": "2026-10-17T03:40:31.802Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.reedsrains.co.uk/property/MCC260700",
+          "attemptedAt": "2026-10-17T03:40:31.802Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "linkedSources": [
+        "https://www.reedsrains.co.uk/property/MCC260700",
+        "https://assets.reapit.net/rer/live/pdf.php?p=MCC260700&t=S"
+      ],
+      "providerSignature": "[350000,2,\"Flat\",\"M2 6AQ\",null,null]"
+    },
+    "R164386706": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164386706",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+      "attemptedAt": "2026-10-17T03:40:32.053Z",
+      "retrievedAt": "2026-10-17T03:40:32.850Z",
+      "enrichedAt": "2026-10-17T03:40:32.850Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/164386706",
+          "retrievedAt": "2026-10-17T03:35:21.683Z",
+          "excerpt": "he sale is restricted to cash buyers only. This flat has been sitting o",
+          "status": "reported",
+          "sourceKind": "provider"
+        },
+        {
+          "key": "studio",
+          "value": true,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Studio apartment",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Cash buyers only",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "This property is for sale by the Modern Method of Auction, meaning the buyer and seller are to Complete within 56 days (the \"Reser",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "buyerPackFee",
+          "value": 349,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "s provided. The winning bidder will pay £349.00 including VAT for this pack which you must view before bidd",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "auctionFee",
+          "value": {
+            "percent": 4.5,
+            "minimum": 6600,
+            "includesVat": true
+          },
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Reservation Fee of 4.5% of the purchase price including VAT, subject to a minimum of £6,600.00 including VAT. This is paid to reserve the property to the buyer during the Reservation",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Tenure: Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 939.73,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Annual service charge: £939.73",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 171.92,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Annual ground rent: £171.92",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "125 years from 2004",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Length of lease: 125 years from 2004",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "agentRent",
+          "value": 1000,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "Est. rental income: £1,000 pcm",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "buyerCheckFee",
+          "value": 60,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "excerpt": "fee of £60 inc VAT per buyer",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 65000,
+          "excerpt": "£65,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Guide price",
+          "excerpt": "Guide Price",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 124,
+          "excerpt": "Portal lease years remaining: 124",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164386706#/",
+          "retrievedAt": "2026-10-17T03:40:32.845Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Description identifies a studio; provider lists 1 bedroom(s). Local bedroom-based rent sample is not used by default.",
+        "Lease conflict: description implies about 103 years remaining; portal says 124. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/164386706#/",
+          "attemptedAt": "2026-10-17T03:40:32.850Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [
+        "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC6100"
+      ],
+      "providerSignature": "[65000,1,\"Flat\",\"M4 1PH\",null,null]"
+    },
+    "R93021045": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93021045",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+      "attemptedAt": "2026-10-17T03:40:33.102Z",
+      "retrievedAt": "2026-10-17T03:40:33.874Z",
+      "enrichedAt": "2026-10-17T03:40:33.874Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "excerpt": "EPC - C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 1832.28,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "excerpt": "Service Charge - £1,832.28 PA",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 170,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "excerpt": "Ground Rent - £170.00 PA",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 150000,
+          "excerpt": "£150,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 102,
+          "excerpt": "Portal lease years remaining: 102",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93021045#/",
+          "retrievedAt": "2026-10-17T03:40:33.867Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/93021045#/",
+          "attemptedAt": "2026-10-17T03:40:33.874Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[150000,1,\"Flat\",\"M4 1PH\",null,null]"
+    },
+    "R158634269": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/158634269",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/158634269#/",
+      "attemptedAt": "2026-10-17T03:40:34.125Z",
+      "retrievedAt": "2026-10-17T03:40:35.291Z",
+      "enrichedAt": "2026-10-17T03:40:35.291Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "achievedRent",
+          "value": 1325,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/158634269",
+          "retrievedAt": "2026-10-17T03:35:27.604Z",
+          "excerpt": "currently let at £1,325 per month",
+          "status": "reported",
+          "sourceKind": "provider"
+        },
+        {
+          "key": "achievedRent",
+          "value": 1375,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/158634269#/",
+          "retrievedAt": "2026-10-17T03:40:35.289Z",
+          "excerpt": "CURRENTLY LET FOR £1,375PCM",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 275000,
+          "excerpt": "£275,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/158634269#/",
+          "retrievedAt": "2026-10-17T03:40:35.289Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/158634269#/",
+          "retrievedAt": "2026-10-17T03:40:35.289Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 123,
+          "excerpt": "Portal lease years remaining: 123",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/158634269#/",
+          "retrievedAt": "2026-10-17T03:40:35.289Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/158634269#/",
+          "retrievedAt": "2026-10-17T03:40:35.289Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Provider reports achievedRent: 1325; original listing differs. Both sources retained."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/158634269#/",
+          "attemptedAt": "2026-10-17T03:40:35.291Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://media.rightmove.co.uk/property-brochure/dd0cd29dc/158634269/dd0cd29dc656ebb4afdeba9e29b2f3f3.pdf",
+          "attemptedAt": "2026-10-17T03:40:35.291Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "linkedSources": [
+        "https://media.rightmove.co.uk/property-brochure/dd0cd29dc/158634269/dd0cd29dc656ebb4afdeba9e29b2f3f3.pdf"
+      ],
+      "providerSignature": "[275000,2,\"Flat\",\"M3 1AZ\",null,null]"
+    },
+    "R170675129": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170675129",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+      "attemptedAt": "2026-10-17T03:40:35.543Z",
+      "retrievedAt": "2026-10-17T03:40:36.778Z",
+      "enrichedAt": "2026-10-17T03:40:36.778Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/170675129",
+          "retrievedAt": "2026-10-17T03:35:30.651Z",
+          "excerpt": "The flat is offered to cash buyers only with no onward chain, making",
+          "status": "reported",
+          "sourceKind": "provider"
+        },
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "excerpt": "Cash Buyers Only",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 2484,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "excerpt": "Service Charge: £2,484 PA",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 200,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "excerpt": "Ground Rent: £200 PA",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "excerpt": "EPC: C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 140000,
+          "excerpt": "£140,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 104,
+          "excerpt": "Portal lease years remaining: 104",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/170675129#/",
+          "retrievedAt": "2026-10-17T03:40:36.776Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/170675129#/",
+          "attemptedAt": "2026-10-17T03:40:36.778Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[140000,2,\"Flat\",\"M4 1PP\",null,null]"
+    },
+    "Z71641932": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/71641932",
+      "canonicalUrl": "https://www.zoopla.co.uk/for-sale/details/71641932/",
+      "attemptedAt": "2026-10-17T03:40:37.028Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.zoopla.co.uk/for-sale/details/71641932/",
+          "attemptedAt": "2026-10-17T03:40:37.612Z",
+          "outcome": "blocked",
+          "detail": "HTTP 403; no access-control bypass or retry attempted."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[150000,2,\"Flat\",\"M4 1PN\",null,null]"
+    },
+    "Z73015516": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73015516",
+      "canonicalUrl": "https://www.zoopla.co.uk/for-sale/details/73015516/",
+      "attemptedAt": "2026-10-17T03:40:37.863Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.zoopla.co.uk/for-sale/details/73015516/",
+          "attemptedAt": "2026-10-17T03:40:38.427Z",
+          "outcome": "blocked",
+          "detail": "HTTP 403; no access-control bypass or retry attempted."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[99950,0,\"Flat\",\"M4 1PN\",null,null]"
+    },
+    "R164900990": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164900990",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+      "attemptedAt": "2026-10-17T03:40:38.679Z",
+      "retrievedAt": "2026-10-17T03:40:39.472Z",
+      "enrichedAt": "2026-10-17T03:40:39.472Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "studio",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/164900990",
+          "retrievedAt": "2026-10-17T03:35:45.053Z",
+          "excerpt": "Studio apartment on the 8th floor of the Pall",
+          "status": "reported",
+          "sourceKind": "provider"
+        },
+        {
+          "key": "studio",
+          "value": true,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "excerpt": "Studio Apartment",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 200,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "excerpt": "Ground rent (yearly) - £200 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "125 years from 8th September 2006",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "excerpt": "Lease 125 years commencing 8th September 2006",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 95000,
+          "excerpt": "£95,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Offers over",
+          "excerpt": "Offers Over",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 107,
+          "excerpt": "Portal lease years remaining: 107",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "studio",
+          "value": true,
+          "excerpt": "Property type: Studio",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/164900990#/",
+          "retrievedAt": "2026-10-17T03:40:39.468Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 105 years remaining; portal says 107. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/164900990#/",
+          "attemptedAt": "2026-10-17T03:40:39.472Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[95000,0,\"Flat\",\"M4 1PN\",null,null]"
+    },
+    "Z74261487": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74261487",
+      "canonicalUrl": "https://www.zoopla.co.uk/for-sale/details/74261487/",
+      "attemptedAt": "2026-10-17T03:40:39.724Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.zoopla.co.uk/for-sale/details/74261487/",
+          "attemptedAt": "2026-10-17T03:40:40.259Z",
+          "outcome": "blocked",
+          "detail": "HTTP 403; no access-control bypass or retry attempted."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[240000,2,\"Flat\",\"M4 1PY\",null,null]"
+    },
+    "R88560366": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88560366",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/88560366#/",
+      "attemptedAt": "2026-10-17T03:40:40.510Z",
+      "retrievedAt": "2026-10-17T03:40:41.269Z",
+      "enrichedAt": "2026-10-17T03:40:41.269Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "ownership",
+          "value": "Please note the property is currently 50% ownership and will be sold staircase to 100% ownership.",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88560366#/",
+          "retrievedAt": "2026-10-17T03:40:41.267Z",
+          "excerpt": "Please note the property is currently 50% ownership and will be sold staircase to 100% ownership.",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 99000,
+          "excerpt": "£99,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88560366#/",
+          "retrievedAt": "2026-10-17T03:40:41.267Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88560366#/",
+          "retrievedAt": "2026-10-17T03:40:41.267Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 103,
+          "excerpt": "Portal lease years remaining: 103",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88560366#/",
+          "retrievedAt": "2026-10-17T03:40:41.267Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88560366#/",
+          "retrievedAt": "2026-10-17T03:40:41.267Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "ownership",
+          "value": "Please note the property is currently 50% ownership and will be sold staircase to 100% ownership.",
+          "sourceUrl": "https://www.stevensonwhyte.co.uk/propertydetails.aspx?PropertyID=1580",
+          "retrievedAt": "2026-10-17T03:40:42.003Z",
+          "excerpt": "Please note the property is currently 50% ownership and will be sold staircase to 100% ownership.",
+          "status": "verified",
+          "sourceKind": "brochure"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/88560366#/",
+          "attemptedAt": "2026-10-17T03:40:41.269Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.stevensonwhyte.co.uk/propertydetails.aspx?PropertyID=1580",
+          "attemptedAt": "2026-10-17T03:40:42.004Z",
+          "outcome": "retrieved",
+          "detail": "Direct portal brochure link and agent reference 1580 matched."
+        }
+      ],
+      "linkedSources": [
+        "https://www.stevensonwhyte.co.uk/propertydetails.aspx?PropertyID=1580"
+      ],
+      "providerSignature": "[99000,1,\"Flat\",\"M4 1ED\",null,null]"
+    },
+    "R171584873": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171584873",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+      "attemptedAt": "2026-10-17T03:40:42.255Z",
+      "retrievedAt": "2026-10-17T03:40:43.072Z",
+      "enrichedAt": "2026-10-17T03:40:43.072Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "annualServiceCharge",
+          "value": 1569,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "excerpt": "Service Charge: £1569 per year",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 70,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "excerpt": "Ground Rent: £70 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "125 years from 2004",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "excerpt": "125 years from 2004",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 120000,
+          "excerpt": "£120,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 103,
+          "excerpt": "Portal lease years remaining: 103",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171584873#/",
+          "retrievedAt": "2026-10-17T03:40:43.065Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/171584873#/",
+          "attemptedAt": "2026-10-17T03:40:43.072Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [
+        "https://media.rightmove.co.uk/property-brochure/3a11f3c10/171584873/3a11f3c10429a9ac3f6ae6c17b090c00.PDF",
+        "https://www.granitelettings.com/propertydetails.aspx?PropertyID=1765"
+      ],
+      "providerSignature": "[120000,1,\"Flat\",\"M4 1ED\",null,null]"
+    },
+    "R168274910": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/168274910",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/168274910#/",
+      "attemptedAt": "2026-10-17T03:40:43.323Z",
+      "retrievedAt": "2026-10-17T03:40:44.051Z",
+      "enrichedAt": "2026-10-17T03:40:44.051Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "lease",
+          "value": "125 years from 1 January 2004",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168274910#/",
+          "retrievedAt": "2026-10-17T03:40:44.049Z",
+          "excerpt": "125 years from 1 January 2004",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 214000,
+          "excerpt": "£214,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168274910#/",
+          "retrievedAt": "2026-10-17T03:40:44.049Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Guide price",
+          "excerpt": "Guide Price",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168274910#/",
+          "retrievedAt": "2026-10-17T03:40:44.049Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168274910#/",
+          "retrievedAt": "2026-10-17T03:40:44.049Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168274910#/",
+          "retrievedAt": "2026-10-17T03:40:44.049Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/168274910#/",
+          "attemptedAt": "2026-10-17T03:40:44.051Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[214000,2,\"Flat\",\"M4 1ED\",null,null]"
+    },
+    "R93210549": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93210549",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/93210549#/",
+      "attemptedAt": "2026-10-17T03:40:44.302Z",
+      "retrievedAt": "2026-10-17T03:40:45.035Z",
+      "enrichedAt": "2026-10-17T03:40:45.035Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "D",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93210549#/",
+          "retrievedAt": "2026-10-17T03:40:45.033Z",
+          "excerpt": "EPC Rating: D",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 175000,
+          "excerpt": "£175,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93210549#/",
+          "retrievedAt": "2026-10-17T03:40:45.033Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93210549#/",
+          "retrievedAt": "2026-10-17T03:40:45.033Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 120,
+          "excerpt": "Portal lease years remaining: 120",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93210549#/",
+          "retrievedAt": "2026-10-17T03:40:45.033Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/93210549#/",
+          "retrievedAt": "2026-10-17T03:40:45.033Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/93210549#/",
+          "attemptedAt": "2026-10-17T03:40:45.035Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[175000,1,\"Flat\",\"M4 1PT\",null,null]"
+    },
+    "R91637601": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91637601",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+      "attemptedAt": "2026-10-17T03:40:45.286Z",
+      "retrievedAt": "2026-10-17T03:40:46.119Z",
+      "enrichedAt": "2026-10-17T03:40:46.119Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "E",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "excerpt": "EPC Rating E",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 150000,
+          "excerpt": "£150,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Offers over",
+          "excerpt": "Offers Over",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 100,
+          "excerpt": "Portal lease years remaining: 100",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91637601#/",
+          "retrievedAt": "2026-10-17T03:40:46.115Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/91637601#/",
+          "attemptedAt": "2026-10-17T03:40:46.119Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.reedsrains.co.uk/property/MCC230438",
+          "attemptedAt": "2026-10-17T03:40:46.119Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "linkedSources": [
+        "https://www.reedsrains.co.uk/property/MCC230438",
+        "https://assets.reapit.net/rer/live/pdf.php?p=MCC230438&t=S"
+      ],
+      "providerSignature": "[150000,2,\"Flat\",\"M1 1JQ\",null,null]"
+    },
+    "R174549308": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174549308",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/174549308#/",
+      "attemptedAt": "2026-10-17T03:40:46.371Z",
+      "retrievedAt": "2026-10-17T03:40:47.199Z",
+      "enrichedAt": "2026-10-17T03:40:47.199Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174549308#/",
+          "retrievedAt": "2026-10-17T03:40:47.195Z",
+          "excerpt": "EPC Rating C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 280000,
+          "excerpt": "£280,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174549308#/",
+          "retrievedAt": "2026-10-17T03:40:47.195Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174549308#/",
+          "retrievedAt": "2026-10-17T03:40:47.195Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 124,
+          "excerpt": "Portal lease years remaining: 124",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174549308#/",
+          "retrievedAt": "2026-10-17T03:40:47.195Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174549308#/",
+          "retrievedAt": "2026-10-17T03:40:47.195Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/174549308#/",
+          "attemptedAt": "2026-10-17T03:40:47.199Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[280000,2,\"Flat\",\"M1 6HR\",null,null]"
+    },
+    "R173698505": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173698505",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/173698505#/",
+      "attemptedAt": "2026-10-17T03:40:47.450Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "unavailable",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/173698505#/",
+          "attemptedAt": "2026-10-17T03:40:48.225Z",
+          "outcome": "unavailable",
+          "detail": "HTTP 410."
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[220000,2,\"Flat\",\"M3 2DD\",null,null]"
+    },
+    "R88970838": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88970838",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+      "attemptedAt": "2026-10-17T03:40:48.477Z",
+      "retrievedAt": "2026-10-17T03:40:49.200Z",
+      "enrichedAt": "2026-10-17T03:40:49.200Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "annualServiceCharge",
+          "value": 3930.32,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "excerpt": "Annual service charge: £3,930.32",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 100,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "excerpt": "Annual ground rent: £100.00",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "125 years from 1999",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "excerpt": "Length of lease: 125 years from 1999",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "buyerCheckFee",
+          "value": 60,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "excerpt": "fee of £60 inc VAT per buyer",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 220000,
+          "excerpt": "£220,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Offers over",
+          "excerpt": "Offers Over",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 125,
+          "excerpt": "Portal lease years remaining: 125",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/88970838#/",
+          "retrievedAt": "2026-10-17T03:40:49.196Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 98 years remaining; portal says 125. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/88970838#/",
+          "attemptedAt": "2026-10-17T03:40:49.200Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "linkedSources": [
+        "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC6424"
+      ],
+      "providerSignature": "[220000,1,\"Flat\",\"M3 2DD\",null,null]"
+    },
+    "R162473045": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/162473045",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+      "attemptedAt": "2026-10-17T03:40:49.452Z",
+      "retrievedAt": "2026-10-17T03:40:50.493Z",
+      "enrichedAt": "2026-10-17T03:40:50.493Z",
+      "status": "ready",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+          "retrievedAt": "2026-10-17T03:40:50.488Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+          "retrievedAt": "2026-10-17T03:40:50.488Z",
+          "excerpt": "EPC Rating C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 160000,
+          "excerpt": "£160,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+          "retrievedAt": "2026-10-17T03:40:50.488Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+          "retrievedAt": "2026-10-17T03:40:50.488Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 99,
+          "excerpt": "Portal lease years remaining: 99",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+          "retrievedAt": "2026-10-17T03:40:50.488Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/162473045#/",
+          "retrievedAt": "2026-10-17T03:40:50.488Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/162473045#/",
+          "attemptedAt": "2026-10-17T03:40:50.493Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.reedsrains.co.uk/property/MCC250218",
+          "attemptedAt": "2026-10-17T03:40:50.493Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "linkedSources": [
+        "https://www.reedsrains.co.uk/property/MCC250218",
+        "https://assets.reapit.net/rer/live/pdf.php?p=MCC250218&t=S"
+      ],
+      "providerSignature": "[160000,2,\"Flat\",\"M1 1BY\",null,null]"
+    },
+    "R159291476": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/159291476",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/159291476#/",
+      "attemptedAt": "2026-10-17T03:40:50.745Z",
+      "retrievedAt": "2026-10-17T03:36:20.980Z",
+      "enrichedAt": "2026-10-17T03:36:20.980Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "price",
+          "value": 1900000,
+          "excerpt": "£1,900,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/159291476#/",
+          "retrievedAt": "2026-10-17T03:36:20.973Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/159291476#/",
+          "retrievedAt": "2026-10-17T03:36:20.973Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 95,
+          "excerpt": "Portal lease years remaining: 95",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/159291476#/",
+          "retrievedAt": "2026-10-17T03:36:20.973Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 5,
+          "excerpt": "Portal bedrooms: 5",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/159291476#/",
+          "retrievedAt": "2026-10-17T03:36:20.973Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/159291476",
+          "attemptedAt": "2026-10-17T03:40:50.785Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:50.785Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[1900000,5,\"Flat\",\"M3 2DE\",null,null]"
+    },
+    "Z73934868": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73934868",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73934868",
+      "attemptedAt": "2026-10-17T03:40:51.038Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73934868",
+          "attemptedAt": "2026-10-17T03:40:51.069Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.069Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[320000,2,\"Flat\",\"M4 1LA\",null,null]"
+    },
+    "R92663310": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92663310",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+      "attemptedAt": "2026-10-17T03:40:51.320Z",
+      "retrievedAt": "2026-10-17T03:36:27.036Z",
+      "enrichedAt": "2026-10-17T03:36:27.036Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "D",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+          "retrievedAt": "2026-10-17T03:36:27.031Z",
+          "excerpt": "EPC Rating - D",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+          "retrievedAt": "2026-10-17T03:36:27.031Z",
+          "excerpt": "EPC Rating - C",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 185000,
+          "excerpt": "£185,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+          "retrievedAt": "2026-10-17T03:36:27.031Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+          "retrievedAt": "2026-10-17T03:36:27.031Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 225,
+          "excerpt": "Portal lease years remaining: 225",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+          "retrievedAt": "2026-10-17T03:36:27.031Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92663310#/",
+          "retrievedAt": "2026-10-17T03:36:27.031Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Sources disagree on epc; verify with the agent before using a default."
+      ],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92663310",
+          "attemptedAt": "2026-10-17T03:40:51.364Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.364Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[185000,1,\"Flat\",\"M3 5NF\",null,null]"
+    },
+    "R175041365": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/175041365",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/175041365#/",
+      "attemptedAt": "2026-10-17T03:40:51.616Z",
+      "retrievedAt": "2026-10-17T03:36:29.896Z",
+      "enrichedAt": "2026-10-17T03:36:29.896Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "D",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175041365#/",
+          "retrievedAt": "2026-10-17T03:36:29.892Z",
+          "excerpt": "EPC - D",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 250000,
+          "excerpt": "£250,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175041365#/",
+          "retrievedAt": "2026-10-17T03:36:29.892Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175041365#/",
+          "retrievedAt": "2026-10-17T03:36:29.892Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 0,
+          "excerpt": "Portal lease years remaining: 0",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175041365#/",
+          "retrievedAt": "2026-10-17T03:36:29.892Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175041365#/",
+          "retrievedAt": "2026-10-17T03:36:29.892Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/175041365",
+          "attemptedAt": "2026-10-17T03:40:51.658Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.658Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[250000,2,\"Flat\",\"M1 1BA\",null,null]"
+    },
+    "R171835835": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171835835",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+      "attemptedAt": "2026-10-17T03:40:51.910Z",
+      "retrievedAt": "2026-10-17T03:36:32.951Z",
+      "enrichedAt": "2026-10-17T03:36:32.951Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "annualGroundRent",
+          "value": 250,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+          "retrievedAt": "2026-10-17T03:36:32.947Z",
+          "excerpt": "Ground Rent: £250 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 15000,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+          "retrievedAt": "2026-10-17T03:36:32.947Z",
+          "excerpt": "Service Charges: £15,000 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 815000,
+          "excerpt": "£815,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+          "retrievedAt": "2026-10-17T03:36:32.947Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Guide price",
+          "excerpt": "Guide Price",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+          "retrievedAt": "2026-10-17T03:36:32.947Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+          "retrievedAt": "2026-10-17T03:36:32.947Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 3,
+          "excerpt": "Portal bedrooms: 3",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171835835#/",
+          "retrievedAt": "2026-10-17T03:36:32.947Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171835835",
+          "attemptedAt": "2026-10-17T03:40:51.958Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.958Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[815000,3,\"Flat\",\"M3 5ND\",null,null]"
+    },
+    "R174287897": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174287897",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+      "attemptedAt": "2026-10-17T03:40:52.209Z",
+      "retrievedAt": "2026-10-17T03:36:36.074Z",
+      "enrichedAt": "2026-10-17T03:36:36.074Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+          "retrievedAt": "2026-10-17T03:36:36.073Z",
+          "excerpt": "EPC Rating - C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 350000,
+          "excerpt": "£350,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+          "retrievedAt": "2026-10-17T03:36:36.073Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Offers over",
+          "excerpt": "Offers Over",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+          "retrievedAt": "2026-10-17T03:36:36.073Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+          "retrievedAt": "2026-10-17T03:36:36.073Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 226,
+          "excerpt": "Portal lease years remaining: 226",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+          "retrievedAt": "2026-10-17T03:36:36.073Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174287897#/",
+          "retrievedAt": "2026-10-17T03:36:36.073Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174287897",
+          "attemptedAt": "2026-10-17T03:40:52.251Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:52.251Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[350000,2,\"Flat\",\"M3 5NA\",null,null]"
+    },
+    "R171751364": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171751364",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+      "attemptedAt": "2026-10-17T03:40:52.503Z",
+      "retrievedAt": "2026-10-17T03:36:38.905Z",
+      "enrichedAt": "2026-10-17T03:36:38.905Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "annualServiceCharge",
+          "value": 6615,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+          "retrievedAt": "2026-10-17T03:36:38.904Z",
+          "excerpt": "Service Charge: £6615 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 250,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+          "retrievedAt": "2026-10-17T03:36:38.904Z",
+          "excerpt": "Ground Rent: £250 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "250 years from 1st Jan 2002",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+          "retrievedAt": "2026-10-17T03:36:38.904Z",
+          "excerpt": "Lease: 250 Years from 1st Jan 2002",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 400000,
+          "excerpt": "£400,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+          "retrievedAt": "2026-10-17T03:36:38.904Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+          "retrievedAt": "2026-10-17T03:36:38.904Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/171751364#/",
+          "retrievedAt": "2026-10-17T03:36:38.904Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171751364",
+          "attemptedAt": "2026-10-17T03:40:52.547Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:52.547Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[400000,2,\"Flat\",\"M3 5NF\",null,null]"
+    },
+    "R90475659": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90475659",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+      "attemptedAt": "2026-10-17T03:40:52.798Z",
+      "retrievedAt": "2026-10-17T03:36:41.954Z",
+      "enrichedAt": "2026-10-17T03:36:41.954Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "excerpt": "EPC Rating - C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "999 years from 2000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "excerpt": "Lease 999 years from 2000",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 150,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "excerpt": "Ground Rent £150.00 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 180000,
+          "excerpt": "£180,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 974,
+          "excerpt": "Portal lease years remaining: 974",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90475659#/",
+          "retrievedAt": "2026-10-17T03:36:41.952Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90475659",
+          "attemptedAt": "2026-10-17T03:40:52.847Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:52.847Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[180000,1,\"Flat\",\"M1 6HP\",null,null]"
+    },
+    "O13983786": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/13983786",
+      "canonicalUrl": "https://www.onthemarket.com/details/13983786/",
+      "attemptedAt": "2026-10-17T03:40:53.098Z",
+      "retrievedAt": "2026-10-17T03:38:25.449Z",
+      "enrichedAt": "2026-10-17T03:38:25.449Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "excerpt": "Tenure: Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 100,
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "excerpt": "Ground rent: £100 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 2313.05,
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "excerpt": "Service charge: £2,313.05 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 150000,
+          "excerpt": "£150,000",
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "excerpt": "EPC rating: C",
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 129,
+          "excerpt": "129 yrs left",
+          "sourceUrl": "https://www.onthemarket.com/details/13983786/",
+          "retrievedAt": "2026-10-17T03:38:25.443Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/13983786",
+          "attemptedAt": "2026-10-17T03:40:53.141Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:53.141Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[150000,1,\"Flat\",\"M3 4EE\",null,null]"
+    },
+    "O13523823": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/13523823",
+      "canonicalUrl": "https://www.onthemarket.com/details/13523823/",
+      "attemptedAt": "2026-10-17T03:40:53.392Z",
+      "retrievedAt": "2026-10-17T03:38:26.223Z",
+      "enrichedAt": "2026-10-17T03:38:26.223Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 413.02,
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "excerpt": "Ground rent: £413.02 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 4807,
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "excerpt": "Service charge: £4,807 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 280000,
+          "excerpt": "£280,000",
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Guide price",
+          "excerpt": "Guide price",
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "excerpt": "EPC rating: C",
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 127,
+          "excerpt": "127 yrs left",
+          "sourceUrl": "https://www.onthemarket.com/details/13523823/",
+          "retrievedAt": "2026-10-17T03:38:26.219Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/13523823",
+          "attemptedAt": "2026-10-17T03:40:53.447Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:53.447Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[280000,2,\"Flat\",\"M3 4EE\",null,null]"
+    },
+    "R92711379": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92711379",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+      "attemptedAt": "2026-10-17T03:40:53.698Z",
+      "retrievedAt": "2026-10-17T03:36:50.928Z",
+      "enrichedAt": "2026-10-17T03:36:50.928Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+          "retrievedAt": "2026-10-17T03:36:50.922Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+          "retrievedAt": "2026-10-17T03:36:50.922Z",
+          "excerpt": "EPC Rating C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 300000,
+          "excerpt": "£300,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+          "retrievedAt": "2026-10-17T03:36:50.922Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+          "retrievedAt": "2026-10-17T03:36:50.922Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 101,
+          "excerpt": "Portal lease years remaining: 101",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+          "retrievedAt": "2026-10-17T03:36:50.922Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/92711379#/",
+          "retrievedAt": "2026-10-17T03:36:50.922Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92711379",
+          "attemptedAt": "2026-10-17T03:40:53.744Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:53.744Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[300000,2,\"Flat\",\"M4 1LQ\",null,null]"
+    },
+    "Z73235683": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73235683",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73235683",
+      "attemptedAt": "2026-10-17T03:40:53.995Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73235683",
+          "attemptedAt": "2026-10-17T03:40:54.038Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.038Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[190000,1,\"Flat\",\"M4 1LP\",null,null]"
+    },
+    "R168405656": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/168405656",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+      "attemptedAt": "2026-10-17T03:40:54.289Z",
+      "retrievedAt": "2026-10-17T03:36:57.442Z",
+      "enrichedAt": "2026-10-17T03:36:57.442Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/168405656",
+          "retrievedAt": "2026-10-17T03:36:53.967Z",
+          "excerpt": "EPC Rating C",
+          "status": "reported",
+          "sourceKind": "provider"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+          "retrievedAt": "2026-10-17T03:36:57.438Z",
+          "excerpt": "Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+          "retrievedAt": "2026-10-17T03:36:57.438Z",
+          "excerpt": "EPC Rating C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 140000,
+          "excerpt": "£140,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+          "retrievedAt": "2026-10-17T03:36:57.438Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+          "retrievedAt": "2026-10-17T03:36:57.438Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 225,
+          "excerpt": "Portal lease years remaining: 225",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+          "retrievedAt": "2026-10-17T03:36:57.438Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/168405656#/",
+          "retrievedAt": "2026-10-17T03:36:57.438Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/168405656",
+          "attemptedAt": "2026-10-17T03:40:54.320Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.320Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[140000,1,\"Flat\",\"M4 1HQ\",null,null]"
+    },
+    "R174221831": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174221831",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+      "attemptedAt": "2026-10-17T03:40:54.573Z",
+      "retrievedAt": "2026-10-17T03:36:59.872Z",
+      "enrichedAt": "2026-10-17T03:36:59.872Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "B",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "excerpt": "EPC Rating B",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "250 years from 2001",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "excerpt": "Lease: 250 years from 2001",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 250,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "excerpt": "Annual Ground Rent: £250",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 3100.96,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "excerpt": "Annual Service Charge: £3,100.96",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 180000,
+          "excerpt": "£180,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 225,
+          "excerpt": "Portal lease years remaining: 225",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/174221831#/",
+          "retrievedAt": "2026-10-17T03:36:59.869Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174221831",
+          "attemptedAt": "2026-10-17T03:40:54.624Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.624Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[180000,1,\"Flat\",\"M3 5NE\",null,null]"
+    },
+    "R91980603": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91980603",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+      "attemptedAt": "2026-10-17T03:40:54.875Z",
+      "retrievedAt": "2026-10-17T03:37:02.958Z",
+      "enrichedAt": "2026-10-17T03:37:02.958Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+          "retrievedAt": "2026-10-17T03:37:02.955Z",
+          "excerpt": "EPC Rating C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 200000,
+          "excerpt": "£200,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+          "retrievedAt": "2026-10-17T03:37:02.955Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Offers over",
+          "excerpt": "Offers Over",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+          "retrievedAt": "2026-10-17T03:37:02.955Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+          "retrievedAt": "2026-10-17T03:37:02.955Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 126,
+          "excerpt": "Portal lease years remaining: 126",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+          "retrievedAt": "2026-10-17T03:37:02.955Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/91980603#/",
+          "retrievedAt": "2026-10-17T03:37:02.955Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91980603",
+          "attemptedAt": "2026-10-17T03:40:54.917Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.917Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[200000,2,\"Flat\",\"M3 4EP\",null,null]"
+    },
+    "R94093488": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94093488",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+      "attemptedAt": "2026-10-17T03:40:55.168Z",
+      "retrievedAt": "2026-10-17T03:37:06.033Z",
+      "enrichedAt": "2026-10-17T03:37:06.033Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "annualGroundRent",
+          "value": 125,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+          "retrievedAt": "2026-10-17T03:37:06.029Z",
+          "excerpt": "Ground Rent: £125.00 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 2880,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+          "retrievedAt": "2026-10-17T03:37:06.029Z",
+          "excerpt": "Service Charge: £2,880.00 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "B",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+          "retrievedAt": "2026-10-17T03:37:06.029Z",
+          "excerpt": "EPC Rating: B",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 182000,
+          "excerpt": "£182,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+          "retrievedAt": "2026-10-17T03:37:06.029Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+          "retrievedAt": "2026-10-17T03:37:06.029Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 1,
+          "excerpt": "Portal bedrooms: 1",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94093488#/",
+          "retrievedAt": "2026-10-17T03:37:06.029Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94093488",
+          "attemptedAt": "2026-10-17T03:40:55.209Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:55.209Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[182000,1,\"Flat\",\"M3 5NG\",null,null]"
+    },
+    "R90003303": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90003303",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+      "attemptedAt": "2026-10-17T03:40:55.460Z",
+      "retrievedAt": "2026-10-17T03:37:08.880Z",
+      "enrichedAt": "2026-10-17T03:37:08.880Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "excerpt": "EPC Rating C",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 150,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "excerpt": "Ground Rent: £150 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 2050,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "excerpt": "Service Charge: £2,050 per annum",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 199950,
+          "excerpt": "£199,950",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 225,
+          "excerpt": "Portal lease years remaining: 225",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/90003303#/",
+          "retrievedAt": "2026-10-17T03:37:08.872Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90003303",
+          "attemptedAt": "2026-10-17T03:40:55.505Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:55.505Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[199950,2,\"Flat\",\"M4 1BF\",null,null]"
+    },
+    "R94378338": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94378338",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+      "attemptedAt": "2026-10-17T03:40:55.756Z",
+      "retrievedAt": "2026-10-17T03:37:12.088Z",
+      "enrichedAt": "2026-10-17T03:37:12.088Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "excerpt": "Tenure: Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 1860,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "excerpt": "Service Charge - £1860 pa",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 300,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "excerpt": "Ground Rent - £300 pa",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "epc",
+          "value": "E",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "excerpt": "EPC Rating: E",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 325000,
+          "excerpt": "£325,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 127,
+          "excerpt": "Portal lease years remaining: 127",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94378338#/",
+          "retrievedAt": "2026-10-17T03:37:12.081Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94378338",
+          "attemptedAt": "2026-10-17T03:40:55.804Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:55.804Z"
+        }
+      ],
+      "linkedSources": [],
+      "providerSignature": "[325000,2,\"Flat\",\"M4 1LX\",null,null]"
+    },
+    "R94268109": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94268109",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+      "attemptedAt": "2026-10-17T03:40:56.054Z",
+      "retrievedAt": "2026-10-17T03:37:14.990Z",
+      "enrichedAt": "2026-10-17T03:37:14.990Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "annualGroundRent",
+          "value": 0,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "excerpt": "Annual ground rent: £0",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "250 years from 2022",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "excerpt": "Length of lease: 250 years from 2022",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "buyerCheckFee",
+          "value": 60,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "excerpt": "fee of £60 inc VAT per buyer",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 370000,
+          "excerpt": "£370,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "priceQualifier",
+          "value": "Offers over",
+          "excerpt": "Offers Over",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "freehold",
+          "excerpt": "Tenure: FREEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 250,
+          "excerpt": "Portal lease years remaining: 250",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 2,
+          "excerpt": "Portal bedrooms: 2",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/94268109#/",
+          "retrievedAt": "2026-10-17T03:37:14.986Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 246 years remaining; portal says 250. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94268109",
+          "attemptedAt": "2026-10-17T03:40:56.096Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:56.096Z"
+        },
+        {
+          "url": "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC6705",
+          "attemptedAt": "2026-10-17T03:40:57.815Z",
+          "outcome": "identity-mismatch",
+          "detail": "Original source accessible, but current portal identity could not be reverified. No new facts accepted."
+        }
+      ],
+      "linkedSources": [
+        "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC6705"
+      ],
+      "providerSignature": "[370000,2,\"Flat\",\"M1 3AJ\",null,null]"
+    },
+    "R175034762": {
+      "version": 1,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/175034762",
+      "canonicalUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+      "attemptedAt": "2026-10-17T03:40:58.067Z",
+      "retrievedAt": "2026-10-17T03:37:18.042Z",
+      "enrichedAt": "2026-10-17T03:37:18.042Z",
+      "status": "partial",
+      "facts": [
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "excerpt": "Tenure: Leasehold",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualServiceCharge",
+          "value": 3956.61,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "excerpt": "Annual service charge: £3,956.61",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "annualGroundRent",
+          "value": 1,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "excerpt": "Annual ground rent: £1.00",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "lease",
+          "value": "250 years from 2018",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "excerpt": "Length of lease: 250 years from 2018",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "buyerCheckFee",
+          "value": 60,
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "excerpt": "fee of £60 inc VAT per buyer",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "price",
+          "value": 465000,
+          "excerpt": "£465,000",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "tenure",
+          "value": "leasehold",
+          "excerpt": "Tenure: LEASEHOLD",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "leaseYearsRemaining",
+          "value": 248,
+          "excerpt": "Portal lease years remaining: 248",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "status": "conflicting",
+          "sourceKind": "portal"
+        },
+        {
+          "key": "bedrooms",
+          "value": 3,
+          "excerpt": "Portal bedrooms: 3",
+          "sourceUrl": "https://www.rightmove.co.uk/properties/175034762#/",
+          "retrievedAt": "2026-10-17T03:37:18.037Z",
+          "status": "verified",
+          "sourceKind": "portal"
+        }
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 242 years remaining; portal says 248. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/175034762",
+          "attemptedAt": "2026-10-17T03:40:58.098Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:58.098Z"
+        },
+        {
+          "url": "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC5826",
+          "attemptedAt": "2026-10-17T03:40:58.321Z",
+          "outcome": "identity-mismatch",
+          "detail": "Original source accessible, but current portal identity could not be reverified. No new facts accepted."
+        }
+      ],
+      "linkedSources": [
+        "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC5826"
+      ],
+      "providerSignature": "[465000,3,\"Flat\",\"M1 3AW\",null,null]"
+    }
+  }
+}

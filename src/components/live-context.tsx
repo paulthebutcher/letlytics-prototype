@@ -186,7 +186,7 @@ export function LiveProvider({
         </header>
         <div className="live-data-updated">
           <time dateTime={feed.fetchedAt}>
-            Last updated{" "}
+            Listings retrieved{" "}
             {new Date(feed.fetchedAt).toLocaleString("en-GB", {
               day: "numeric",
               month: "short",

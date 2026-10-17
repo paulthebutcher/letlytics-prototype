@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
-    "data:refresh": "tsx scripts/refresh-data.ts",
+    "data:refresh": "node --import tsx scripts/refresh-data.ts",
     "image:generate": "node --import tsx scripts/generate-social-image.tsx",
-    "test": "node --import tsx --test tests/*.test.ts"
+    "test": "node --import tsx --test tests/*.test.ts",
+    "data:enrich": "node --import tsx scripts/enrich-listings.ts",
+    "data:report": "node --import tsx scripts/report-enrichment.ts"
   },
   "dependencies": {
     "leaflet": "1.9.4",

@@ -2,11 +2,17 @@ import { loadEnvConfig } from "@next/env";
 import { join } from "node:path";
 import { RefreshError, refreshDataFiles } from "./refresh-data-core";
 
+import { enrichDataFiles } from "./enrich-listings-core";
+
 async function main() {
   loadEnvConfig(process.cwd());
   const stats = await refreshDataFiles(
     join(process.cwd(), "src/data"),
     process.env.PROPERTYDATA_API_KEY ?? "",
+  );
+  const enriched = await enrichDataFiles(join(process.cwd(), "src/data"));
+  console.log(
+    `Enrichment: ${Object.values(enriched.records).filter((e) => e.status === "ready").length} ready of ${stats.listings}.`,
   );
   console.log(
     `Daily data saved: ${stats.listings} listings; rental evidence for ${stats.freshRentProperties} refreshed + ${stats.retainedRentProperties} retained properties; ${stats.freshSalesGroups} sales groups refreshed + ${stats.retainedSalesGroups} retained.`,

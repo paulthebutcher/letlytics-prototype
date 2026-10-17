@@ -1,0 +1,2098 @@
+{
+  "generatedAt": "2026-10-17T03:45:21.148Z",
+  "scope": "Current 40 saved listings; original listing enrichment only. Provider listing/rent and Land Registry snapshots were not refreshed in this backfill.",
+  "counts": {
+    "records": 40,
+    "withVerifiedSource": 34,
+    "ready": 16,
+    "retainedAfterFailedRecheck": 18,
+    "blockedWithoutEvidence": 5,
+    "unavailableWithoutEvidence": 1,
+    "withConflicts": 7,
+    "changedDefaultCashFlow": 17
+  },
+  "records": [
+    {
+      "id": "R92178777",
+      "address": "Tudor House, 11 Chapel Walks, Manchester, M2",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:22.344Z",
+      "enrichedAt": "2026-10-17T03:40:22.344Z",
+      "lastAttemptAt": "2026-10-17T03:40:21.142Z",
+      "source": "https://www.rightmove.co.uk/properties/92178777#/",
+      "verifiedFactKeys": [
+        "lease",
+        "annualServiceCharge",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/92178777#/",
+          "attemptedAt": "2026-10-17T03:40:22.344Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1712,
+          "monthlyCashFlow": -188.32,
+          "grossYield": 3.91,
+          "initialCash": 143250
+        },
+        "newDefault": {
+          "monthlyRent": 1712,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": -404.99,
+          "grossYield": 3.91,
+          "initialCash": 143250,
+          "cashOnly": false,
+          "annualServiceCharge": 2600,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R91843293",
+      "address": "8 King Street, Deansgate, Manchester City Centre, M2",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:30.504Z",
+      "enrichedAt": "2026-10-17T03:40:30.504Z",
+      "lastAttemptAt": "2026-10-17T03:40:22.595Z",
+      "source": "https://www.rightmove.co.uk/properties/91843293#/",
+      "verifiedFactKeys": [
+        "epc",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/91843293#/",
+          "attemptedAt": "2026-10-17T03:40:30.504Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1712,
+          "monthlyCashFlow": -61.76,
+          "grossYield": 4.28,
+          "initialCash": 132000
+        },
+        "newDefault": {
+          "monthlyRent": 1712,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": -61.76,
+          "grossYield": 4.28,
+          "initialCash": 132000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R92869650",
+      "address": "King Street, Manchester, M2",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:31.802Z",
+      "enrichedAt": "2026-10-17T03:40:31.802Z",
+      "lastAttemptAt": "2026-10-17T03:40:30.754Z",
+      "source": "https://www.rightmove.co.uk/properties/92869650#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/92869650#/",
+          "attemptedAt": "2026-10-17T03:40:31.802Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.reedsrains.co.uk/property/MCC260700",
+          "attemptedAt": "2026-10-17T03:40:31.802Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1712,
+          "monthlyCashFlow": 303.87,
+          "grossYield": 5.87,
+          "initialCash": 99500
+        },
+        "newDefault": {
+          "monthlyRent": 1712,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 303.87,
+          "grossYield": 5.87,
+          "initialCash": 99500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R164386706",
+      "address": "The Birchin, 1 Joiner Street, Northern Quarter",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:32.850Z",
+      "enrichedAt": "2026-10-17T03:40:32.850Z",
+      "lastAttemptAt": "2026-10-17T03:40:32.053Z",
+      "source": "https://www.rightmove.co.uk/properties/164386706#/",
+      "verifiedFactKeys": [
+        "studio",
+        "cashOnly",
+        "auction",
+        "buyerPackFee",
+        "auctionFee",
+        "tenure",
+        "annualServiceCharge",
+        "annualGroundRent",
+        "lease",
+        "agentRent",
+        "buyerCheckFee",
+        "price",
+        "priceQualifier",
+        "bedrooms"
+      ],
+      "conflicts": [
+        "Description identifies a studio; provider lists 1 bedroom(s). Local bedroom-based rent sample is not used by default.",
+        "Lease conflict: description implies about 103 years remaining; portal says 124. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/164386706#/",
+          "attemptedAt": "2026-10-17T03:40:32.850Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 631.11,
+          "grossYield": 20.23,
+          "initialCash": 28250
+        },
+        "newDefault": {
+          "monthlyRent": null,
+          "rentSource": "Rent needed: studio / bedroom conflict",
+          "monthlyCashFlow": null,
+          "grossYield": null,
+          "initialCash": 77000,
+          "cashOnly": true,
+          "annualServiceCharge": 939.73,
+          "annualGroundRent": 171.92,
+          "knownAcquisitionFees": 7009,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": {
+          "monthlyRent": 1000,
+          "monthlyCashFlow": 647.36,
+          "grossYield": 18.46,
+          "initialCash": 77000
+        },
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R93021045",
+      "address": "Joiner Street, Manchester, Greater Manchester",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:33.874Z",
+      "enrichedAt": "2026-10-17T03:40:33.874Z",
+      "lastAttemptAt": "2026-10-17T03:40:33.102Z",
+      "source": "https://www.rightmove.co.uk/properties/93021045#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "epc",
+        "annualServiceCharge",
+        "annualGroundRent",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/93021045#/",
+          "attemptedAt": "2026-10-17T03:40:33.874Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 392.04,
+          "grossYield": 8.77,
+          "initialCash": 49500
+        },
+        "newDefault": {
+          "monthlyRent": 1096,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 225.19,
+          "grossYield": 8.77,
+          "initialCash": 49500,
+          "cashOnly": false,
+          "annualServiceCharge": 1832.28,
+          "annualGroundRent": 170,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R158634269",
+      "address": "No. 1 Deansgate, Manchester",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:35.291Z",
+      "enrichedAt": "2026-10-17T03:40:35.291Z",
+      "lastAttemptAt": "2026-10-17T03:40:34.125Z",
+      "source": "https://www.rightmove.co.uk/properties/158634269#/",
+      "verifiedFactKeys": [
+        "achievedRent",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [
+        "Provider reports achievedRent: 1325; original listing differs. Both sources retained."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/158634269#/",
+          "attemptedAt": "2026-10-17T03:40:35.291Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://media.rightmove.co.uk/property-brochure/dd0cd29dc/158634269/dd0cd29dc656ebb4afdeba9e29b2f3f3.pdf",
+          "attemptedAt": "2026-10-17T03:40:35.291Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1452,
+          "monthlyCashFlow": 314.6,
+          "grossYield": 6.34,
+          "initialCash": 80750
+        },
+        "newDefault": {
+          "monthlyRent": 1452,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 314.6,
+          "grossYield": 6.34,
+          "initialCash": 80750,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R170675129",
+      "address": "Joiner Street, Manchester, Greater Manchester",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:36.778Z",
+      "enrichedAt": "2026-10-17T03:40:36.778Z",
+      "lastAttemptAt": "2026-10-17T03:40:35.543Z",
+      "source": "https://www.rightmove.co.uk/properties/170675129#/",
+      "verifiedFactKeys": [
+        "cashOnly",
+        "annualServiceCharge",
+        "annualGroundRent",
+        "epc",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/170675129#/",
+          "attemptedAt": "2026-10-17T03:40:36.778Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 670.42,
+          "grossYield": 12.18,
+          "initialCash": 47000
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 840.5,
+          "grossYield": 12.18,
+          "initialCash": 152000,
+          "cashOnly": true,
+          "annualServiceCharge": 2484,
+          "annualGroundRent": 200,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "Z71641932",
+      "address": "18 Church Street, Manchester, Greater Manchester M4",
+      "status": "blocked",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": null,
+      "enrichedAt": null,
+      "lastAttemptAt": "2026-10-17T03:40:37.028Z",
+      "source": "https://www.zoopla.co.uk/for-sale/details/71641932/",
+      "verifiedFactKeys": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.zoopla.co.uk/for-sale/details/71641932/",
+          "attemptedAt": "2026-10-17T03:40:37.612Z",
+          "outcome": "blocked",
+          "detail": "HTTP 403; no access-control bypass or retry attempted."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 642.29,
+          "grossYield": 11.37,
+          "initialCash": 49500
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 642.29,
+          "grossYield": 11.37,
+          "initialCash": 49500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "Z73015516",
+      "address": "Church Street, Manchester M4",
+      "status": "blocked",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": null,
+      "enrichedAt": null,
+      "lastAttemptAt": "2026-10-17T03:40:37.863Z",
+      "source": "https://www.zoopla.co.uk/for-sale/details/73015516/",
+      "verifiedFactKeys": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.zoopla.co.uk/for-sale/details/73015516/",
+          "attemptedAt": "2026-10-17T03:40:38.427Z",
+          "outcome": "blocked",
+          "detail": "HTTP 403; no access-control bypass or retry attempted."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1049,
+          "monthlyCashFlow": 496.62,
+          "grossYield": 12.59,
+          "initialCash": 36987.5
+        },
+        "newDefault": {
+          "monthlyRent": 1049,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 496.62,
+          "grossYield": 12.59,
+          "initialCash": 36987.5,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R164900990",
+      "address": "Church Street, Manchester, Manchester, M4 1PN",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:39.472Z",
+      "enrichedAt": "2026-10-17T03:40:39.472Z",
+      "lastAttemptAt": "2026-10-17T03:40:38.679Z",
+      "source": "https://www.rightmove.co.uk/properties/164900990#/",
+      "verifiedFactKeys": [
+        "studio",
+        "annualGroundRent",
+        "lease",
+        "price",
+        "priceQualifier",
+        "tenure"
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 105 years remaining; portal says 107. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/164900990#/",
+          "attemptedAt": "2026-10-17T03:40:39.472Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1049,
+          "monthlyCashFlow": 510.54,
+          "grossYield": 13.25,
+          "initialCash": 35750
+        },
+        "newDefault": {
+          "monthlyRent": 1049,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 493.88,
+          "grossYield": 13.25,
+          "initialCash": 35750,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": 200,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "Z74261487",
+      "address": "23 Church Street, Manchester M4",
+      "status": "blocked",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": null,
+      "enrichedAt": null,
+      "lastAttemptAt": "2026-10-17T03:40:39.724Z",
+      "source": "https://www.zoopla.co.uk/for-sale/details/74261487/",
+      "verifiedFactKeys": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.zoopla.co.uk/for-sale/details/74261487/",
+          "attemptedAt": "2026-10-17T03:40:40.259Z",
+          "outcome": "blocked",
+          "detail": "HTTP 403; no access-control bypass or retry attempted."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 389.17,
+          "grossYield": 7.11,
+          "initialCash": 72000
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 389.17,
+          "grossYield": 7.11,
+          "initialCash": 72000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R88560366",
+      "address": "High Street, Manchester",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:41.269Z",
+      "enrichedAt": "2026-10-17T03:40:41.269Z",
+      "lastAttemptAt": "2026-10-17T03:40:40.510Z",
+      "source": "https://www.rightmove.co.uk/properties/88560366#/",
+      "verifiedFactKeys": [
+        "ownership",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/88560366#/",
+          "attemptedAt": "2026-10-17T03:40:41.269Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.stevensonwhyte.co.uk/propertydetails.aspx?PropertyID=1580",
+          "attemptedAt": "2026-10-17T03:40:42.004Z",
+          "outcome": "retrieved",
+          "detail": "Direct portal brochure link and agent reference 1580 matched."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 535.48,
+          "grossYield": 13.28,
+          "initialCash": 36750
+        },
+        "newDefault": {
+          "monthlyRent": 1096,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 535.48,
+          "grossYield": 13.28,
+          "initialCash": 36750,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R171584873",
+      "address": "56 High Street, Manchester, M4 1ED",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:43.072Z",
+      "enrichedAt": "2026-10-17T03:40:43.072Z",
+      "lastAttemptAt": "2026-10-17T03:40:42.255Z",
+      "source": "https://www.rightmove.co.uk/properties/171584873#/",
+      "verifiedFactKeys": [
+        "annualServiceCharge",
+        "annualGroundRent",
+        "tenure",
+        "lease",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/171584873#/",
+          "attemptedAt": "2026-10-17T03:40:43.072Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 476.42,
+          "grossYield": 10.96,
+          "initialCash": 42000
+        },
+        "newDefault": {
+          "monthlyRent": 1096,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 339.84,
+          "grossYield": 10.96,
+          "initialCash": 42000,
+          "cashOnly": false,
+          "annualServiceCharge": 1569,
+          "annualGroundRent": 70,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R168274910",
+      "address": "High Street, Manchester, M4",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:44.051Z",
+      "enrichedAt": "2026-10-17T03:40:44.051Z",
+      "lastAttemptAt": "2026-10-17T03:40:43.323Z",
+      "source": "https://www.rightmove.co.uk/properties/168274910#/",
+      "verifiedFactKeys": [
+        "lease",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/168274910#/",
+          "attemptedAt": "2026-10-17T03:40:44.051Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 462.29,
+          "grossYield": 7.97,
+          "initialCash": 65500
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 462.29,
+          "grossYield": 7.97,
+          "initialCash": 65500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R93210549",
+      "address": "Union Street, Manchester",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:45.035Z",
+      "enrichedAt": "2026-10-17T03:40:45.035Z",
+      "lastAttemptAt": "2026-10-17T03:40:44.302Z",
+      "source": "https://www.rightmove.co.uk/properties/93210549#/",
+      "verifiedFactKeys": [
+        "epc",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/93210549#/",
+          "attemptedAt": "2026-10-17T03:40:45.035Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 321.73,
+          "grossYield": 7.52,
+          "initialCash": 55750
+        },
+        "newDefault": {
+          "monthlyRent": 1096,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 321.73,
+          "grossYield": 7.52,
+          "initialCash": 55750,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R91637601",
+      "address": "Oldham Street, Manchester, M1",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:46.119Z",
+      "enrichedAt": "2026-10-17T03:40:46.119Z",
+      "lastAttemptAt": "2026-10-17T03:40:45.286Z",
+      "source": "https://www.rightmove.co.uk/properties/91637601#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "epc",
+        "price",
+        "priceQualifier",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/91637601#/",
+          "attemptedAt": "2026-10-17T03:40:46.119Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.reedsrains.co.uk/property/MCC230438",
+          "attemptedAt": "2026-10-17T03:40:46.119Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1443,
+          "monthlyCashFlow": 659.24,
+          "grossYield": 11.54,
+          "initialCash": 49500
+        },
+        "newDefault": {
+          "monthlyRent": 1443,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 659.24,
+          "grossYield": 11.54,
+          "initialCash": 49500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R174549308",
+      "address": "50 Princess Street, Manchester, Manchester City Centre, M1",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:47.199Z",
+      "enrichedAt": "2026-10-17T03:40:47.199Z",
+      "lastAttemptAt": "2026-10-17T03:40:46.371Z",
+      "source": "https://www.rightmove.co.uk/properties/174549308#/",
+      "verifiedFactKeys": [
+        "epc",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/174549308#/",
+          "attemptedAt": "2026-10-17T03:40:47.199Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1443,
+          "monthlyCashFlow": 293.61,
+          "grossYield": 6.18,
+          "initialCash": 82000
+        },
+        "newDefault": {
+          "monthlyRent": 1443,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 293.61,
+          "grossYield": 6.18,
+          "initialCash": 82000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R173698505",
+      "address": "Flat 57, Century Buildings, 14 St. Marys Parsonage, Manchester",
+      "status": "unavailable",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": null,
+      "enrichedAt": null,
+      "lastAttemptAt": "2026-10-17T03:40:47.450Z",
+      "source": "https://www.rightmove.co.uk/properties/173698505#/",
+      "verifiedFactKeys": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/173698505#/",
+          "attemptedAt": "2026-10-17T03:40:48.225Z",
+          "outcome": "unavailable",
+          "detail": "HTTP 410."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1452,
+          "monthlyCashFlow": 469.29,
+          "grossYield": 7.92,
+          "initialCash": 67000
+        },
+        "newDefault": {
+          "monthlyRent": 1452,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 469.29,
+          "grossYield": 7.92,
+          "initialCash": 67000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R88970838",
+      "address": "Century Buildings, St Mary`s Parsonage, Deansgate",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:49.200Z",
+      "enrichedAt": "2026-10-17T03:40:49.200Z",
+      "lastAttemptAt": "2026-10-17T03:40:48.477Z",
+      "source": "https://www.rightmove.co.uk/properties/88970838#/",
+      "verifiedFactKeys": [
+        "annualServiceCharge",
+        "annualGroundRent",
+        "lease",
+        "buyerCheckFee",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 98 years remaining; portal says 125. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/88970838#/",
+          "attemptedAt": "2026-10-17T03:40:49.200Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1304,
+          "monthlyCashFlow": 355.33,
+          "grossYield": 7.11,
+          "initialCash": 67000
+        },
+        "newDefault": {
+          "monthlyRent": 1304,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 19.47,
+          "grossYield": 7.11,
+          "initialCash": 67000,
+          "cashOnly": false,
+          "annualServiceCharge": 3930.32,
+          "annualGroundRent": 100,
+          "knownAcquisitionFees": 60,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R162473045",
+      "address": "Lever Street, Manchester, M1",
+      "status": "ready",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:40:50.493Z",
+      "enrichedAt": "2026-10-17T03:40:50.493Z",
+      "lastAttemptAt": "2026-10-17T03:40:49.452Z",
+      "source": "https://www.rightmove.co.uk/properties/162473045#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "epc",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://www.rightmove.co.uk/properties/162473045#/",
+          "attemptedAt": "2026-10-17T03:40:50.493Z",
+          "outcome": "retrieved",
+          "detail": "Exact portal listing ID verified against provider ID."
+        },
+        {
+          "url": "https://www.reedsrains.co.uk/property/MCC250218",
+          "attemptedAt": "2026-10-17T03:40:50.493Z",
+          "outcome": "unsupported",
+          "detail": "Source host requires an approved adapter; no request made."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1443,
+          "monthlyCashFlow": 631.11,
+          "grossYield": 10.82,
+          "initialCash": 52000
+        },
+        "newDefault": {
+          "monthlyRent": 1443,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 631.11,
+          "grossYield": 10.82,
+          "initialCash": 52000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R159291476",
+      "address": "Century Buildings, St Mary's Parsonage, Manchester",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:20.980Z",
+      "enrichedAt": "2026-10-17T03:36:20.980Z",
+      "lastAttemptAt": "2026-10-17T03:40:50.745Z",
+      "source": "https://www.rightmove.co.uk/properties/159291476#/",
+      "verifiedFactKeys": [
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/159291476",
+          "attemptedAt": "2026-10-17T03:40:50.785Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:50.785Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": null,
+          "monthlyCashFlow": null,
+          "grossYield": null,
+          "initialCash": null
+        },
+        "newDefault": {
+          "monthlyRent": null,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": null,
+          "grossYield": null,
+          "initialCash": 487000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "Z73934868",
+      "address": "The Smithfield Buildings, 44 Tib Street, Northern Quarter, Manchester M4",
+      "status": "blocked",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": null,
+      "enrichedAt": null,
+      "lastAttemptAt": "2026-10-17T03:40:51.038Z",
+      "source": "https://propertydata.co.uk/outbound/zoopla/73934868",
+      "verifiedFactKeys": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73934868",
+          "attemptedAt": "2026-10-17T03:40:51.069Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.069Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 164.17,
+          "grossYield": 5.33,
+          "initialCash": 92000
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 164.17,
+          "grossYield": 5.33,
+          "initialCash": 92000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R92663310",
+      "address": "The Edge, Clowes Street, Manchester City Centre, Salford, M3",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:27.036Z",
+      "enrichedAt": "2026-10-17T03:36:27.036Z",
+      "lastAttemptAt": "2026-10-17T03:40:51.320Z",
+      "source": "https://www.rightmove.co.uk/properties/92663310#/",
+      "verifiedFactKeys": [
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [
+        "Sources disagree on epc; verify with the agent before using a default."
+      ],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92663310",
+          "attemptedAt": "2026-10-17T03:40:51.364Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.364Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1304,
+          "monthlyCashFlow": 453.77,
+          "grossYield": 8.46,
+          "initialCash": 58250
+        },
+        "newDefault": {
+          "monthlyRent": 1304,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 453.77,
+          "grossYield": 8.46,
+          "initialCash": 58250,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R175041365",
+      "address": "Flat 3, 3 Dale Street, Manchester, M1",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:29.896Z",
+      "enrichedAt": "2026-10-17T03:36:29.896Z",
+      "lastAttemptAt": "2026-10-17T03:40:51.616Z",
+      "source": "https://www.rightmove.co.uk/properties/175041365#/",
+      "verifiedFactKeys": [
+        "epc",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/175041365",
+          "attemptedAt": "2026-10-17T03:40:51.658Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.658Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1443,
+          "monthlyCashFlow": 377.99,
+          "grossYield": 6.93,
+          "initialCash": 74500
+        },
+        "newDefault": {
+          "monthlyRent": 1443,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 377.99,
+          "grossYield": 6.93,
+          "initialCash": 74500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R171835835",
+      "address": "Clowes Street, Salford, M3",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:32.951Z",
+      "enrichedAt": "2026-10-17T03:36:32.951Z",
+      "lastAttemptAt": "2026-10-17T03:40:51.910Z",
+      "source": "https://www.rightmove.co.uk/properties/171835835#/",
+      "verifiedFactKeys": [
+        "annualGroundRent",
+        "annualServiceCharge",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171835835",
+          "attemptedAt": "2026-10-17T03:40:51.958Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:51.958Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 2474,
+          "monthlyCashFlow": -417.21,
+          "grossYield": 3.64,
+          "initialCash": 215750
+        },
+        "newDefault": {
+          "monthlyRent": 2474,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": -1688.04,
+          "grossYield": 3.64,
+          "initialCash": 215750,
+          "cashOnly": false,
+          "annualServiceCharge": 15000,
+          "annualGroundRent": 250,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R174287897",
+      "address": "The Edge, Clowes Street, Salford",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:36.074Z",
+      "enrichedAt": "2026-10-17T03:36:36.074Z",
+      "lastAttemptAt": "2026-10-17T03:40:52.209Z",
+      "source": "https://www.rightmove.co.uk/properties/174287897#/",
+      "verifiedFactKeys": [
+        "epc",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174287897",
+          "attemptedAt": "2026-10-17T03:40:52.251Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:52.251Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1452,
+          "monthlyCashFlow": 103.66,
+          "grossYield": 4.98,
+          "initialCash": 99500
+        },
+        "newDefault": {
+          "monthlyRent": 1452,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 103.66,
+          "grossYield": 4.98,
+          "initialCash": 99500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R171751364",
+      "address": "The Edge, Clowes Street, Salford, M3 5NF",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:38.905Z",
+      "enrichedAt": "2026-10-17T03:36:38.905Z",
+      "lastAttemptAt": "2026-10-17T03:40:52.503Z",
+      "source": "https://www.rightmove.co.uk/properties/171751364#/",
+      "verifiedFactKeys": [
+        "annualServiceCharge",
+        "annualGroundRent",
+        "lease",
+        "price",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171751364",
+          "attemptedAt": "2026-10-17T03:40:52.547Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:52.547Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1452,
+          "monthlyCashFlow": -36.96,
+          "grossYield": 4.36,
+          "initialCash": 112000
+        },
+        "newDefault": {
+          "monthlyRent": 1452,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": -609.04,
+          "grossYield": 4.36,
+          "initialCash": 112000,
+          "cashOnly": false,
+          "annualServiceCharge": 6615,
+          "annualGroundRent": 250,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R90475659",
+      "address": "China House, Harter Street, Manchester",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:41.954Z",
+      "enrichedAt": "2026-10-17T03:36:41.954Z",
+      "lastAttemptAt": "2026-10-17T03:40:52.798Z",
+      "source": "https://www.rightmove.co.uk/properties/90475659#/",
+      "verifiedFactKeys": [
+        "epc",
+        "lease",
+        "annualGroundRent",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90475659",
+          "attemptedAt": "2026-10-17T03:40:52.847Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:52.847Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1335,
+          "monthlyCashFlow": 491.7,
+          "grossYield": 8.9,
+          "initialCash": 57000
+        },
+        "newDefault": {
+          "monthlyRent": 1335,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 479.2,
+          "grossYield": 8.9,
+          "initialCash": 57000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": 150,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "O13983786",
+      "address": "Great Northern Tower, Watson Street, Manchester, M3 4EE",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:38:25.449Z",
+      "enrichedAt": "2026-10-17T03:38:25.449Z",
+      "lastAttemptAt": "2026-10-17T03:40:53.098Z",
+      "source": "https://www.onthemarket.com/details/13983786/",
+      "verifiedFactKeys": [
+        "tenure",
+        "annualGroundRent",
+        "annualServiceCharge",
+        "price",
+        "bedrooms",
+        "epc",
+        "leaseYearsRemaining"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/13983786",
+          "attemptedAt": "2026-10-17T03:40:53.141Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:53.141Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1304,
+          "monthlyCashFlow": 552.21,
+          "grossYield": 10.43,
+          "initialCash": 49500
+        },
+        "newDefault": {
+          "monthlyRent": 1304,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 351.12,
+          "grossYield": 10.43,
+          "initialCash": 49500,
+          "cashOnly": false,
+          "annualServiceCharge": 2313.05,
+          "annualGroundRent": 100,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "O13523823",
+      "address": "Great Northern Tower, 1 Watson Street, Manchester, Greater Manchester, M3",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:38:26.223Z",
+      "enrichedAt": "2026-10-17T03:38:26.223Z",
+      "lastAttemptAt": "2026-10-17T03:40:53.392Z",
+      "source": "https://www.onthemarket.com/details/13523823/",
+      "verifiedFactKeys": [
+        "tenure",
+        "annualGroundRent",
+        "annualServiceCharge",
+        "price",
+        "priceQualifier",
+        "bedrooms",
+        "epc",
+        "leaseYearsRemaining"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/13523823",
+          "attemptedAt": "2026-10-17T03:40:53.447Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:53.447Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1452,
+          "monthlyCashFlow": 300.54,
+          "grossYield": 6.22,
+          "initialCash": 82000
+        },
+        "newDefault": {
+          "monthlyRent": 1452,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": -134.46,
+          "grossYield": 6.22,
+          "initialCash": 82000,
+          "cashOnly": false,
+          "annualServiceCharge": 4807,
+          "annualGroundRent": 413.02,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R92711379",
+      "address": "Thomas Street, Manchester, M4",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:50.928Z",
+      "enrichedAt": "2026-10-17T03:36:50.928Z",
+      "lastAttemptAt": "2026-10-17T03:40:53.698Z",
+      "source": "https://www.rightmove.co.uk/properties/92711379#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "epc",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92711379",
+          "attemptedAt": "2026-10-17T03:40:53.744Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:53.744Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 220.42,
+          "grossYield": 5.68,
+          "initialCash": 87000
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 220.42,
+          "grossYield": 5.68,
+          "initialCash": 87000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "Z73235683",
+      "address": "Oldham Street, Manchester M4",
+      "status": "blocked",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": null,
+      "enrichedAt": null,
+      "lastAttemptAt": "2026-10-17T03:40:53.995Z",
+      "source": "https://propertydata.co.uk/outbound/zoopla/73235683",
+      "verifiedFactKeys": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73235683",
+          "attemptedAt": "2026-10-17T03:40:54.038Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.038Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 279.54,
+          "grossYield": 6.92,
+          "initialCash": 59500
+        },
+        "newDefault": {
+          "monthlyRent": 1096,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 279.54,
+          "grossYield": 6.92,
+          "initialCash": 59500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R168405656",
+      "address": "High Street, Manchester, M4",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:57.442Z",
+      "enrichedAt": "2026-10-17T03:36:57.442Z",
+      "lastAttemptAt": "2026-10-17T03:40:54.289Z",
+      "source": "https://www.rightmove.co.uk/properties/168405656#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "epc",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/168405656",
+          "attemptedAt": "2026-10-17T03:40:54.320Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.320Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1096,
+          "monthlyCashFlow": 420.17,
+          "grossYield": 9.39,
+          "initialCash": 47000
+        },
+        "newDefault": {
+          "monthlyRent": 1096,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 420.17,
+          "grossYield": 9.39,
+          "initialCash": 47000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R174221831",
+      "address": "The Edge, Clowes Street, Salford",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:36:59.872Z",
+      "enrichedAt": "2026-10-17T03:36:59.872Z",
+      "lastAttemptAt": "2026-10-17T03:40:54.573Z",
+      "source": "https://www.rightmove.co.uk/properties/174221831#/",
+      "verifiedFactKeys": [
+        "epc",
+        "lease",
+        "annualGroundRent",
+        "annualServiceCharge",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174221831",
+          "attemptedAt": "2026-10-17T03:40:54.624Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.624Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1304,
+          "monthlyCashFlow": 467.83,
+          "grossYield": 8.69,
+          "initialCash": 57000
+        },
+        "newDefault": {
+          "monthlyRent": 1304,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 188.58,
+          "grossYield": 8.69,
+          "initialCash": 57000,
+          "cashOnly": false,
+          "annualServiceCharge": 3100.96,
+          "annualGroundRent": 250,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R91980603",
+      "address": "Great Northern Tower, 1 Watson Street, Manchester City Centre, M3",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:37:02.958Z",
+      "enrichedAt": "2026-10-17T03:37:02.958Z",
+      "lastAttemptAt": "2026-10-17T03:40:54.875Z",
+      "source": "https://www.rightmove.co.uk/properties/91980603#/",
+      "verifiedFactKeys": [
+        "epc",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91980603",
+          "attemptedAt": "2026-10-17T03:40:54.917Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:54.917Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1452,
+          "monthlyCashFlow": 525.54,
+          "grossYield": 8.71,
+          "initialCash": 62000
+        },
+        "newDefault": {
+          "monthlyRent": 1452,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 525.54,
+          "grossYield": 8.71,
+          "initialCash": 62000,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": null,
+          "knownAcquisitionFees": 0,
+          "missingCosts": [
+            "Service / estate charges",
+            "Ground rent"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R94093488",
+      "address": "Clowes Street, Salford, M3",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:37:06.033Z",
+      "enrichedAt": "2026-10-17T03:37:06.033Z",
+      "lastAttemptAt": "2026-10-17T03:40:55.168Z",
+      "source": "https://www.rightmove.co.uk/properties/94093488#/",
+      "verifiedFactKeys": [
+        "annualGroundRent",
+        "annualServiceCharge",
+        "epc",
+        "price",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94093488",
+          "attemptedAt": "2026-10-17T03:40:55.209Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:55.209Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1304,
+          "monthlyCashFlow": 462.21,
+          "grossYield": 8.6,
+          "initialCash": 57500
+        },
+        "newDefault": {
+          "monthlyRent": 1304,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 211.79,
+          "grossYield": 8.6,
+          "initialCash": 57500,
+          "cashOnly": false,
+          "annualServiceCharge": 2880,
+          "annualGroundRent": 125,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R90003303",
+      "address": "Northern Quarter, M4",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:37:08.880Z",
+      "enrichedAt": "2026-10-17T03:37:08.880Z",
+      "lastAttemptAt": "2026-10-17T03:40:55.460Z",
+      "source": "https://www.rightmove.co.uk/properties/90003303#/",
+      "verifiedFactKeys": [
+        "epc",
+        "annualGroundRent",
+        "annualServiceCharge",
+        "price",
+        "tenure",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90003303",
+          "attemptedAt": "2026-10-17T03:40:55.505Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:55.505Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 501.81,
+          "grossYield": 8.53,
+          "initialCash": 61987.5
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 318.48,
+          "grossYield": 8.53,
+          "initialCash": 61987.5,
+          "cashOnly": false,
+          "annualServiceCharge": 2050,
+          "annualGroundRent": 150,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R94378338",
+      "address": "Tiber Place, 29 Tib Street, Manchester",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:37:12.088Z",
+      "enrichedAt": "2026-10-17T03:37:12.088Z",
+      "lastAttemptAt": "2026-10-17T03:40:55.756Z",
+      "source": "https://www.rightmove.co.uk/properties/94378338#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "annualServiceCharge",
+        "annualGroundRent",
+        "epc",
+        "price",
+        "leaseYearsRemaining",
+        "bedrooms"
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94378338",
+          "attemptedAt": "2026-10-17T03:40:55.804Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:55.804Z"
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1421,
+          "monthlyCashFlow": 150.11,
+          "grossYield": 5.25,
+          "initialCash": 93250
+        },
+        "newDefault": {
+          "monthlyRent": 1421,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": -29.89,
+          "grossYield": 5.25,
+          "initialCash": 93250,
+          "cashOnly": false,
+          "annualServiceCharge": 1860,
+          "annualGroundRent": 300,
+          "knownAcquisitionFees": 0,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    },
+    {
+      "id": "R94268109",
+      "address": "Linter Building, 44 Whitworth Street, City Centre",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:37:14.990Z",
+      "enrichedAt": "2026-10-17T03:37:14.990Z",
+      "lastAttemptAt": "2026-10-17T03:40:56.054Z",
+      "source": "https://www.rightmove.co.uk/properties/94268109#/",
+      "verifiedFactKeys": [
+        "annualGroundRent",
+        "lease",
+        "buyerCheckFee",
+        "price",
+        "priceQualifier",
+        "tenure",
+        "bedrooms"
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 246 years remaining; portal says 250. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94268109",
+          "attemptedAt": "2026-10-17T03:40:56.096Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:56.096Z"
+        },
+        {
+          "url": "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC6705",
+          "attemptedAt": "2026-10-17T03:40:57.815Z",
+          "outcome": "identity-mismatch",
+          "detail": "Original source accessible, but current portal identity could not be reverified. No new facts accepted."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 1443,
+          "monthlyCashFlow": 40.49,
+          "grossYield": 4.68,
+          "initialCash": 104500
+        },
+        "newDefault": {
+          "monthlyRent": 1443,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 40.49,
+          "grossYield": 4.68,
+          "initialCash": 104500,
+          "cashOnly": false,
+          "annualServiceCharge": null,
+          "annualGroundRent": 0,
+          "knownAcquisitionFees": 60,
+          "missingCosts": [
+            "Service / estate charges"
+          ]
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": false
+      }
+    },
+    {
+      "id": "R175034762",
+      "address": "Linter Building, 44 Whitworth Street, City Centre",
+      "status": "partial",
+      "providerRetrievedAt": "2026-10-16T16:14:41.967Z",
+      "sourceRetrievedAt": "2026-10-17T03:37:18.042Z",
+      "enrichedAt": "2026-10-17T03:37:18.042Z",
+      "lastAttemptAt": "2026-10-17T03:40:58.067Z",
+      "source": "https://www.rightmove.co.uk/properties/175034762#/",
+      "verifiedFactKeys": [
+        "tenure",
+        "annualServiceCharge",
+        "annualGroundRent",
+        "lease",
+        "buyerCheckFee",
+        "price",
+        "bedrooms"
+      ],
+      "conflicts": [
+        "Lease conflict: description implies about 242 years remaining; portal says 248. Confirm the lease document."
+      ],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/175034762",
+          "attemptedAt": "2026-10-17T03:40:58.098Z",
+          "outcome": "blocked",
+          "detail": "HTTP 429; no access-control bypass or retry attempted.",
+          "retryAfter": "2026-10-17T09:40:58.098Z"
+        },
+        {
+          "url": "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC5826",
+          "attemptedAt": "2026-10-17T03:40:58.321Z",
+          "outcome": "identity-mismatch",
+          "detail": "Original source accessible, but current portal identity could not be reverified. No new facts accepted."
+        }
+      ],
+      "financials": {
+        "previousDefault": {
+          "monthlyRent": 2665,
+          "monthlyCashFlow": 714.24,
+          "grossYield": 6.88,
+          "initialCash": 128250
+        },
+        "newDefault": {
+          "monthlyRent": 2665,
+          "rentSource": "Local advertised-rent estimate",
+          "monthlyCashFlow": 384.44,
+          "grossYield": 6.88,
+          "initialCash": 128250,
+          "cashOnly": false,
+          "annualServiceCharge": 3956.61,
+          "annualGroundRent": 1,
+          "knownAcquisitionFees": 60,
+          "missingCosts": []
+        },
+        "optionalAgentScenario": null,
+        "defaultCashFlowChanged": true
+      }
+    }
+  ]
+}
