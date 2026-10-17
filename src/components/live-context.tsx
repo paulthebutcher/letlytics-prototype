@@ -184,20 +184,6 @@ export function LiveProvider({
             </Link>
           </nav>
         </header>
-        <div className="live-data-updated">
-          <time dateTime={feed.fetchedAt}>
-            Listings retrieved{" "}
-            {new Date(feed.fetchedAt).toLocaleString("en-GB", {
-              day: "numeric",
-              month: "short",
-              year: "numeric",
-              hour: "2-digit",
-              minute: "2-digit",
-              timeZone: "Europe/London",
-              timeZoneName: "short",
-            })}
-          </time>
-        </div>
         {children}
         <footer className="live-footer">
           <span className="live-footer-brand">letlytics.</span>

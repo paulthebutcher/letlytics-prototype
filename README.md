@@ -2,9 +2,9 @@
 
 A Manchester buy-to-let screening prototype for an experienced landlord: discover current asking-price listings, inspect rental evidence, adjust an offer/financing scenario and compare a shortlist. Built with Next.js 16, React 19 and Leaflet.
 
-The default `/live` journey reads a **saved daily dataset** of PropertyData listings, asking-rent samples and free HM Land Registry sales. Page visits, evidence panels and Vercel builds never call either provider. A small “Listings retrieved” timestamp shows the actual listing retrieval time. The original `/discover` → `/property/[id]` → `/compare` journey remains available as an explicitly **synthetic demo**; its grades are unvalidated illustrative heuristics.
+The default `/live` journey reads a **saved prototype dataset** of PropertyData listings, asking-rent samples and free HM Land Registry sales. Page visits, evidence panels and Vercel builds never call either provider. The original `/discover` → `/property/[id]` → `/compare` journey remains available as an explicitly **synthetic demo**; its grades are unvalidated illustrative heuristics.
 
-All features are available immediately. There is no account, pricing, paywall, payment flow or alert service. The website needs no API key or database. Only the daily refresh job needs a PropertyData key.
+All features are available immediately. There is no account, pricing, paywall, payment flow or alert service. The website needs no API key or database. Only explicitly run data-refresh commands need a PropertyData key. Automatic syncing is paused to conserve the trial API allowance.
 
 ## Run locally
 
@@ -29,26 +29,19 @@ npm run build
 
 `npm test` checks calculations, data normalization, daily refresh behavior and saved-data readers without contacting the providers.
 
-## GitHub, daily updates and Vercel
+## GitHub and Vercel
 
-1. Connect this repository to Vercel. Choose **Next.js**, root `./`, build command `npm run build`, default output directory. No PropertyData environment variable is needed in Vercel.
-2. In GitHub **Settings → Secrets and variables → Actions**, add the repository secret **`PROPERTYDATA_API_KEY`**.
-3. Under **Variables**, add **`SNAPSHOT_COMMIT_EMAIL`**: an email associated with the GitHub account connected to and authorized on the Vercel project. Its GitHub noreply email is fine. Optionally set `SNAPSHOT_COMMIT_NAME`; otherwise the workflow actor's name is used. Vercel checks commit authors for private repositories, so avoid an unrelated bot identity.
-4. Ensure Actions are enabled and the default branch permits this workflow's data commits. Open **Actions → Refresh property data → Run workflow** once. Confirm its data commit produces a Vercel deployment.
+Connect this repository to Vercel. Choose **Next.js**, root `./`, build command `npm run build`, default output directory. No PropertyData environment variable is needed in Vercel. Code pushes deploy the committed snapshot through the Vercel Git integration.
 
-The supplied [workflow](.github/workflows/refresh-property-data.yml) is scheduled for **06:17 UTC daily** on the default branch. It collects data, validates tests and the build, then commits only the three normalized JSON datasets. The connected Vercel Git integration deploys that commit. Successful refreshes require the Actions settings above; connecting Vercel is a separate setup step.
+The daily GitHub Actions sync was disabled and its workflow removed on 17 October 2026 to conserve the free API allowance. Prototype feedback uses the existing saved data. No automatic listing, rental, sales or official-property enrichment runs are scheduled by this repository.
 
-GitHub scheduled jobs may be delayed or skipped; the timestamp stays at the last successful retrieval. A failed listing request leaves both files unchanged. Successful rental evidence can be retained for up to 48 hours if a matching query fails; sales evidence can be retained for up to 30 days. Their individual retrieval dates are preserved. Missing evidence stays unknown. Provider rate limits stop further PropertyData requests during that run; there is no automatic retry storm.
-
-Do not attach the refresh command to `build`, `postinstall`, request handlers or page effects. Code commits should rebuild the same saved data without spending provider credits. The workflow checks its own data and build because commits made using `GITHUB_TOKEN` do not trigger a separate GitHub push workflow. They can still be handled by Vercel's Git integration.
+Manual refresh commands remain available for a deliberate future update. Do not attach them to `build`, `postinstall`, request handlers or page effects. Page visits and deployments do not spend PropertyData API credits. Evidence retains its original retrieval dates in the data and source panels.
 
 Local environment files are excluded from Git and Vercel CLI uploads. PropertyData's trial terms are for development/testing; check its plan terms before wider production use.
 
-Official setup references: [GitHub schedules](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [Actions secrets](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets), [GitHub token trigger behavior](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow), [Vercel Git integration](https://vercel.com/docs/git/vercel-for-github), [Vercel commit-author requirements](https://vercel.com/docs/git#deploying-private-git-repositories).
-
 ## Property-data walkthrough
 
-1. Open `/live`. The daily listing query selects up to 500 nearest high-yield, reduced-price or chain-free matches within eight miles of central Manchester, excluding SSTC. This is a selected feed, not complete market inventory. The observed initial sample was city-centre flats.
+1. Open `/live`. The saved listing query selected up to 500 nearest high-yield, reduced-price or chain-free matches within eight miles of central Manchester, excluding SSTC. This is a selected feed, not complete market inventory. The observed initial sample was city-centre flats.
 2. Inspect the asking price and rental evidence, then open an analysis. The saved listing and rental data appears together, without waiting on either provider. The expanded sample contains 262 listings, with rental evidence for 260; counts can change.
 3. Change **Offer / purchase price**, **Monthly rent**, and **Annual service / estate charge**. Unknown charges are excluded from calculations and prominently labelled; entering an explicit zero is different from unknown. Financing is shared across the shortlist; rent, offer and property costs are per-property inputs.
 4. Open **View recorded sales**. Free HMLR records show completed prices in the same full postcode/type over 36 months. Categories A and B, existing-building transactions are included. Category B (including some investor/company transactions) is labelled and excluded from the median. The displayed median requires at least three Category A records and is context, not a valuation or recommended offer.
@@ -56,7 +49,7 @@ Official setup references: [GitHub schedules](https://docs.github.com/en/actions
 
 ## Data boundaries
 
-- `scripts/refresh-data.ts` is the daily provider entry point; `scripts/enrich-listings.ts` can backfill original-listing evidence separately. It fetches up to 500 Manchester strategy matches, spaces PropertyData requests at least three seconds apart, and deduplicates rental groups and Land Registry postcode/type queries. Responses are normalized before saving; credential echoes are excluded; the listing image URL is retained for the prototype.
+- `scripts/refresh-data.ts` is the manual provider refresh entry point; `scripts/enrich-listings.ts` can backfill original-listing evidence separately. It fetches up to 500 Manchester strategy matches, spaces PropertyData requests at least three seconds apart, and deduplicates rental groups and Land Registry postcode/type queries. Responses are normalized before saving; credential echoes are excluded; the listing image URL is retained for the prototype.
 - `src/data/live-snapshot.json` stores the asking-price listings and rental evidence. The expanded inventory query returned 262 matches, with rental evidence for 260. `src/data/daily-sales.json` contains successful checks for all 186 postcode/type groups: 162 contain sales, 24 are empty, none unavailable. There are 906 distinct displayed transactions, including 180 Category B records. 237 listings have populated nearby sales evidence.
 - `src/lib/daily-data.ts` reads those files. The server layout supplies listing data directly to the UI. `/api/live` is a static read-only snapshot; `/api/sales` reads saved records after validating postcode/type. Neither can refresh data. The former `/api/live/rents` runtime endpoint was removed.
 - Rental samples are shared by postcode district, bedroom count and property type, anchored at the first listing's **full postcode**. They are asking rents, not achieved rents or property valuations. The shown range contains 80% of the sample. Weekly values convert using `52 / 12`; samples below 15 listings or beyond three miles are withheld. Users can replace estimates.
@@ -85,7 +78,7 @@ Canonical and preview URLs use Vercel's production domain, with `letlytics-dev.v
 
 ## Original-listing enrichment
 
-`npm run data:enrich` backfills the current saved listings without re-pulling rents or sales. The existing key can optionally check `/sourced-property` for records without retained provider details; no key is needed for public document retrieval. `-- --force` bypasses the local success cache, never source access restrictions. The normal daily command runs enrichment after sourcing, rents and sales. Vercel serves the resulting saved files and never performs enrichment on a visit.
+`npm run data:enrich` backfills the current saved listings without re-pulling rents or sales. The existing key can optionally check `/sourced-property` for records without retained provider details; no key is needed for public document retrieval. `-- --force` bypasses the local success cache, never source access restrictions. The full refresh command runs enrichment after sourcing, rents and sales. Vercel serves the resulting saved files and never performs enrichment on a visit.
 
 - `scripts/listing-extraction.ts` reads public Rightmove and OnTheMarket document JSON, verifies the exact portal listing ID, then extracts explicit facts. It never executes page scripts. Source descriptions are untrusted data. The parser is conservative: unsupported formats, unspecified charge periods and unreadable EPC images remain unknown.
 - `scripts/enrich-listings-core.ts` follows the provider's outbound/forward links, uses one worker, a five-minute budget, 12-second request timeouts and at most one retry for network/5xx failures. 401/403 are never retried or bypassed. A 429 pauses the whole host, persists Retry-After (six hours if absent), and blocks requests during that window even with `--force`. A host allowlist restricts outgoing documents. Directly linked supported agent brochures require an agent-reference match; building address alone is insufficient. Arbitrary search-result matches are not automatically imported.
@@ -109,6 +102,6 @@ Sales collection now has an independent eight-minute budget, so rental requests 
 
 `src/data/official-evidence.json` holds a separate exact-property layer. Ten original listings were tested: six resolved through PropertyData's `/listing-address` endpoint and four remained unresolved. All six resolved profiles have government EPC pages checked directly against certificate ID, flat number, street/building tokens and postcode, matching HMLR registered leases supplied through PropertyData, and property-specific sales history. No building freehold ownership or neighbouring flat lease is silently assigned to the listed flat. Official certificate data and supplier-mediated registry evidence have distinct labels and retrieval dates. Exact-address mismatches and unreadable certificates stay unconfirmed. EPC assessments have their own assessment/expiry dates; supplier bedroom estimates are not treated as official bedroom counts.
 
-The daily workflow progressively checks more listings with a maximum 30-credit reservation per run, no more than ten resolver attempts, a three-minute time budget, 3.1-second API spacing and a 50-credit account reserve. Successful profiles cache for 30 days, unresolved/failing matches for seven. This does not automatically upgrade a plan or buy credits. The initial extra matching pass reserved 120 credits after the three validation cases. Only the data required by the UI is retained; API keys, owner details, assessor contacts and provider envelopes are discarded.
+The manual refresh progressively checks more listings with a maximum 30-credit reservation per run, no more than ten resolver attempts, a three-minute time budget, 3.1-second API spacing and a 50-credit account reserve. Successful profiles cache for 30 days, unresolved/failing matches for seven. This does not automatically upgrade a plan or buy credits. The initial extra matching pass reserved 120 credits after the three validation cases. Only the data required by the UI is retained; API keys, owner details, assessor contacts and provider envelopes are discarded.
 
 `npm run data:evidence` refreshes sales and the bounded exact-property batch without re-pulling listing prices or rents. `npm run data:refresh` runs the full collection and enrichment pipeline. Runtime pages only read saved snapshots. On the detail page, Property records shows three facts; source documents and property-specific historical sales sit behind a single disclosure. User scenarios and financial overrides remain independent.

@@ -43,7 +43,7 @@ export function OfficialEvidencePanel({
       {!e?.match ? (
         <p className="live-small">
           {e?.message ??
-            "Official EPC and lease checks need an exact property match. Ask the agent for the flat number and EPC certificate; the scheduled checks work through the selection."}
+            "Official EPC and lease checks need an exact property match. Ask the agent for the flat number and EPC certificate."}
         </p>
       ) : (
         <>

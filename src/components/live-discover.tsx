@@ -109,7 +109,6 @@ export function LiveDiscover() {
     <main className="live-page">
       <section className="live-discover-heading">
         <div>
-          <div className="live-eyebrow">BUY-TO-LET WORKSPACE</div>
           <h1>{feed.market} investment properties</h1>
           <p>Screen the opportunity. Test your offer. Check the evidence.</p>
         </div>
