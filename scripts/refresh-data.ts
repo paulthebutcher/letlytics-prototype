@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { RefreshError, refreshDataFiles } from "./refresh-data-core";
 
 import { enrichDataFiles } from "./enrich-listings-core";
+import { refreshOfficialFile } from "./official-evidence-core";
 
 async function main() {
   loadEnvConfig(process.cwd());
@@ -11,6 +12,13 @@ async function main() {
     process.env.PROPERTYDATA_API_KEY ?? "",
   );
   const enriched = await enrichDataFiles(join(process.cwd(), "src/data"));
+  const official = await refreshOfficialFile(
+    join(process.cwd(), "src/data"),
+    process.env.PROPERTYDATA_API_KEY ?? "",
+  );
+  console.log(
+    `Exact-property checks: ${official.attempts} attempted; at most ${official.reservedCredits} API credits reserved.`,
+  );
   console.log(
     `Enrichment: ${Object.values(enriched.records).filter((e) => e.status === "ready").length} ready of ${stats.listings}.`,
   );

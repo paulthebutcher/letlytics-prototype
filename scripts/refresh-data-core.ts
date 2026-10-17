@@ -7,7 +7,11 @@ import {
   normalizeRent,
   rentalGroup,
 } from "../src/lib/propertydata-normalize";
-import type { LiveFeed, RentalEvidence } from "../src/lib/live-types";
+import type {
+  LiveFeed,
+  LiveProperty,
+  RentalEvidence,
+} from "../src/lib/live-types";
 import {
   emptySalesEvidence,
   normalizeSalesResponse,
@@ -54,6 +58,7 @@ type Dependencies = {
   now?: () => number;
   sleep?: (ms: number) => Promise<void>;
   budgetMs?: number;
+  sourcingSnapshot?: { payload: unknown; fetchedAt: string };
 };
 export class RefreshError extends Error {}
 class ProviderError extends RefreshError {
@@ -93,7 +98,6 @@ WHERE {
     ppi:propertyType ?propertyType;
     ppi:newBuild false;
     ppi:newBuild ?newBuild;
-    ppi:transactionCategory ppi:standardPricePaidTransaction;
     ppi:transactionCategory ?category.
   FILTER (?date >= ${JSON.stringify(salesPeriodStart(now))}^^xsd:date)
   ?address common:postcode ?postcode.
@@ -174,7 +178,7 @@ export async function collectDailyData(
         `https://api.propertydata.co.uk/${endpoint}?${new URLSearchParams(params)}`,
         {
           headers: { "X-API-Key": apiKey.trim(), Accept: "application/json" },
-          signal: timeout(endpoint === "sourced-properties" ? 35_000 : 12_000),
+          signal: timeout(endpoint === "sourced-properties" ? 60_000 : 12_000),
         },
       );
     } catch {
@@ -219,21 +223,24 @@ export async function collectDailyData(
 
   let source: unknown;
   try {
-    source = await propertyData("sourced-properties", {
-      location: "53.4808,-2.2426",
-      radius: "8",
-      results: "40",
-      exclude_sstc: "1",
-      list: "high-yield-properties,reduced-properties,properties-with-no-chain",
-      standardised_type:
-        "flat,terraced_house,semi-detached_house,detached_house",
-    });
+    source =
+      deps.sourcingSnapshot?.payload ??
+      (await propertyData("sourced-properties", {
+        location: "53.4808,-2.2426",
+        radius: "8",
+        results: "500",
+        exclude_sstc: "1",
+        list: "high-yield-properties,reduced-properties,properties-with-no-chain",
+        standardised_type:
+          "flat,terraced_house,semi-detached_house,detached_house",
+      }));
   } catch (error) {
     throw new RefreshError(
       `${error instanceof RefreshError ? error.message : "Listing refresh failed."} Saved data was kept.`,
     );
   }
-  const fetchedAt = new Date(now()).toISOString();
+  const fetchedAt =
+    deps.sourcingSnapshot?.fetchedAt ?? new Date(now()).toISOString();
   const properties = normalizeListings(source, fetchedAt);
   if (!properties.length)
     throw new RefreshError(
@@ -296,6 +303,55 @@ export async function collectDailyData(
     }
   }
 
+  const collectedSales = await collectSalesEvidence(
+    properties,
+    previousSales,
+    deps,
+  );
+  stats.salesQueries = collectedSales.stats.salesQueries;
+  stats.freshSalesGroups = collectedSales.stats.freshSalesGroups;
+  stats.retainedSalesGroups = collectedSales.stats.retainedSalesGroups;
+  return {
+    feed: {
+      market: "Manchester",
+      fetchedAt,
+      properties,
+      warnings: [
+        "Asking-rent samples are shared by postcode district, bedroom count and property type. Each sample shows its search postcode and radius; it is not a property valuation.",
+      ],
+      scope: `Up to 500 high-yield, reduced-price or chain-free strategy matches within 8 miles of central Manchester. ${properties.length} returned in this update; not the whole market or a guarantee of letting suitability.`,
+      inventory: {
+        returned: properties.length,
+        requested: 500,
+        radiusMiles: 8,
+        capped: properties.length >= 500,
+      },
+    },
+    sales: collectedSales.sales,
+    stats,
+  };
+}
+
+/** Sales have their own time budget: rental requests must not starve free recorded-sale evidence. */
+export async function collectSalesEvidence(
+  properties: LiveProperty[],
+  previousSales: DailySales | null,
+  deps: Dependencies = {},
+) {
+  const fetchData = deps.fetch ?? fetch;
+  const now = deps.now ?? Date.now;
+  const sleep =
+    deps.sleep ??
+    ((ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms)));
+  const deadline =
+    now() + Math.min(deps.budgetMs ?? COLLECTION_BUDGET, COLLECTION_BUDGET);
+  const timeout = (maximum: number) =>
+    AbortSignal.timeout(Math.max(1, Math.min(maximum, deadline - now())));
+  const stats = {
+    salesQueries: 0,
+    freshSalesGroups: 0,
+    retainedSalesGroups: 0,
+  };
   const records: Record<string, SalesEvidence> = {};
   const salesQueries = new Map<string, SalesQuery>();
   for (const property of properties) {
@@ -306,6 +362,16 @@ export async function collectDailyData(
   let salesHalted = false;
   let lastSalesEnd = -Infinity;
   for (const [key, query] of salesQueries) {
+    const cached = previousSales?.records[key];
+    if (
+      cached?.policyVersion === 2 &&
+      ["ready", "empty"].includes(cached.status) &&
+      ageWithin(cached.fetchedAt, now(), 7 * DAY)
+    ) {
+      records[key] = cached;
+      stats.retainedSalesGroups++;
+      continue;
+    }
     let evidence: SalesEvidence | null = null;
     const wait = Math.max(0, 200 - (now() - lastSalesEnd));
     if (!salesHalted && now() + wait < deadline) {
@@ -358,17 +424,8 @@ export async function collectDailyData(
     }
     records[key] = evidence;
   }
+
   return {
-    feed: {
-      market: "Manchester",
-      fetchedAt,
-      properties,
-      warnings: [
-        "Asking-rent samples are shared by postcode district, bedroom count and property type. Each sample shows its search postcode and radius; it is not a property valuation.",
-      ],
-      scope:
-        "Up to 40 nearest high-yield, reduced-price or chain-free strategy matches within 8 miles of central Manchester. This is a selected sample, not the whole market.",
-    },
     sales: { fetchedAt: new Date(now()).toISOString(), records },
     stats,
   };

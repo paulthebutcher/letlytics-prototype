@@ -3741,3 +3741,46 @@
     padding: 14px;
   }
 }
+.live-official-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+.live-official-summary span,
+.live-official-record small {
+  display: block;
+  color: var(--muted, #626c69);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.live-official-summary strong {
+  font-size: 18px;
+}
+.live-official-record {
+  border-top: 1px solid var(--line, #dde3df);
+  padding: 16px 0;
+}
+.live-official-record p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+.live-official-record a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.live-official-record small {
+  margin-top: 8px;
+}
+@media (max-width: 520px) {
+  .live-official-summary {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .live-official-summary div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+  }
+}

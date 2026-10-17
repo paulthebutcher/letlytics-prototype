@@ -31,6 +31,7 @@ import {
   priceLabel,
 } from "@/lib/listing-evidence";
 import { LiveSales } from "./live-sales";
+import { OfficialEvidencePanel } from "./official-evidence";
 
 export function LiveAnalysis({ id }: { id: string }) {
   const { feed, assumptions, overrides } = useLive();
@@ -50,6 +51,10 @@ export function LiveAnalysis({ id }: { id: string }) {
       </main>
     );
   const p = property;
+  const officialEpc =
+    p.official?.epc?.verification === "official-certificate"
+      ? p.official.epc
+      : null;
   const override = overrides[id] ?? {};
   const calculation = liveFinancials(p, assumptions, override);
   const f = calculation.financials;
@@ -144,9 +149,10 @@ export function LiveAnalysis({ id }: { id: string }) {
             </p>
             <div className="live-detail-facts">
               <span>
-                EPC{" "}
+                {officialEpc ? "EPC (register)" : "EPC (advert)"}{" "}
                 <b>
-                  {verifiedFact<string>(p, "epc") ??
+                  {officialEpc?.rating ??
+                    verifiedFact<string>(p, "epc") ??
                     p.epcRating ??
                     "To confirm"}
                 </b>
@@ -493,11 +499,14 @@ export function LiveAnalysis({ id }: { id: string }) {
                 </strong>
               </div>
               <div className="live-cost-total">
-                <strong>All-in buying-cost allowance</strong>
+                <div>
+                  <strong>All-in buying-cost allowance</strong>
+                </div>
                 <strong>{liveMoney(calculation.buyingCosts, 2)}</strong>
               </div>
             </section>
           )}
+          <OfficialEvidencePanel property={p} />
           <ListingEvidence property={p} />
           <section className="live-section" id="rental-evidence">
             <div className="live-section-title">
@@ -655,9 +664,10 @@ export function LiveAnalysis({ id }: { id: string }) {
             </div>
             <div className="live-known-facts">
               <span>
-                EPC{" "}
+                {officialEpc ? "EPC (register)" : "EPC (advert)"}{" "}
                 <b>
-                  {verifiedFact<string>(p, "epc") ??
+                  {officialEpc?.rating ??
+                    verifiedFact<string>(p, "epc") ??
                     p.epcRating ??
                     "Not supplied"}
                 </b>

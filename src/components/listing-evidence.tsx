@@ -65,6 +65,9 @@ export function ListingWarnings({
   if (compact)
     return (
       <div className="live-listing-flags">
+        {!!property.sameAddressListingIds?.length && (
+          <span>Address match to check</span>
+        )}
         {verifiedFact<boolean>(property, "auction") && (
           <span>Auction guide</span>
         )}

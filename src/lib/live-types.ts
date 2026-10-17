@@ -1,4 +1,5 @@
 import type { ListingEnrichment } from "./enrichment-types";
+import type { OfficialEvidence } from "./official-types";
 import type { Assumptions, Financials } from "./types";
 
 export interface RentalComparable {
@@ -38,6 +39,9 @@ export interface LiveProperty {
     yearsRemaining?: number;
   };
   enrichment?: ListingEnrichment;
+  official?: OfficialEvidence;
+  preciseAddress?: string;
+  sameAddressListingIds?: string[];
   strategies: string[];
   fetchedAt: string;
   rent: RentalEvidence | null;
@@ -53,6 +57,12 @@ export interface LiveFeed {
   properties: LiveProperty[];
   warnings: string[];
   scope: string;
+  inventory?: {
+    returned: number;
+    requested: number;
+    radiusMiles: number;
+    capped: boolean;
+  };
 }
 export interface LiveOverrides {
   monthlyRent?: number;

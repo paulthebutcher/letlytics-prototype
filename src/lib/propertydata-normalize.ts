@@ -99,6 +99,9 @@ export function normalizeListings(
       {
         id,
         address,
+        ...(text(p.precise_address)
+          ? { preciseAddress: text(p.precise_address).slice(0, 300) }
+          : {}),
         postcode,
         price,
         lat,

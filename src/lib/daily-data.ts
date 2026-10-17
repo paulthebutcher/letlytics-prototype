@@ -2,6 +2,8 @@ import enrichment from "../data/listing-enrichment.json";
 import type { EnrichmentStore } from "./enrichment-types";
 import savedFeed from "../data/live-snapshot.json";
 import savedSales from "../data/daily-sales.json";
+import savedOfficial from "../data/official-evidence.json";
+import type { OfficialStore } from "./official-types";
 import type { LiveFeed } from "./live-types";
 import {
   emptySalesEvidence,
@@ -17,6 +19,19 @@ export function getDailyFeed(): LiveFeed {
     ...feed,
     properties: feed.properties.map((p) => ({
       ...p,
+      sameAddressListingIds: p.preciseAddress
+        ? feed.properties
+            .filter(
+              (other) =>
+                other.id !== p.id &&
+                other.preciseAddress
+                  ?.toUpperCase()
+                  .replace(/[^A-Z0-9]/g, "") ===
+                  p.preciseAddress!.toUpperCase().replace(/[^A-Z0-9]/g, ""),
+            )
+            .map((other) => other.id)
+        : [],
+      official: (savedOfficial as OfficialStore).records[p.id],
       enrichment:
         records[p.id]?.listingUrl === p.listingUrl ? records[p.id] : undefined,
     })),

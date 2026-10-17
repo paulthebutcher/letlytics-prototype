@@ -93,10 +93,7 @@ test("daily collection spaces PropertyData calls, deduplicates cohorts, and stri
       return response(rentPayload);
     }
     assert.equal(new Headers(init?.headers).get("X-API-Key"), null);
-    assert.match(
-      url.searchParams.get("query")!,
-      /standardPricePaidTransaction/,
-    );
+    assert.match(url.searchParams.get("query")!, /transactionCategory/);
     return response({ results: { bindings: [] } });
   }) as typeof fetch;
   const result = await collectDailyData(secret, null, null, {
@@ -251,4 +248,27 @@ test("Retry-After HTTP dates are respected without attempting a retry", () => {
     "2026-10-16T13:00:00.000Z",
   );
   assert.equal(retryAfterDate(null, start), "2026-10-16T12:05:00.000Z");
+});
+
+test("sales get a fresh collection budget after rental requests consume theirs", async () => {
+  const c = clock();
+  let salesCalls = 0;
+  const result = await collectDailyData(secret, null, null, {
+    ...c,
+    budgetMs: 5000,
+    fetch: (async (input) => {
+      const url = new URL(String(input));
+      if (url.pathname === "/sourced-properties")
+        return response({ status: "success", properties: [listing] });
+      if (url.pathname === "/rents") {
+        await c.sleep(2500);
+        return response(rentPayload);
+      }
+      salesCalls++;
+      return response({ results: { bindings: [] } });
+    }) as typeof fetch,
+  });
+  assert.ok(c.now() - start > 5000);
+  assert.equal(salesCalls, 1);
+  assert.equal(result.sales.records["M2 1HN:Flat"].status, "empty");
 });

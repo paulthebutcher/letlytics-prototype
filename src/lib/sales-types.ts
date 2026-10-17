@@ -26,6 +26,7 @@ export type RecordedSale = {
 };
 
 export type SalesEvidence = {
+  policyVersion?: number;
   status: "ready" | "empty" | "unavailable" | "invalid";
   postcode: string;
   propertyType: SalesPropertyType | null;
@@ -81,7 +82,10 @@ export function parseSalesQuery(
   ) {
     return null;
   }
-  return { postcode: normalized, propertyType: propertyType as SalesPropertyType };
+  return {
+    postcode: normalized,
+    propertyType: propertyType as SalesPropertyType,
+  };
 }
 
 export function salesPeriodStart(now: Date): string {
@@ -97,6 +101,7 @@ export function emptySalesEvidence(
   now = new Date(),
 ): SalesEvidence {
   return {
+    policyVersion: 2,
     status,
     postcode: query?.postcode ?? "",
     propertyType: query?.propertyType ?? null,
@@ -107,7 +112,7 @@ export function emptySalesEvidence(
     medianPrice: null,
     truncated: false,
     scope: query
-      ? `Up to 12 ${query.propertyType.toLowerCase()} sales in ${query.postcode}, past 36 months. Standard category A, existing buildings only; mixed tenures.`
+      ? `Up to 12 ${query.propertyType.toLowerCase()} sales in ${query.postcode}, past 36 months. Categories A and B, existing buildings only; mixed tenures. Median uses category A only.`
       : "England and Wales recorded residential sales only.",
     caveat: SALES_CAVEAT,
     attribution: SALES_ATTRIBUTION,
@@ -166,7 +171,10 @@ export function normalizeSalesResponse(
       price <= 0 ||
       postcode !== query.postcode ||
       type !== `${COMMON}${SALES_TYPE_RESOURCE[query.propertyType]}` ||
-      category !== `${PPI}standardPricePaidTransaction` ||
+      ![
+        `${PPI}standardPricePaidTransaction`,
+        `${PPI}additionalPricePaidTransaction`,
+      ].includes(category ?? "") ||
       (newBuild !== "false" && newBuild !== "0") ||
       !paon ||
       !street
@@ -189,7 +197,7 @@ export function normalizeSalesResponse(
             ? "Leasehold"
             : null,
       newBuild: false,
-      category: "A",
+      category: category === `${PPI}standardPricePaidTransaction` ? "A" : "B",
       sourceUrl: `https://landregistry.data.gov.uk/data/ppi/transaction/${normalizedId}/current`,
     });
   }
@@ -197,7 +205,10 @@ export function normalizeSalesResponse(
     (a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id),
   );
   const sales = normalized.slice(0, 12);
-  const prices = sales.map((sale) => sale.price).sort((a, b) => a - b);
+  const prices = sales
+    .filter((sale) => sale.category === "A")
+    .map((sale) => sale.price)
+    .sort((a, b) => a - b);
   const middle = Math.floor(prices.length / 2);
   const medianPrice =
     prices.length < 3

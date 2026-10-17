@@ -35,6 +35,10 @@ export function priceLabel(p: LiveProperty) {
 export function listingWarnings(p: LiveProperty): string[] {
   const e = p.enrichment;
   const warnings: string[] = [];
+  if (p.sameAddressListingIds?.length)
+    warnings.push(
+      "The supplier assigns this flat address to another listing in the selection. Confirm the exact unit, price and bedroom count with the agent; these may be duplicate or mismatched adverts.",
+    );
   if (verifiedFact<boolean>(p, "auction"))
     warnings.push(
       "Auction: guide price is not the final purchase price. Check fees and legal pack.",

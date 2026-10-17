@@ -3102,6 +3102,5109 @@
         "https://webservices.acquaintcrm.co.uk/PropertyDetails.aspx?data=GOFC5826"
       ],
       "providerSignature": "[465000,3,\"Flat\",\"M1 3AW\",null,null]"
+    },
+    "R92520966": {
+      "version": 1,
+      "providerSignature": "[195000,1,\"Flat\",\"M1 5JF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92520966",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92520966",
+      "attemptedAt": "2026-10-17T04:16:44.465Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92520966",
+          "attemptedAt": "2026-10-17T04:16:44.467Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174731516": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M4 1HT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174731516",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174731516",
+      "attemptedAt": "2026-10-17T04:16:44.718Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174731516",
+          "attemptedAt": "2026-10-17T04:16:44.721Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88667631": {
+      "version": 1,
+      "providerSignature": "[325000,2,\"Flat\",\"M1 3AR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88667631",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88667631",
+      "attemptedAt": "2026-10-17T04:16:44.973Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "B",
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/88667631",
+          "retrievedAt": "2026-10-17T04:16:44.973Z",
+          "excerpt": "EPC rating B",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88667631",
+          "attemptedAt": "2026-10-17T04:16:44.974Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94220847": {
+      "version": 1,
+      "providerSignature": "[150000,1,\"Flat\",\"M3 5ND\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94220847",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94220847",
+      "attemptedAt": "2026-10-17T04:16:45.226Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94220847",
+          "attemptedAt": "2026-10-17T04:16:45.229Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73744532": {
+      "version": 1,
+      "providerSignature": "[290000,2,\"Flat\",\"M3 5FF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73744532",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73744532",
+      "attemptedAt": "2026-10-17T04:16:45.480Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73744532",
+          "attemptedAt": "2026-10-17T04:16:45.480Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91514895": {
+      "version": 1,
+      "providerSignature": "[223000,2,\"Flat\",\"M4 1HG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91514895",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91514895",
+      "attemptedAt": "2026-10-17T04:16:45.731Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91514895",
+          "attemptedAt": "2026-10-17T04:16:45.732Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R87315714": {
+      "version": 1,
+      "providerSignature": "[260000,2,\"Flat\",\"M3 7GN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/87315714",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/87315714",
+      "attemptedAt": "2026-10-17T04:16:45.983Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/87315714",
+          "attemptedAt": "2026-10-17T04:16:45.983Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94185018": {
+      "version": 1,
+      "providerSignature": "[150000,1,\"Flat\",\"M4 1HQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94185018",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94185018",
+      "attemptedAt": "2026-10-17T04:16:46.234Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94185018",
+          "attemptedAt": "2026-10-17T04:16:46.235Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R146667101": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M3 7GN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/146667101",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/146667101",
+      "attemptedAt": "2026-10-17T04:16:46.486Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/146667101",
+          "attemptedAt": "2026-10-17T04:16:46.487Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R155731334": {
+      "version": 1,
+      "providerSignature": "[238000,2,\"Flat\",\"M3 7GH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/155731334",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/155731334",
+      "attemptedAt": "2026-10-17T04:16:46.739Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/155731334",
+          "attemptedAt": "2026-10-17T04:16:46.740Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93715335": {
+      "version": 1,
+      "providerSignature": "[300000,3,\"Flat\",\"M1 5JW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93715335",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93715335",
+      "attemptedAt": "2026-10-17T04:16:46.991Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93715335",
+          "attemptedAt": "2026-10-17T04:16:46.991Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R144681941": {
+      "version": 1,
+      "providerSignature": "[214000,1,\"Flat\",\"M3 7GN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/144681941",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/144681941",
+      "attemptedAt": "2026-10-17T04:16:47.243Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/144681941",
+          "attemptedAt": "2026-10-17T04:16:47.243Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89577681": {
+      "version": 1,
+      "providerSignature": "[52000,0,\"Flat\",\"M1 6LQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89577681",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89577681",
+      "attemptedAt": "2026-10-17T04:16:47.494Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "studio",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/89577681",
+          "retrievedAt": "2026-10-17T04:16:47.494Z",
+          "excerpt": "This first-floor studio apartment is located in Lancaster House",
+          "status": "reported",
+          "sourceKind": "provider"
+        },
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/89577681",
+          "retrievedAt": "2026-10-17T04:16:47.494Z",
+          "excerpt": "odern Method of Auction, cash buyers only.",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89577681",
+          "attemptedAt": "2026-10-17T04:16:47.496Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93122574": {
+      "version": 1,
+      "providerSignature": "[280000,2,\"Flat\",\"M1 2PE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93122574",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93122574",
+      "attemptedAt": "2026-10-17T04:16:47.746Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93122574",
+          "attemptedAt": "2026-10-17T04:16:47.747Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91258113": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M1 5EB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91258113",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91258113",
+      "attemptedAt": "2026-10-17T04:16:47.999Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91258113",
+          "attemptedAt": "2026-10-17T04:16:47.999Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88377459": {
+      "version": 1,
+      "providerSignature": "[100000,0,\"Flat\",\"M3 4PF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88377459",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88377459",
+      "attemptedAt": "2026-10-17T04:16:48.250Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "studio",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/88377459",
+          "retrievedAt": "2026-10-17T04:16:48.250Z",
+          "excerpt": "This studio flat is approved for short-term le",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88377459",
+          "attemptedAt": "2026-10-17T04:16:48.251Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R152250518": {
+      "version": 1,
+      "providerSignature": "[170000,2,\"Flat\",\"M1 5EB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/152250518",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/152250518",
+      "attemptedAt": "2026-10-17T04:16:48.502Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/152250518",
+          "attemptedAt": "2026-10-17T04:16:48.503Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O15779640": {
+      "version": 1,
+      "providerSignature": "[190000,2,\"Flat\",\"M1 5ED\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/15779640",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/15779640",
+      "attemptedAt": "2026-10-17T04:16:48.754Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/15779640",
+          "attemptedAt": "2026-10-17T04:16:48.755Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R151538393": {
+      "version": 1,
+      "providerSignature": "[149950,1,\"Flat\",\"M1 2EH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/151538393",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/151538393",
+      "attemptedAt": "2026-10-17T04:16:49.006Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/151538393",
+          "attemptedAt": "2026-10-17T04:16:49.006Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92492373": {
+      "version": 1,
+      "providerSignature": "[160000,1,\"Flat\",\"M1 2HS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92492373",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92492373",
+      "attemptedAt": "2026-10-17T04:16:49.258Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92492373",
+          "attemptedAt": "2026-10-17T04:16:49.258Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92030667": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M1 6BE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92030667",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92030667",
+      "attemptedAt": "2026-10-17T04:16:49.509Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92030667",
+          "attemptedAt": "2026-10-17T04:16:49.509Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92072274": {
+      "version": 1,
+      "providerSignature": "[210000,2,\"Flat\",\"M3 5GR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92072274",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92072274",
+      "attemptedAt": "2026-10-17T04:16:49.760Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/92072274",
+          "retrievedAt": "2026-10-17T04:16:49.760Z",
+          "excerpt": "This two-bedroom, two-bathroom apartment is being sold by auction on the 30th floor of a prime Manchester city centre development.",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92072274",
+          "attemptedAt": "2026-10-17T04:16:49.760Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91632342": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M3 5GN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91632342",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91632342",
+      "attemptedAt": "2026-10-17T04:16:50.011Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91632342",
+          "attemptedAt": "2026-10-17T04:16:50.012Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89200302": {
+      "version": 1,
+      "providerSignature": "[215000,2,\"Flat\",\"M1 3WS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89200302",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89200302",
+      "attemptedAt": "2026-10-17T04:16:50.263Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89200302",
+          "attemptedAt": "2026-10-17T04:16:50.263Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94193763": {
+      "version": 1,
+      "providerSignature": "[155000,1,\"Flat\",\"M1 3BP\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94193763",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94193763",
+      "attemptedAt": "2026-10-17T04:16:50.515Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94193763",
+          "attemptedAt": "2026-10-17T04:16:50.515Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R168401687": {
+      "version": 1,
+      "providerSignature": "[270000,2,\"Flat\",\"M1 5ED\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/168401687",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/168401687",
+      "attemptedAt": "2026-10-17T04:16:50.767Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/168401687",
+          "attemptedAt": "2026-10-17T04:16:50.767Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93030588": {
+      "version": 1,
+      "providerSignature": "[175000,1,\"Flat\",\"M1 3BR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93030588",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93030588",
+      "attemptedAt": "2026-10-17T04:16:51.017Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93030588",
+          "attemptedAt": "2026-10-17T04:16:51.018Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R158634206": {
+      "version": 1,
+      "providerSignature": "[280000,2,\"Flat\",\"M3 3AE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/158634206",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/158634206",
+      "attemptedAt": "2026-10-17T04:16:51.269Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "achievedRent",
+          "value": 1500,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/158634206",
+          "retrievedAt": "2026-10-17T04:16:51.269Z",
+          "excerpt": "Currently let at £1,500 per month",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/158634206",
+          "attemptedAt": "2026-10-17T04:16:51.269Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174784109": {
+      "version": 1,
+      "providerSignature": "[210000,2,\"Flat\",\"M3 3AH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174784109",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174784109",
+      "attemptedAt": "2026-10-17T04:16:51.520Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174784109",
+          "attemptedAt": "2026-10-17T04:16:51.520Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89436087": {
+      "version": 1,
+      "providerSignature": "[180000,1,\"Flat\",\"M1 3WE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89436087",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89436087",
+      "attemptedAt": "2026-10-17T04:16:51.771Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89436087",
+          "attemptedAt": "2026-10-17T04:16:51.772Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R157194350": {
+      "version": 1,
+      "providerSignature": "[620000,3,\"Flat\",\"M4 5FQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/157194350",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/157194350",
+      "attemptedAt": "2026-10-17T04:16:52.023Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/157194350",
+          "attemptedAt": "2026-10-17T04:16:52.023Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94286634": {
+      "version": 1,
+      "providerSignature": "[355000,3,\"Flat\",\"M1 7AB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94286634",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94286634",
+      "attemptedAt": "2026-10-17T04:16:52.274Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94286634",
+          "attemptedAt": "2026-10-17T04:16:52.274Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92682666": {
+      "version": 1,
+      "providerSignature": "[460000,2,\"Flat\",\"M1 5LP\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92682666",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92682666",
+      "attemptedAt": "2026-10-17T04:16:52.526Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92682666",
+          "attemptedAt": "2026-10-17T04:16:52.526Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R164014067": {
+      "version": 1,
+      "providerSignature": "[210000,2,\"Flat\",\"M1 5BE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164014067",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/164014067",
+      "attemptedAt": "2026-10-17T04:16:52.777Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/164014067",
+          "retrievedAt": "2026-10-17T04:16:52.777Z",
+          "excerpt": "EPC Rating C",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/164014067",
+          "attemptedAt": "2026-10-17T04:16:52.779Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O14608592": {
+      "version": 1,
+      "providerSignature": "[175000,1,\"Flat\",\"M3 3AF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/14608592",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/14608592",
+      "attemptedAt": "2026-10-17T04:16:53.030Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/14608592",
+          "attemptedAt": "2026-10-17T04:16:53.031Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R129153755": {
+      "version": 1,
+      "providerSignature": "[160000,1,\"Flat\",\"M3 3AE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/129153755",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/129153755",
+      "attemptedAt": "2026-10-17T04:16:53.282Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/129153755",
+          "attemptedAt": "2026-10-17T04:16:53.283Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z71984772": {
+      "version": 1,
+      "providerSignature": "[95000,1,\"Flat\",\"M1 6NG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/71984772",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/71984772",
+      "attemptedAt": "2026-10-17T04:16:53.534Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/71984772",
+          "attemptedAt": "2026-10-17T04:16:53.534Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172052039": {
+      "version": 1,
+      "providerSignature": "[250000,2,\"Flat\",\"M1 1ER\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172052039",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172052039",
+      "attemptedAt": "2026-10-17T04:16:53.786Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172052039",
+          "attemptedAt": "2026-10-17T04:16:53.787Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R169451516": {
+      "version": 1,
+      "providerSignature": "[150000,2,\"Flat\",\"M3 6DE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/169451516",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/169451516",
+      "attemptedAt": "2026-10-17T04:16:54.038Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/169451516",
+          "attemptedAt": "2026-10-17T04:16:54.038Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91382970": {
+      "version": 1,
+      "providerSignature": "[75000,1,\"Flat\",\"M1 6NG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91382970",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91382970",
+      "attemptedAt": "2026-10-17T04:16:54.290Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "studio",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/91382970",
+          "retrievedAt": "2026-10-17T04:16:54.290Z",
+          "excerpt": "This studio flat is being sold via Modern Meth",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91382970",
+          "attemptedAt": "2026-10-17T04:16:54.291Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R164455295": {
+      "version": 1,
+      "providerSignature": "[190000,2,\"Flat\",\"M3 4AN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164455295",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/164455295",
+      "attemptedAt": "2026-10-17T04:16:54.542Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/164455295",
+          "retrievedAt": "2026-10-17T04:16:54.542Z",
+          "excerpt": "he sale is restricted to cash buyers only. It has been sitting on the m",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/164455295",
+          "attemptedAt": "2026-10-17T04:16:54.543Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R163035548": {
+      "version": 1,
+      "providerSignature": "[165000,2,\"Flat\",\"M3 1NG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/163035548",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/163035548",
+      "attemptedAt": "2026-10-17T04:16:54.795Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/163035548",
+          "attemptedAt": "2026-10-17T04:16:54.796Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91435419": {
+      "version": 1,
+      "providerSignature": "[110000,0,\"Flat\",\"M3 7BP\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91435419",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91435419",
+      "attemptedAt": "2026-10-17T04:16:55.047Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91435419",
+          "attemptedAt": "2026-10-17T04:16:55.047Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94029633": {
+      "version": 1,
+      "providerSignature": "[120000,0,\"Flat\",\"M3 7EB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94029633",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94029633",
+      "attemptedAt": "2026-10-17T04:16:55.299Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94029633",
+          "attemptedAt": "2026-10-17T04:16:55.299Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R153056525": {
+      "version": 1,
+      "providerSignature": "[350000,2,\"Flat\",\"M1 5JD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/153056525",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/153056525",
+      "attemptedAt": "2026-10-17T04:16:55.551Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/153056525",
+          "attemptedAt": "2026-10-17T04:16:55.551Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O16767047": {
+      "version": 1,
+      "providerSignature": "[229000,1,\"Flat\",\"M3 4FN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/16767047",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/16767047",
+      "attemptedAt": "2026-10-17T04:16:55.803Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/16767047",
+          "attemptedAt": "2026-10-17T04:16:55.804Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z74235287": {
+      "version": 1,
+      "providerSignature": "[110000,2,\"Flat\",\"M3 5AX\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74235287",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/74235287",
+      "attemptedAt": "2026-10-17T04:16:56.055Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/zoopla/74235287",
+          "retrievedAt": "2026-10-17T04:16:56.055Z",
+          "excerpt": "Cash buyers only due to EWS1 requirements. The",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/74235287",
+          "attemptedAt": "2026-10-17T04:16:56.056Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94032372": {
+      "version": 1,
+      "providerSignature": "[538000,3,\"Flat\",\"M1 5JD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94032372",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94032372",
+      "attemptedAt": "2026-10-17T04:16:56.307Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94032372",
+          "attemptedAt": "2026-10-17T04:16:56.307Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O14909526": {
+      "version": 1,
+      "providerSignature": "[100000,0,\"Flat\",\"M1 1AR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/14909526",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/14909526",
+      "attemptedAt": "2026-10-17T04:16:56.559Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/14909526",
+          "attemptedAt": "2026-10-17T04:16:56.559Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R170945597": {
+      "version": 1,
+      "providerSignature": "[200000,2,\"Flat\",\"M3 3AG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170945597",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/170945597",
+      "attemptedAt": "2026-10-17T04:16:56.811Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/170945597",
+          "attemptedAt": "2026-10-17T04:16:56.811Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z74000255": {
+      "version": 1,
+      "providerSignature": "[215000,2,\"Flat\",\"M1 1EW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74000255",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/74000255",
+      "attemptedAt": "2026-10-17T04:16:57.063Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/74000255",
+          "attemptedAt": "2026-10-17T04:16:57.063Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R175014296": {
+      "version": 1,
+      "providerSignature": "[300000,2,\"Flat\",\"M3 7FL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/175014296",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/175014296",
+      "attemptedAt": "2026-10-17T04:16:57.315Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/175014296",
+          "attemptedAt": "2026-10-17T04:16:57.315Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R175028879": {
+      "version": 1,
+      "providerSignature": "[260000,2,\"Flat\",\"M1 5GB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/175028879",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/175028879",
+      "attemptedAt": "2026-10-17T04:16:57.566Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/175028879",
+          "attemptedAt": "2026-10-17T04:16:57.567Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172854995": {
+      "version": 1,
+      "providerSignature": "[310000,3,\"Flat\",\"M1 5GB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172854995",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172854995",
+      "attemptedAt": "2026-10-17T04:16:57.818Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172854995",
+          "attemptedAt": "2026-10-17T04:16:57.818Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91300389": {
+      "version": 1,
+      "providerSignature": "[166000,2,\"Flat\",\"M1 2DQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91300389",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91300389",
+      "attemptedAt": "2026-10-17T04:16:58.069Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91300389",
+          "attemptedAt": "2026-10-17T04:16:58.070Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89923710": {
+      "version": 1,
+      "providerSignature": "[150000,2,\"Flat\",\"M3 7BY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89923710",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89923710",
+      "attemptedAt": "2026-10-17T04:16:58.321Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/89923710",
+          "retrievedAt": "2026-10-17T04:16:58.321Z",
+          "excerpt": "e property is offered to cash buyers only with no onward chain, making",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89923710",
+          "attemptedAt": "2026-10-17T04:16:58.322Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91922025": {
+      "version": 1,
+      "providerSignature": "[320000,2,\"Flat\",\"M3 3AJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91922025",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91922025",
+      "attemptedAt": "2026-10-17T04:16:58.573Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91922025",
+          "attemptedAt": "2026-10-17T04:16:58.573Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R170429141": {
+      "version": 1,
+      "providerSignature": "[160000,2,\"Flat\",\"M3 7DX\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170429141",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/170429141",
+      "attemptedAt": "2026-10-17T04:16:58.824Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/170429141",
+          "attemptedAt": "2026-10-17T04:16:58.824Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174032489": {
+      "version": 1,
+      "providerSignature": "[145000,2,\"Flat\",\"M3 1NN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174032489",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174032489",
+      "attemptedAt": "2026-10-17T04:16:59.075Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/174032489",
+          "retrievedAt": "2026-10-17T04:16:59.075Z",
+          "excerpt": "Cash buyers only. The property benefits from n",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174032489",
+          "attemptedAt": "2026-10-17T04:16:59.075Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89175459": {
+      "version": 1,
+      "providerSignature": "[141000,2,\"Flat\",\"M3 6DE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89175459",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89175459",
+      "attemptedAt": "2026-10-17T04:16:59.327Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "cashOnly",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/89175459",
+          "retrievedAt": "2026-10-17T04:16:59.327Z",
+          "excerpt": "n-free and restricted to cash buyers only, offering a reliable transact",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89175459",
+          "attemptedAt": "2026-10-17T04:16:59.327Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O16555846": {
+      "version": 1,
+      "providerSignature": "[175000,3,\"Flat\",\"M3 6DE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/16555846",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/16555846",
+      "attemptedAt": "2026-10-17T04:16:59.577Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/16555846",
+          "attemptedAt": "2026-10-17T04:16:59.578Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z74462390": {
+      "version": 1,
+      "providerSignature": "[200000,1,\"Flat\",\"M3 5EQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74462390",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/74462390",
+      "attemptedAt": "2026-10-17T04:16:59.829Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/74462390",
+          "attemptedAt": "2026-10-17T04:16:59.829Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R169392773": {
+      "version": 1,
+      "providerSignature": "[150000,2,\"Flat\",\"M3 6DE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/169392773",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/169392773",
+      "attemptedAt": "2026-10-17T04:17:00.081Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/169392773",
+          "attemptedAt": "2026-10-17T04:17:00.081Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93231324": {
+      "version": 1,
+      "providerSignature": "[100000,0,\"Flat\",\"M3 7NE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93231324",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93231324",
+      "attemptedAt": "2026-10-17T04:17:00.333Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93231324",
+          "attemptedAt": "2026-10-17T04:17:00.333Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92092752": {
+      "version": 1,
+      "providerSignature": "[115000,1,\"Flat\",\"M3 7NB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92092752",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92092752",
+      "attemptedAt": "2026-10-17T04:17:00.584Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92092752",
+          "attemptedAt": "2026-10-17T04:17:00.585Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92636736": {
+      "version": 1,
+      "providerSignature": "[110000,0,\"Flat\",\"M3 7NE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92636736",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92636736",
+      "attemptedAt": "2026-10-17T04:17:00.835Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92636736",
+          "attemptedAt": "2026-10-17T04:17:00.836Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93313095": {
+      "version": 1,
+      "providerSignature": "[170000,1,\"Flat\",\"M1 2BE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93313095",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93313095",
+      "attemptedAt": "2026-10-17T04:17:01.087Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93313095",
+          "attemptedAt": "2026-10-17T04:17:01.088Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R173317730": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M15 4QJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173317730",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/173317730",
+      "attemptedAt": "2026-10-17T04:17:01.339Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/173317730",
+          "attemptedAt": "2026-10-17T04:17:01.339Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R168758930": {
+      "version": 1,
+      "providerSignature": "[175000,2,\"Flat\",\"M3 4NA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/168758930",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/168758930",
+      "attemptedAt": "2026-10-17T04:17:01.591Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/168758930",
+          "attemptedAt": "2026-10-17T04:17:01.591Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91983942": {
+      "version": 1,
+      "providerSignature": "[285000,2,\"Flat\",\"M15 4QJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91983942",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91983942",
+      "attemptedAt": "2026-10-17T04:17:01.842Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91983942",
+          "attemptedAt": "2026-10-17T04:17:01.842Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R171117314": {
+      "version": 1,
+      "providerSignature": "[250000,2,\"Flat\",\"M4 5DA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171117314",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/171117314",
+      "attemptedAt": "2026-10-17T04:17:02.094Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171117314",
+          "attemptedAt": "2026-10-17T04:17:02.094Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93332115": {
+      "version": 1,
+      "providerSignature": "[280000,2,\"Flat\",\"M4 5DA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93332115",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93332115",
+      "attemptedAt": "2026-10-17T04:17:02.345Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93332115",
+          "attemptedAt": "2026-10-17T04:17:02.345Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93467931": {
+      "version": 1,
+      "providerSignature": "[175000,1,\"Flat\",\"M1 7AF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93467931",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93467931",
+      "attemptedAt": "2026-10-17T04:17:02.596Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93467931",
+          "attemptedAt": "2026-10-17T04:17:02.597Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R173145734": {
+      "version": 1,
+      "providerSignature": "[165000,2,\"Flat\",\"M3 6ET\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173145734",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/173145734",
+      "attemptedAt": "2026-10-17T04:17:02.848Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/173145734",
+          "attemptedAt": "2026-10-17T04:17:02.848Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91424211": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M4 4AR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91424211",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91424211",
+      "attemptedAt": "2026-10-17T04:17:03.099Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91424211",
+          "attemptedAt": "2026-10-17T04:17:03.099Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93588600": {
+      "version": 1,
+      "providerSignature": "[395000,1,\"Flat\",\"M4 5BY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93588600",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93588600",
+      "attemptedAt": "2026-10-17T04:17:03.350Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93588600",
+          "attemptedAt": "2026-10-17T04:17:03.351Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93490923": {
+      "version": 1,
+      "providerSignature": "[199000,2,\"Flat\",\"M1 5GH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93490923",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93490923",
+      "attemptedAt": "2026-10-17T04:17:03.601Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93490923",
+          "attemptedAt": "2026-10-17T04:17:03.601Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88478451": {
+      "version": 1,
+      "providerSignature": "[189950,1,\"Flat\",\"M3 7FL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88478451",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88478451",
+      "attemptedAt": "2026-10-17T04:17:03.853Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88478451",
+          "attemptedAt": "2026-10-17T04:17:03.853Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R170235047": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M4 4BJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170235047",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/170235047",
+      "attemptedAt": "2026-10-17T04:17:04.104Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/170235047",
+          "attemptedAt": "2026-10-17T04:17:04.105Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R147806954": {
+      "version": 1,
+      "providerSignature": "[185000,1,\"Flat\",\"M3 7GY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/147806954",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/147806954",
+      "attemptedAt": "2026-10-17T04:17:04.355Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/147806954",
+          "attemptedAt": "2026-10-17T04:17:04.356Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R86896728": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M3 7FL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/86896728",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/86896728",
+      "attemptedAt": "2026-10-17T04:17:04.607Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/86896728",
+          "attemptedAt": "2026-10-17T04:17:04.607Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88969491": {
+      "version": 1,
+      "providerSignature": "[170000,1,\"Flat\",\"M3 7GW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88969491",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88969491",
+      "attemptedAt": "2026-10-17T04:17:04.858Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88969491",
+          "attemptedAt": "2026-10-17T04:17:04.858Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92765274": {
+      "version": 1,
+      "providerSignature": "[170000,1,\"Flat\",\"M1 5QD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92765274",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92765274",
+      "attemptedAt": "2026-10-17T04:17:05.110Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92765274",
+          "attemptedAt": "2026-10-17T04:17:05.110Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R164809490": {
+      "version": 1,
+      "providerSignature": "[180000,2,\"Flat\",\"M1 5QF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164809490",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/164809490",
+      "attemptedAt": "2026-10-17T04:17:05.362Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/164809490",
+          "attemptedAt": "2026-10-17T04:17:05.363Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R169774829": {
+      "version": 1,
+      "providerSignature": "[285000,2,\"Flat\",\"M3 7GW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/169774829",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/169774829",
+      "attemptedAt": "2026-10-17T04:17:05.614Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/169774829",
+          "attemptedAt": "2026-10-17T04:17:05.615Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R147431000": {
+      "version": 1,
+      "providerSignature": "[190000,2,\"Flat\",\"M1 5QD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/147431000",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/147431000",
+      "attemptedAt": "2026-10-17T04:17:05.866Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/147431000",
+          "attemptedAt": "2026-10-17T04:17:05.867Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90613518": {
+      "version": 1,
+      "providerSignature": "[350000,2,\"Flat\",\"M4 5BW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90613518",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90613518",
+      "attemptedAt": "2026-10-17T04:17:06.118Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90613518",
+          "attemptedAt": "2026-10-17T04:17:06.119Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z66325047": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M3 7FL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/66325047",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/66325047",
+      "attemptedAt": "2026-10-17T04:17:06.371Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/66325047",
+          "attemptedAt": "2026-10-17T04:17:06.372Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92352357": {
+      "version": 1,
+      "providerSignature": "[170000,1,\"Flat\",\"M3 7FW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92352357",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92352357",
+      "attemptedAt": "2026-10-17T04:17:06.623Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92352357",
+          "attemptedAt": "2026-10-17T04:17:06.624Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90976650": {
+      "version": 1,
+      "providerSignature": "[195000,2,\"Flat\",\"M1 5QD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90976650",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90976650",
+      "attemptedAt": "2026-10-17T04:17:06.875Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90976650",
+          "attemptedAt": "2026-10-17T04:17:06.875Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73514709": {
+      "version": 1,
+      "providerSignature": "[200000,1,\"Flat\",\"M4 4GB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73514709",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73514709",
+      "attemptedAt": "2026-10-17T04:17:07.126Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73514709",
+          "attemptedAt": "2026-10-17T04:17:07.127Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94141386": {
+      "version": 1,
+      "providerSignature": "[150000,1,\"Flat\",\"M1 5QF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94141386",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94141386",
+      "attemptedAt": "2026-10-17T04:17:07.379Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94141386",
+          "attemptedAt": "2026-10-17T04:17:07.379Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172368827": {
+      "version": 1,
+      "providerSignature": "[430000,3,\"Flat\",\"M4 5DH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172368827",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172368827",
+      "attemptedAt": "2026-10-17T04:17:07.631Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172368827",
+          "attemptedAt": "2026-10-17T04:17:07.631Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R167558144": {
+      "version": 1,
+      "providerSignature": "[270000,2,\"Flat\",\"M4 4GS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/167558144",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/167558144",
+      "attemptedAt": "2026-10-17T04:17:07.883Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/167558144",
+          "attemptedAt": "2026-10-17T04:17:07.883Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172670156": {
+      "version": 1,
+      "providerSignature": "[259500,2,\"Flat\",\"M4 4GS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172670156",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172670156",
+      "attemptedAt": "2026-10-17T04:17:08.134Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172670156",
+          "attemptedAt": "2026-10-17T04:17:08.135Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92902875": {
+      "version": 1,
+      "providerSignature": "[575000,3,\"Flat\",\"M4 5DH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92902875",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92902875",
+      "attemptedAt": "2026-10-17T04:17:08.386Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92902875",
+          "attemptedAt": "2026-10-17T04:17:08.387Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z74116818": {
+      "version": 1,
+      "providerSignature": "[355000,2,\"Flat\",\"M4 4GU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74116818",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/74116818",
+      "attemptedAt": "2026-10-17T04:17:08.638Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/74116818",
+          "attemptedAt": "2026-10-17T04:17:08.638Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172195844": {
+      "version": 1,
+      "providerSignature": "[265000,2,\"Flat\",\"M15 4QU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172195844",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172195844",
+      "attemptedAt": "2026-10-17T04:17:08.890Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172195844",
+          "attemptedAt": "2026-10-17T04:17:08.890Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R171746783": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M15 4QU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171746783",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/171746783",
+      "attemptedAt": "2026-10-17T04:17:09.142Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171746783",
+          "attemptedAt": "2026-10-17T04:17:09.142Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z60905188": {
+      "version": 1,
+      "providerSignature": "[195000,1,\"Flat\",\"M15 4QX\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/60905188",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/60905188",
+      "attemptedAt": "2026-10-17T04:17:09.394Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/60905188",
+          "attemptedAt": "2026-10-17T04:17:09.394Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z60905163": {
+      "version": 1,
+      "providerSignature": "[270000,2,\"Flat\",\"M15 4QX\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/60905163",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/60905163",
+      "attemptedAt": "2026-10-17T04:17:09.646Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/60905163",
+          "attemptedAt": "2026-10-17T04:17:09.647Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93648456": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M15 4QU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93648456",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93648456",
+      "attemptedAt": "2026-10-17T04:17:09.898Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93648456",
+          "attemptedAt": "2026-10-17T04:17:09.899Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91640967": {
+      "version": 1,
+      "providerSignature": "[138000,1,\"Flat\",\"M15 4QX\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91640967",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91640967",
+      "attemptedAt": "2026-10-17T04:17:10.150Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91640967",
+          "attemptedAt": "2026-10-17T04:17:10.151Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93835926": {
+      "version": 1,
+      "providerSignature": "[159950,0,\"Flat\",\"M3 4AQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93835926",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93835926",
+      "attemptedAt": "2026-10-17T04:17:10.401Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93835926",
+          "attemptedAt": "2026-10-17T04:17:10.402Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93253035": {
+      "version": 1,
+      "providerSignature": "[325000,2,\"Flat\",\"M4 4GU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93253035",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93253035",
+      "attemptedAt": "2026-10-17T04:17:10.653Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93253035",
+          "attemptedAt": "2026-10-17T04:17:10.653Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R162907496": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M4 6JA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/162907496",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/162907496",
+      "attemptedAt": "2026-10-17T04:17:10.905Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/162907496",
+          "attemptedAt": "2026-10-17T04:17:10.905Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90356958": {
+      "version": 1,
+      "providerSignature": "[295000,2,\"Flat\",\"M4 5GJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90356958",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90356958",
+      "attemptedAt": "2026-10-17T04:17:11.157Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90356958",
+          "attemptedAt": "2026-10-17T04:17:11.157Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92892756": {
+      "version": 1,
+      "providerSignature": "[201950,2,\"Flat\",\"M4 4HA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92892756",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92892756",
+      "attemptedAt": "2026-10-17T04:17:11.409Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92892756",
+          "attemptedAt": "2026-10-17T04:17:11.409Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R159094445": {
+      "version": 1,
+      "providerSignature": "[179000,2,\"Flat\",\"M4 6JA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/159094445",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/159094445",
+      "attemptedAt": "2026-10-17T04:17:11.660Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/159094445",
+          "attemptedAt": "2026-10-17T04:17:11.661Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94348485": {
+      "version": 1,
+      "providerSignature": "[250000,2,\"Flat\",\"M1 5BY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94348485",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94348485",
+      "attemptedAt": "2026-10-17T04:17:11.911Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94348485",
+          "attemptedAt": "2026-10-17T04:17:11.912Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73565378": {
+      "version": 1,
+      "providerSignature": "[220000,1,\"Flat\",\"M4 6JA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73565378",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73565378",
+      "attemptedAt": "2026-10-17T04:17:12.164Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73565378",
+          "attemptedAt": "2026-10-17T04:17:12.164Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172283711": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M4 5GH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172283711",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172283711",
+      "attemptedAt": "2026-10-17T04:17:12.415Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "B",
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/172283711",
+          "retrievedAt": "2026-10-17T04:17:12.415Z",
+          "excerpt": "EPC Rating B",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172283711",
+          "attemptedAt": "2026-10-17T04:17:12.416Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92327706": {
+      "version": 1,
+      "providerSignature": "[300000,2,\"Flat\",\"M3 4JL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92327706",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92327706",
+      "attemptedAt": "2026-10-17T04:17:12.667Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92327706",
+          "attemptedAt": "2026-10-17T04:17:12.668Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z74116838": {
+      "version": 1,
+      "providerSignature": "[310000,2,\"Flat\",\"M3 4JL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74116838",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/74116838",
+      "attemptedAt": "2026-10-17T04:17:12.919Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/74116838",
+          "attemptedAt": "2026-10-17T04:17:12.919Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R143478152": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M3 7GB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/143478152",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/143478152",
+      "attemptedAt": "2026-10-17T04:17:13.171Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/143478152",
+          "attemptedAt": "2026-10-17T04:17:13.171Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92355705": {
+      "version": 1,
+      "providerSignature": "[340000,2,\"Flat\",\"M3 7GU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92355705",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92355705",
+      "attemptedAt": "2026-10-17T04:17:13.423Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92355705",
+          "attemptedAt": "2026-10-17T04:17:13.423Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90736860": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M4 6JA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90736860",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90736860",
+      "attemptedAt": "2026-10-17T04:17:13.674Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90736860",
+          "attemptedAt": "2026-10-17T04:17:13.675Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O20365273": {
+      "version": 1,
+      "providerSignature": "[125000,1,\"Flat\",\"M4 4EW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/20365273",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/20365273",
+      "attemptedAt": "2026-10-17T04:17:13.926Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/otm/20365273",
+          "retrievedAt": "2026-10-17T04:17:13.926Z",
+          "excerpt": "This modern 1-bedroom apartment is being sold by auction with no onward chain, offering a straightforward transaction. Located on",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/20365273",
+          "attemptedAt": "2026-10-17T04:17:13.927Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90075972": {
+      "version": 1,
+      "providerSignature": "[225000,1,\"Flat\",\"M4 5GH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90075972",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90075972",
+      "attemptedAt": "2026-10-17T04:17:14.178Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "B",
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/90075972",
+          "retrievedAt": "2026-10-17T04:17:14.178Z",
+          "excerpt": "EPC rating B",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90075972",
+          "attemptedAt": "2026-10-17T04:17:14.178Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92114205": {
+      "version": 1,
+      "providerSignature": "[289000,1,\"Flat\",\"M3 7GS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92114205",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92114205",
+      "attemptedAt": "2026-10-17T04:17:14.430Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92114205",
+          "attemptedAt": "2026-10-17T04:17:14.430Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88769790": {
+      "version": 1,
+      "providerSignature": "[157500,2,\"Flat\",\"M3 6ES\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88769790",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88769790",
+      "attemptedAt": "2026-10-17T04:17:14.681Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88769790",
+          "attemptedAt": "2026-10-17T04:17:14.682Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93199278": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M1 2AU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93199278",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93199278",
+      "attemptedAt": "2026-10-17T04:17:14.933Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93199278",
+          "attemptedAt": "2026-10-17T04:17:14.933Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z69854296": {
+      "version": 1,
+      "providerSignature": "[195000,2,\"Flat\",\"M3 6GF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/69854296",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/69854296",
+      "attemptedAt": "2026-10-17T04:17:15.184Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/69854296",
+          "attemptedAt": "2026-10-17T04:17:15.184Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93101802": {
+      "version": 1,
+      "providerSignature": "[225000,2,\"Flat\",\"M1 2NN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93101802",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93101802",
+      "attemptedAt": "2026-10-17T04:17:15.435Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93101802",
+          "attemptedAt": "2026-10-17T04:17:15.436Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91718580": {
+      "version": 1,
+      "providerSignature": "[239950,2,\"Flat\",\"M1 2NN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91718580",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91718580",
+      "attemptedAt": "2026-10-17T04:17:15.687Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91718580",
+          "attemptedAt": "2026-10-17T04:17:15.687Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92791197": {
+      "version": 1,
+      "providerSignature": "[195000,1,\"Flat\",\"M4 4GT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92791197",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92791197",
+      "attemptedAt": "2026-10-17T04:17:15.938Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92791197",
+          "attemptedAt": "2026-10-17T04:17:15.938Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z74155749": {
+      "version": 1,
+      "providerSignature": "[200000,1,\"Flat\",\"M4 4GR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74155749",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/74155749",
+      "attemptedAt": "2026-10-17T04:17:16.189Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/74155749",
+          "attemptedAt": "2026-10-17T04:17:16.189Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91966782": {
+      "version": 1,
+      "providerSignature": "[260000,2,\"Flat\",\"M1 5GF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91966782",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91966782",
+      "attemptedAt": "2026-10-17T04:17:16.441Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91966782",
+          "attemptedAt": "2026-10-17T04:17:16.441Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94196382": {
+      "version": 1,
+      "providerSignature": "[160000,1,\"Flat\",\"M4 4FH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94196382",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94196382",
+      "attemptedAt": "2026-10-17T04:17:16.692Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94196382",
+          "attemptedAt": "2026-10-17T04:17:16.692Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93243465": {
+      "version": 1,
+      "providerSignature": "[135000,1,\"Flat\",\"M4 4FE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93243465",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93243465",
+      "attemptedAt": "2026-10-17T04:17:16.943Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93243465",
+          "attemptedAt": "2026-10-17T04:17:16.943Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R160055015": {
+      "version": 1,
+      "providerSignature": "[350000,3,\"Flat\",\"M4 4GR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/160055015",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/160055015",
+      "attemptedAt": "2026-10-17T04:17:17.195Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/160055015",
+          "attemptedAt": "2026-10-17T04:17:17.195Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89772423": {
+      "version": 1,
+      "providerSignature": "[210000,2,\"Flat\",\"M4 4EE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89772423",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89772423",
+      "attemptedAt": "2026-10-17T04:17:17.446Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89772423",
+          "attemptedAt": "2026-10-17T04:17:17.446Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z61165819": {
+      "version": 1,
+      "providerSignature": "[225000,2,\"Flat\",\"M4 4EH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/61165819",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/61165819",
+      "attemptedAt": "2026-10-17T04:17:17.697Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/61165819",
+          "attemptedAt": "2026-10-17T04:17:17.697Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73230264": {
+      "version": 1,
+      "providerSignature": "[195000,2,\"Flat\",\"M4 4EF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73230264",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73230264",
+      "attemptedAt": "2026-10-17T04:17:17.949Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73230264",
+          "attemptedAt": "2026-10-17T04:17:17.949Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92755422": {
+      "version": 1,
+      "providerSignature": "[215000,2,\"Flat\",\"M4 4EF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92755422",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92755422",
+      "attemptedAt": "2026-10-17T04:17:18.200Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92755422",
+          "attemptedAt": "2026-10-17T04:17:18.200Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94196658": {
+      "version": 1,
+      "providerSignature": "[145000,1,\"Flat\",\"M4 4FE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94196658",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94196658",
+      "attemptedAt": "2026-10-17T04:17:18.450Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94196658",
+          "attemptedAt": "2026-10-17T04:17:18.451Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93944331": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M4 4FE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93944331",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93944331",
+      "attemptedAt": "2026-10-17T04:17:18.702Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93944331",
+          "attemptedAt": "2026-10-17T04:17:18.703Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73905190": {
+      "version": 1,
+      "providerSignature": "[190000,2,\"Flat\",\"M4 4FE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73905190",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73905190",
+      "attemptedAt": "2026-10-17T04:17:18.953Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73905190",
+          "attemptedAt": "2026-10-17T04:17:18.953Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92926644": {
+      "version": 1,
+      "providerSignature": "[200000,2,\"Flat\",\"M4 4DH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92926644",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92926644",
+      "attemptedAt": "2026-10-17T04:17:19.205Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92926644",
+          "attemptedAt": "2026-10-17T04:17:19.205Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R167184686": {
+      "version": 1,
+      "providerSignature": "[155000,1,\"Flat\",\"M15 4QW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/167184686",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/167184686",
+      "attemptedAt": "2026-10-17T04:17:19.456Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/167184686",
+          "attemptedAt": "2026-10-17T04:17:19.456Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93386718": {
+      "version": 1,
+      "providerSignature": "[180000,2,\"Flat\",\"M15 4QW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93386718",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93386718",
+      "attemptedAt": "2026-10-17T04:17:19.708Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/93386718",
+          "retrievedAt": "2026-10-17T04:17:19.708Z",
+          "excerpt": "Sold by auction with no onward chain, ensuring a reliable transaction. Excellent location near Deansgate stations and Manchester c",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93386718",
+          "attemptedAt": "2026-10-17T04:17:19.708Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R156790088": {
+      "version": 1,
+      "providerSignature": "[62500,null,\"Detached\",\"M15 4QW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/156790088",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/156790088",
+      "attemptedAt": "2026-10-17T04:17:19.960Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "achievedRent",
+          "value": 400,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/156790088",
+          "retrievedAt": "2026-10-17T04:17:19.960Z",
+          "excerpt": "Currently let at £400 per month",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/156790088",
+          "attemptedAt": "2026-10-17T04:17:19.961Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R87589311": {
+      "version": 1,
+      "providerSignature": "[155000,2,\"Flat\",\"M3 6BT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/87589311",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/87589311",
+      "attemptedAt": "2026-10-17T04:17:20.212Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/87589311",
+          "attemptedAt": "2026-10-17T04:17:20.212Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z71242336": {
+      "version": 1,
+      "providerSignature": "[229950,2,\"Flat\",\"M3 4LB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/71242336",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/71242336",
+      "attemptedAt": "2026-10-17T04:17:20.464Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/71242336",
+          "attemptedAt": "2026-10-17T04:17:20.464Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73963851": {
+      "version": 1,
+      "providerSignature": "[135000,1,\"Flat\",\"M15 4YA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73963851",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73963851",
+      "attemptedAt": "2026-10-17T04:17:20.715Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73963851",
+          "attemptedAt": "2026-10-17T04:17:20.715Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88657035": {
+      "version": 1,
+      "providerSignature": "[515000,3,\"Terraced\",\"M3 7FF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88657035",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88657035",
+      "attemptedAt": "2026-10-17T04:17:20.966Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88657035",
+          "attemptedAt": "2026-10-17T04:17:20.966Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91957080": {
+      "version": 1,
+      "providerSignature": "[260000,1,\"Flat\",\"M15 4UB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91957080",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91957080",
+      "attemptedAt": "2026-10-17T04:17:21.218Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91957080",
+          "attemptedAt": "2026-10-17T04:17:21.218Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174794753": {
+      "version": 1,
+      "providerSignature": "[310000,2,\"Flat\",\"M3 5GT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174794753",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174794753",
+      "attemptedAt": "2026-10-17T04:17:21.468Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174794753",
+          "attemptedAt": "2026-10-17T04:17:21.468Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93279981": {
+      "version": 1,
+      "providerSignature": "[530000,3,\"Flat\",\"M15 4UA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93279981",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93279981",
+      "attemptedAt": "2026-10-17T04:17:21.719Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93279981",
+          "attemptedAt": "2026-10-17T04:17:21.720Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93247383": {
+      "version": 1,
+      "providerSignature": "[200000,1,\"Flat\",\"M4 4TF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93247383",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93247383",
+      "attemptedAt": "2026-10-17T04:17:21.971Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93247383",
+          "attemptedAt": "2026-10-17T04:17:21.971Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O16996788": {
+      "version": 1,
+      "providerSignature": "[338000,1,\"Flat\",\"M3 1LY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/16996788",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/16996788",
+      "attemptedAt": "2026-10-17T04:17:22.223Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/16996788",
+          "attemptedAt": "2026-10-17T04:17:22.223Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94256424": {
+      "version": 1,
+      "providerSignature": "[160000,2,\"Flat\",\"M15 4QD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94256424",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94256424",
+      "attemptedAt": "2026-10-17T04:17:22.475Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94256424",
+          "attemptedAt": "2026-10-17T04:17:22.475Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R173469746": {
+      "version": 1,
+      "providerSignature": "[250000,3,\"Flat\",\"M4 4GA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173469746",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/173469746",
+      "attemptedAt": "2026-10-17T04:17:22.726Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/173469746",
+          "attemptedAt": "2026-10-17T04:17:22.727Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93470970": {
+      "version": 1,
+      "providerSignature": "[270000,2,\"Flat\",\"M15 6JQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93470970",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93470970",
+      "attemptedAt": "2026-10-17T04:17:22.979Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93470970",
+          "attemptedAt": "2026-10-17T04:17:22.979Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93788334": {
+      "version": 1,
+      "providerSignature": "[500000,2,\"Flat\",\"M15 4SA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93788334",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93788334",
+      "attemptedAt": "2026-10-17T04:17:23.230Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93788334",
+          "attemptedAt": "2026-10-17T04:17:23.230Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93505563": {
+      "version": 1,
+      "providerSignature": "[140000,1,\"Flat\",\"M4 4AJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93505563",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93505563",
+      "attemptedAt": "2026-10-17T04:17:23.481Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93505563",
+          "attemptedAt": "2026-10-17T04:17:23.482Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92024967": {
+      "version": 1,
+      "providerSignature": "[275000,1,\"Flat\",\"M15 4UA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92024967",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92024967",
+      "attemptedAt": "2026-10-17T04:17:23.733Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92024967",
+          "attemptedAt": "2026-10-17T04:17:23.734Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92377725": {
+      "version": 1,
+      "providerSignature": "[650000,3,\"Flat\",\"M15 4UF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92377725",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92377725",
+      "attemptedAt": "2026-10-17T04:17:23.984Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92377725",
+          "attemptedAt": "2026-10-17T04:17:23.985Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174566114": {
+      "version": 1,
+      "providerSignature": "[500000,2,\"Flat\",\"M15 4TU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174566114",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174566114",
+      "attemptedAt": "2026-10-17T04:17:24.236Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174566114",
+          "attemptedAt": "2026-10-17T04:17:24.237Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92045850": {
+      "version": 1,
+      "providerSignature": "[650000,2,\"Flat\",\"M15 4TW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92045850",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92045850",
+      "attemptedAt": "2026-10-17T04:17:24.488Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92045850",
+          "attemptedAt": "2026-10-17T04:17:24.489Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89889498": {
+      "version": 1,
+      "providerSignature": "[150000,2,\"Flat\",\"M15 4QF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89889498",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89889498",
+      "attemptedAt": "2026-10-17T04:17:24.740Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/89889498",
+          "retrievedAt": "2026-10-17T04:17:24.740Z",
+          "excerpt": "This two-bedroom flat is sold by auction and is ideally positioned in Manchester city centre, moments from Deansgate and within wa",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89889498",
+          "attemptedAt": "2026-10-17T04:17:24.741Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90174135": {
+      "version": 1,
+      "providerSignature": "[140000,2,\"Flat\",\"M15 4QF\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90174135",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90174135",
+      "attemptedAt": "2026-10-17T04:17:24.993Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "epc",
+          "value": "C",
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/90174135",
+          "retrievedAt": "2026-10-17T04:17:24.993Z",
+          "excerpt": "EPC Rating C",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90174135",
+          "attemptedAt": "2026-10-17T04:17:24.994Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R173692286": {
+      "version": 1,
+      "providerSignature": "[300000,1,\"Flat\",\"M15 4TU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173692286",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/173692286",
+      "attemptedAt": "2026-10-17T04:17:25.245Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/173692286",
+          "attemptedAt": "2026-10-17T04:17:25.246Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89810520": {
+      "version": 1,
+      "providerSignature": "[295000,1,\"Flat\",\"M15 4UB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89810520",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89810520",
+      "attemptedAt": "2026-10-17T04:17:25.497Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89810520",
+          "attemptedAt": "2026-10-17T04:17:25.498Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94298022": {
+      "version": 1,
+      "providerSignature": "[210000,0,\"Flat\",\"M1 2EY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94298022",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94298022",
+      "attemptedAt": "2026-10-17T04:17:25.749Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94298022",
+          "attemptedAt": "2026-10-17T04:17:25.750Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R88430592": {
+      "version": 1,
+      "providerSignature": "[137000,1,\"Flat\",\"M4 4BN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/88430592",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/88430592",
+      "attemptedAt": "2026-10-17T04:17:26.001Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/88430592",
+          "attemptedAt": "2026-10-17T04:17:26.002Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93623217": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M3 4NB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93623217",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93623217",
+      "attemptedAt": "2026-10-17T04:17:26.253Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93623217",
+          "attemptedAt": "2026-10-17T04:17:26.253Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91999974": {
+      "version": 1,
+      "providerSignature": "[355000,2,\"Flat\",\"M4 6LS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91999974",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91999974",
+      "attemptedAt": "2026-10-17T04:17:26.505Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91999974",
+          "attemptedAt": "2026-10-17T04:17:26.506Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92878434": {
+      "version": 1,
+      "providerSignature": "[250000,1,\"Flat\",\"M4 6LR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92878434",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92878434",
+      "attemptedAt": "2026-10-17T04:17:26.757Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92878434",
+          "attemptedAt": "2026-10-17T04:17:26.758Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91604478": {
+      "version": 1,
+      "providerSignature": "[350000,2,\"Flat\",\"M4 6LS\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91604478",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91604478",
+      "attemptedAt": "2026-10-17T04:17:27.009Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91604478",
+          "attemptedAt": "2026-10-17T04:17:27.009Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92326599": {
+      "version": 1,
+      "providerSignature": "[325000,2,\"Flat\",\"M15 4SB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92326599",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92326599",
+      "attemptedAt": "2026-10-17T04:17:27.261Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92326599",
+          "attemptedAt": "2026-10-17T04:17:27.261Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94285023": {
+      "version": 1,
+      "providerSignature": "[140000,1,\"Flat\",\"M4 4BL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94285023",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94285023",
+      "attemptedAt": "2026-10-17T04:17:27.513Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94285023",
+          "attemptedAt": "2026-10-17T04:17:27.513Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73533914": {
+      "version": 1,
+      "providerSignature": "[190000,2,\"Flat\",\"M4 4BL\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73533914",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73533914",
+      "attemptedAt": "2026-10-17T04:17:27.765Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73533914",
+          "attemptedAt": "2026-10-17T04:17:27.765Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89476059": {
+      "version": 1,
+      "providerSignature": "[370000,2,\"Flat\",\"M15 4ZE\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89476059",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89476059",
+      "attemptedAt": "2026-10-17T04:17:28.017Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89476059",
+          "attemptedAt": "2026-10-17T04:17:28.017Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92008209": {
+      "version": 1,
+      "providerSignature": "[430000,2,\"Flat\",\"M15 4UD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92008209",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92008209",
+      "attemptedAt": "2026-10-17T04:17:28.268Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92008209",
+          "attemptedAt": "2026-10-17T04:17:28.268Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R171108830": {
+      "version": 1,
+      "providerSignature": "[279000,1,\"Flat\",\"M15 4UB\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171108830",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/171108830",
+      "attemptedAt": "2026-10-17T04:17:28.519Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171108830",
+          "attemptedAt": "2026-10-17T04:17:28.520Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R171576077": {
+      "version": 1,
+      "providerSignature": "[530000,3,\"Flat\",\"M15 4UA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171576077",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/171576077",
+      "attemptedAt": "2026-10-17T04:17:28.771Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/171576077",
+          "attemptedAt": "2026-10-17T04:17:28.772Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91099083": {
+      "version": 1,
+      "providerSignature": "[360000,2,\"Flat\",\"M15 4TN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91099083",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91099083",
+      "attemptedAt": "2026-10-17T04:17:29.023Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91099083",
+          "attemptedAt": "2026-10-17T04:17:29.024Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91284063": {
+      "version": 1,
+      "providerSignature": "[575000,3,\"Flat\",\"M15 4UA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91284063",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91284063",
+      "attemptedAt": "2026-10-17T04:17:29.275Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91284063",
+          "attemptedAt": "2026-10-17T04:17:29.276Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174738947": {
+      "version": 1,
+      "providerSignature": "[280000,1,\"Flat\",\"M15 4TP\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174738947",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174738947",
+      "attemptedAt": "2026-10-17T04:17:29.528Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174738947",
+          "attemptedAt": "2026-10-17T04:17:29.528Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R163574123": {
+      "version": 1,
+      "providerSignature": "[352000,2,\"Flat\",\"M15 4TN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/163574123",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/163574123",
+      "attemptedAt": "2026-10-17T04:17:29.779Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/163574123",
+          "attemptedAt": "2026-10-17T04:17:29.779Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89686164": {
+      "version": 1,
+      "providerSignature": "[400000,2,\"Flat\",\"M15 4TQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89686164",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89686164",
+      "attemptedAt": "2026-10-17T04:17:30.036Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89686164",
+          "attemptedAt": "2026-10-17T04:17:30.037Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R170846423": {
+      "version": 1,
+      "providerSignature": "[200000,2,\"Flat\",\"M4 4BT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170846423",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/170846423",
+      "attemptedAt": "2026-10-17T04:17:30.288Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/170846423",
+          "attemptedAt": "2026-10-17T04:17:30.289Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R159886049": {
+      "version": 1,
+      "providerSignature": "[250000,2,\"Flat\",\"M1 2FU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/159886049",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/159886049",
+      "attemptedAt": "2026-10-17T04:17:30.540Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/159886049",
+          "retrievedAt": "2026-10-17T04:17:30.540Z",
+          "excerpt": "The flat is immaculately presented and benefits from excellent building amenities including 24-hour concierge, swimming pool, gym,",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/159886049",
+          "attemptedAt": "2026-10-17T04:17:30.540Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R172992506": {
+      "version": 1,
+      "providerSignature": "[200000,1,\"Flat\",\"M15 4QG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/172992506",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/172992506",
+      "attemptedAt": "2026-10-17T04:17:30.792Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/172992506",
+          "attemptedAt": "2026-10-17T04:17:30.793Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R169450664": {
+      "version": 1,
+      "providerSignature": "[290000,2,\"Detached\",\"M15 4QG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/169450664",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/169450664",
+      "attemptedAt": "2026-10-17T04:17:31.045Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/169450664",
+          "attemptedAt": "2026-10-17T04:17:31.045Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92026848": {
+      "version": 1,
+      "providerSignature": "[350000,2,\"Flat\",\"M15 4QG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92026848",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92026848",
+      "attemptedAt": "2026-10-17T04:17:31.296Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92026848",
+          "attemptedAt": "2026-10-17T04:17:31.297Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91719048": {
+      "version": 1,
+      "providerSignature": "[300000,2,\"Flat\",\"M15 4QG\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91719048",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91719048",
+      "attemptedAt": "2026-10-17T04:17:31.548Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91719048",
+          "attemptedAt": "2026-10-17T04:17:31.548Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92327712": {
+      "version": 1,
+      "providerSignature": "[210000,2,\"Flat\",\"M4 4AU\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92327712",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92327712",
+      "attemptedAt": "2026-10-17T04:17:31.800Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92327712",
+          "attemptedAt": "2026-10-17T04:17:31.800Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R164284715": {
+      "version": 1,
+      "providerSignature": "[479000,2,\"Flat\",\"M15 4TW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164284715",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/164284715",
+      "attemptedAt": "2026-10-17T04:17:32.051Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/164284715",
+          "attemptedAt": "2026-10-17T04:17:32.051Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R170536496": {
+      "version": 1,
+      "providerSignature": "[220000,1,\"Flat\",\"M1 2EW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170536496",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/170536496",
+      "attemptedAt": "2026-10-17T04:17:32.303Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/170536496",
+          "attemptedAt": "2026-10-17T04:17:32.303Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93294981": {
+      "version": 1,
+      "providerSignature": "[600000,4,\"Detached\",\"M1 2FR\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93294981",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93294981",
+      "attemptedAt": "2026-10-17T04:17:32.554Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93294981",
+          "attemptedAt": "2026-10-17T04:17:32.555Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O17689938": {
+      "version": 1,
+      "providerSignature": "[135000,1,\"Flat\",\"M4 4FN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/17689938",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/17689938",
+      "attemptedAt": "2026-10-17T04:17:32.807Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/17689938",
+          "attemptedAt": "2026-10-17T04:17:32.807Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90125997": {
+      "version": 1,
+      "providerSignature": "[175000,1,\"Flat\",\"M1 2EX\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90125997",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90125997",
+      "attemptedAt": "2026-10-17T04:17:33.058Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [
+        {
+          "key": "auction",
+          "value": true,
+          "sourceUrl": "https://propertydata.co.uk/outbound/rightmove/90125997",
+          "retrievedAt": "2026-10-17T04:17:33.058Z",
+          "excerpt": "Sold by auction (Modern Method of Auction), the property has no onward chain, enabling reliable completion within 56 days. The fla",
+          "status": "reported",
+          "sourceKind": "provider"
+        }
+      ],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90125997",
+          "attemptedAt": "2026-10-17T04:17:33.059Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73542530": {
+      "version": 1,
+      "providerSignature": "[180000,1,\"Flat\",\"M1 2EY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73542530",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73542530",
+      "attemptedAt": "2026-10-17T04:17:33.310Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73542530",
+          "attemptedAt": "2026-10-17T04:17:33.310Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R167833943": {
+      "version": 1,
+      "providerSignature": "[175000,2,\"Flat\",\"M4 4FQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/167833943",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/167833943",
+      "attemptedAt": "2026-10-17T04:17:33.562Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/167833943",
+          "attemptedAt": "2026-10-17T04:17:33.562Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91024212": {
+      "version": 1,
+      "providerSignature": "[169500,2,\"Flat\",\"M4 4FN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91024212",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91024212",
+      "attemptedAt": "2026-10-17T04:17:33.813Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91024212",
+          "attemptedAt": "2026-10-17T04:17:33.814Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R174282761": {
+      "version": 1,
+      "providerSignature": "[335000,2,\"Flat\",\"M1 2EW\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/174282761",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/174282761",
+      "attemptedAt": "2026-10-17T04:17:34.065Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/174282761",
+          "attemptedAt": "2026-10-17T04:17:34.066Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94043247": {
+      "version": 1,
+      "providerSignature": "[180000,1,\"Flat\",\"M3 4BD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94043247",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94043247",
+      "attemptedAt": "2026-10-17T04:17:34.317Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94043247",
+          "attemptedAt": "2026-10-17T04:17:34.318Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O19235707": {
+      "version": 1,
+      "providerSignature": "[220000,2,\"Flat\",\"M3 4BD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/19235707",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/19235707",
+      "attemptedAt": "2026-10-17T04:17:34.569Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/19235707",
+          "attemptedAt": "2026-10-17T04:17:34.570Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94369761": {
+      "version": 1,
+      "providerSignature": "[300000,2,\"Flat\",\"M1 2EY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94369761",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94369761",
+      "attemptedAt": "2026-10-17T04:17:34.821Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94369761",
+          "attemptedAt": "2026-10-17T04:17:34.821Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R94369788": {
+      "version": 1,
+      "providerSignature": "[190000,1,\"Flat\",\"M1 2EY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94369788",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/94369788",
+      "attemptedAt": "2026-10-17T04:17:35.073Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/94369788",
+          "attemptedAt": "2026-10-17T04:17:35.074Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92503557": {
+      "version": 1,
+      "providerSignature": "[250000,2,\"Flat\",\"M3 4BD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92503557",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92503557",
+      "attemptedAt": "2026-10-17T04:17:35.325Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92503557",
+          "attemptedAt": "2026-10-17T04:17:35.326Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91983633": {
+      "version": 1,
+      "providerSignature": "[240000,2,\"Flat\",\"M3 4BD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91983633",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91983633",
+      "attemptedAt": "2026-10-17T04:17:35.577Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91983633",
+          "attemptedAt": "2026-10-17T04:17:35.578Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "Z73617532": {
+      "version": 1,
+      "providerSignature": "[159950,1,\"Flat\",\"M3 4BD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73617532",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/zoopla/73617532",
+      "attemptedAt": "2026-10-17T04:17:35.829Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/zoopla/73617532",
+          "attemptedAt": "2026-10-17T04:17:35.830Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90197985": {
+      "version": 1,
+      "providerSignature": "[274400,2,\"Flat\",\"M1 2EY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90197985",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90197985",
+      "attemptedAt": "2026-10-17T04:17:36.082Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90197985",
+          "attemptedAt": "2026-10-17T04:17:36.082Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O19764556": {
+      "version": 1,
+      "providerSignature": "[460000,2,\"Flat\",\"M15 4YY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/19764556",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/19764556",
+      "attemptedAt": "2026-10-17T04:17:36.334Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/19764556",
+          "attemptedAt": "2026-10-17T04:17:36.334Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90125631": {
+      "version": 1,
+      "providerSignature": "[525000,2,\"Flat\",\"M15 4YY\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90125631",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90125631",
+      "attemptedAt": "2026-10-17T04:17:36.585Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90125631",
+          "attemptedAt": "2026-10-17T04:17:36.586Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91833249": {
+      "version": 1,
+      "providerSignature": "[210000,3,\"Flat\",\"M3 6DH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91833249",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91833249",
+      "attemptedAt": "2026-10-17T04:17:36.837Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91833249",
+          "attemptedAt": "2026-10-17T04:17:36.838Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92106606": {
+      "version": 1,
+      "providerSignature": "[440000,2,\"Flat\",\"M15 4NP\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92106606",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92106606",
+      "attemptedAt": "2026-10-17T04:17:37.090Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92106606",
+          "attemptedAt": "2026-10-17T04:17:37.090Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92311785": {
+      "version": 1,
+      "providerSignature": "[625000,3,\"Flat\",\"M15 4NP\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92311785",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92311785",
+      "attemptedAt": "2026-10-17T04:17:37.341Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92311785",
+          "attemptedAt": "2026-10-17T04:17:37.341Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R173590193": {
+      "version": 1,
+      "providerSignature": "[260000,1,\"Flat\",\"M15 4NT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173590193",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/173590193",
+      "attemptedAt": "2026-10-17T04:17:37.593Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/173590193",
+          "attemptedAt": "2026-10-17T04:17:37.593Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92903304": {
+      "version": 1,
+      "providerSignature": "[120000,2,\"Flat\",\"M3 7ED\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92903304",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92903304",
+      "attemptedAt": "2026-10-17T04:17:37.845Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92903304",
+          "attemptedAt": "2026-10-17T04:17:37.845Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91141110": {
+      "version": 1,
+      "providerSignature": "[245000,1,\"Flat\",\"M15 4ZD\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91141110",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91141110",
+      "attemptedAt": "2026-10-17T04:17:38.097Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91141110",
+          "attemptedAt": "2026-10-17T04:17:38.098Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R162136853": {
+      "version": 1,
+      "providerSignature": "[185000,1,\"Flat\",\"M4 6DT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/162136853",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/162136853",
+      "attemptedAt": "2026-10-17T04:17:38.349Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/162136853",
+          "attemptedAt": "2026-10-17T04:17:38.349Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "O17861876": {
+      "version": 1,
+      "providerSignature": "[110000,1,\"Flat\",\"M4 7AA\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/otm/17861876",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/otm/17861876",
+      "attemptedAt": "2026-10-17T04:17:38.600Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/otm/17861876",
+          "attemptedAt": "2026-10-17T04:17:38.601Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R89286222": {
+      "version": 1,
+      "providerSignature": "[360000,2,\"Flat\",\"M15 4ZT\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89286222",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/89286222",
+      "attemptedAt": "2026-10-17T04:17:38.853Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/89286222",
+          "attemptedAt": "2026-10-17T04:17:38.854Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R90851442": {
+      "version": 1,
+      "providerSignature": "[349950,2,\"Flat\",\"M15 4ZQ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90851442",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/90851442",
+      "attemptedAt": "2026-10-17T04:17:39.105Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/90851442",
+          "attemptedAt": "2026-10-17T04:17:39.105Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93393783": {
+      "version": 1,
+      "providerSignature": "[390000,2,\"Flat\",\"M4 6GJ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93393783",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93393783",
+      "attemptedAt": "2026-10-17T04:17:39.357Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93393783",
+          "attemptedAt": "2026-10-17T04:17:39.357Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R93482445": {
+      "version": 1,
+      "providerSignature": "[230000,2,\"Flat\",\"M4 6DH\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93482445",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/93482445",
+      "attemptedAt": "2026-10-17T04:17:39.608Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/93482445",
+          "attemptedAt": "2026-10-17T04:17:39.608Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R91969878": {
+      "version": 1,
+      "providerSignature": "[270000,2,\"Flat\",\"M15 4SZ\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91969878",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/91969878",
+      "attemptedAt": "2026-10-17T04:17:39.860Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/91969878",
+          "attemptedAt": "2026-10-17T04:17:39.860Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
+    },
+    "R92525160": {
+      "version": 1,
+      "providerSignature": "[325000,3,\"Flat\",\"M4 6DN\",null,null]",
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92525160",
+      "canonicalUrl": "https://propertydata.co.uk/outbound/rightmove/92525160",
+      "attemptedAt": "2026-10-17T04:17:40.112Z",
+      "retrievedAt": null,
+      "enrichedAt": null,
+      "status": "blocked",
+      "facts": [],
+      "conflicts": [],
+      "attempts": [
+        {
+          "url": "https://propertydata.co.uk/outbound/rightmove/92525160",
+          "attemptedAt": "2026-10-17T04:17:40.112Z",
+          "outcome": "blocked",
+          "retryAfter": "2026-10-17T09:40:58.098Z",
+          "detail": "Host paused after a rate limit; no request made."
+        }
+      ],
+      "linkedSources": []
     }
   }
 }

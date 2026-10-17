@@ -1,0 +1,233 @@
+{
+  "generatedAt": "2026-10-17T04:18:06.355Z",
+  "inventory": {
+    "returned": 262,
+    "requested": 500,
+    "radiusMiles": 8,
+    "capped": false,
+    "listingRetrievedAt": "2026-10-17T04:02:27.500Z",
+    "properties": 262,
+    "types": {
+      "Flat": 258,
+      "Detached": 3,
+      "Terraced": 1
+    },
+    "scope": "Up to 500 high-yield, reduced-price or chain-free strategy matches within 8 miles of central Manchester. 262 returned in this update; not the whole market or a guarantee of letting suitability.",
+    "note": "Provider-selected listings, not an exhaustive Manchester buy-to-let count. One precise-address collision is flagged, not silently merged."
+  },
+  "rentalEvidence": 260,
+  "sales": {
+    "groups": 186,
+    "ready": 162,
+    "empty": 24,
+    "unavailable": 0,
+    "propertiesWithSales": 237,
+    "distinctDisplayedTransactions": 906,
+    "categoryB": 180
+  },
+  "exactFlatChecks": [
+    {
+      "listingId": "R164386706",
+      "status": "matched",
+      "uprn": "10012202449",
+      "address": "FLAT 304, THE BIRCHIN 1, JOINER STREET, MANCHESTER, M4 1PH",
+      "attemptedAt": "2026-10-17T04:02:52.753Z",
+      "retrievedAt": "2026-10-17T04:02:52.753Z",
+      "epc": {
+        "certificateId": "9358-2851-7624-9593-7851",
+        "rating": "C",
+        "score": 70,
+        "areaSqM": 25,
+        "assessedAt": "2017-12-19",
+        "validUntil": "2027-12-19",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/9358-2851-7624-9593-7851",
+        "retrievedAt": "2026-10-17T04:14:04.757Z",
+        "verification": "official-certificate",
+        "excerpt": "Apartment 304 The Birchin\n 1, Joiner Street\n MANCHESTER\n M4 1PH; EPC C; 25 square metres."
+      },
+      "leaseCount": 1,
+      "salesCount": 1,
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "warnings": []
+    },
+    {
+      "listingId": "R88560366",
+      "status": "matched",
+      "uprn": "10023043878",
+      "address": "FLAT 27, 56, HIGH STREET, MANCHESTER, M4 1ED",
+      "attemptedAt": "2026-10-17T04:02:56.597Z",
+      "retrievedAt": "2026-10-17T04:02:56.597Z",
+      "epc": {
+        "certificateId": "2112-0391-3509-2300-8151",
+        "rating": "B",
+        "score": 86,
+        "areaSqM": 40,
+        "assessedAt": "2023-03-31",
+        "validUntil": "2033-03-30",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/2112-0391-3509-2300-8151",
+        "retrievedAt": "2026-10-17T04:14:04.978Z",
+        "verification": "official-certificate",
+        "excerpt": "Flat 27\n 56 High Street\n MANCHESTER\n M4 1ED; EPC B; 40 square metres."
+      },
+      "leaseCount": 1,
+      "salesCount": 1,
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "warnings": []
+    },
+    {
+      "listingId": "R164900990",
+      "status": "unresolved",
+      "uprn": null,
+      "address": null,
+      "attemptedAt": "2026-10-17T04:02:34.159Z",
+      "retrievedAt": null,
+      "epc": null,
+      "leaseCount": 0,
+      "salesCount": 0,
+      "message": "The provider could not resolve this listing to an exact flat. Ask the agent for the full address or EPC certificate.",
+      "warnings": []
+    },
+    {
+      "listingId": "R92178777",
+      "status": "unresolved",
+      "uprn": null,
+      "address": null,
+      "attemptedAt": "2026-10-17T04:15:04.364Z",
+      "retrievedAt": null,
+      "epc": null,
+      "leaseCount": 0,
+      "salesCount": 0,
+      "message": "The provider could not resolve this listing to an exact flat. Ask the agent for the full address or EPC certificate.",
+      "warnings": []
+    },
+    {
+      "listingId": "R91843293",
+      "status": "unresolved",
+      "uprn": null,
+      "address": null,
+      "attemptedAt": "2026-10-17T04:15:07.346Z",
+      "retrievedAt": null,
+      "epc": null,
+      "leaseCount": 0,
+      "salesCount": 0,
+      "message": "The provider could not resolve this listing to an exact flat. Ask the agent for the full address or EPC certificate.",
+      "warnings": []
+    },
+    {
+      "listingId": "R92869650",
+      "status": "unresolved",
+      "uprn": null,
+      "address": null,
+      "attemptedAt": "2026-10-17T04:15:10.446Z",
+      "retrievedAt": null,
+      "epc": null,
+      "leaseCount": 0,
+      "salesCount": 0,
+      "message": "The provider could not resolve this listing to an exact flat. Ask the agent for the full address or EPC certificate.",
+      "warnings": []
+    },
+    {
+      "listingId": "R93021045",
+      "status": "matched",
+      "uprn": "10012202465",
+      "address": "FLAT 409, THE BIRCHIN 1, JOINER STREET, MANCHESTER, M4 1PH",
+      "attemptedAt": "2026-10-17T04:15:20.076Z",
+      "retrievedAt": "2026-10-17T04:15:20.076Z",
+      "epc": {
+        "certificateId": "2001-8429-2090-6205-9191",
+        "rating": "C",
+        "score": 80,
+        "areaSqM": 49,
+        "assessedAt": "2021-01-11",
+        "validUntil": "2031-01-10",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/2001-8429-2090-6205-9191",
+        "retrievedAt": "2026-10-17T04:15:20.374Z",
+        "verification": "official-certificate",
+        "excerpt": "FLAT 409\n THE BIRCHIN\n 1 JOINER STREET\n MANCHESTER\n M4 1PH; EPC C; 49 square metres."
+      },
+      "leaseCount": 1,
+      "salesCount": 2,
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "warnings": []
+    },
+    {
+      "listingId": "R158634269",
+      "status": "matched",
+      "uprn": "10003797942",
+      "address": "FLAT 101, 1, DEANSGATE, MANCHESTER, M3 1AZ",
+      "attemptedAt": "2026-10-17T04:15:28.228Z",
+      "retrievedAt": "2026-10-17T04:15:28.228Z",
+      "epc": {
+        "certificateId": "0091-2971-7070-2309-9095",
+        "rating": "B",
+        "score": 82,
+        "areaSqM": 64,
+        "assessedAt": "2021-03-09",
+        "validUntil": "2031-03-08",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/0091-2971-7070-2309-9095",
+        "retrievedAt": "2026-10-17T04:15:28.514Z",
+        "verification": "official-certificate",
+        "excerpt": "FLAT 101\n 1 DEANSGATE\n MANCHESTER\n M3 1AZ; EPC B; 64 square metres."
+      },
+      "leaseCount": 1,
+      "salesCount": 1,
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "warnings": [
+        "A registered lease did not match this exact flat and was excluded."
+      ]
+    },
+    {
+      "listingId": "R170675129",
+      "status": "matched",
+      "uprn": "10070393368",
+      "address": "FLAT 47, 3, JOINER STREET, MANCHESTER, M4 1PP",
+      "attemptedAt": "2026-10-17T04:15:32.753Z",
+      "retrievedAt": "2026-10-17T04:15:32.753Z",
+      "epc": {
+        "certificateId": "0758-0003-6276-3637-9204",
+        "rating": "C",
+        "score": 78,
+        "areaSqM": 60,
+        "assessedAt": "2023-06-05",
+        "validUntil": "2033-06-04",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/0758-0003-6276-3637-9204",
+        "retrievedAt": "2026-10-17T04:15:33.028Z",
+        "verification": "official-certificate",
+        "excerpt": "Flat 47\n 3 Joiner Street\n MANCHESTER\n M4 1PP; EPC C; 60 square metres."
+      },
+      "leaseCount": 1,
+      "salesCount": 2,
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "warnings": []
+    },
+    {
+      "listingId": "R171584873",
+      "status": "matched",
+      "uprn": "10023043860",
+      "address": "FLAT 1, 56, HIGH STREET, MANCHESTER, M4 1ED",
+      "attemptedAt": "2026-10-17T04:15:38.623Z",
+      "retrievedAt": "2026-10-17T04:15:38.623Z",
+      "epc": {
+        "certificateId": "8602-3327-4000-1047-2202",
+        "rating": "C",
+        "score": 75,
+        "areaSqM": 40,
+        "assessedAt": "2022-03-03",
+        "validUntil": "2032-03-03",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/8602-3327-4000-1047-2202",
+        "retrievedAt": "2026-10-17T04:15:38.881Z",
+        "verification": "official-certificate",
+        "excerpt": "Flat 1\n 56 High Street\n MANCHESTER\n M4 1ED; EPC C; 40 square metres."
+      },
+      "leaseCount": 1,
+      "salesCount": 2,
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "warnings": []
+    }
+  ],
+  "adverts": {
+    "verified": 34,
+    "limitations": "New advert retrieval respects the persisted PropertyData outbound 429 cooldown. Provider facts are reported, not source-verified."
+  },
+  "runtime": "Saved files only. This report records the executed local backfill, not a claim that GitHub cron has run."
+}

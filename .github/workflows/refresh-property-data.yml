@@ -15,7 +15,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - name: Check configuration
         env:
@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.name "$SNAPSHOT_COMMIT_NAME"
           git config user.email "$SNAPSHOT_COMMIT_EMAIL"
-          git add src/data/live-snapshot.json src/data/daily-sales.json src/data/listing-enrichment.json
+          git add src/data/live-snapshot.json src/data/daily-sales.json src/data/listing-enrichment.json src/data/official-evidence.json
           if git diff --cached --quiet; then
             echo 'No dataset changes.' >> "$GITHUB_STEP_SUMMARY"
             exit 0

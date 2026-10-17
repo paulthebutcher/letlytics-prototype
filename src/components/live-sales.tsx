@@ -91,7 +91,7 @@ export function LiveSales({ property }: { property: LiveProperty }) {
                 {evidence.medianPrice !== null && (
                   <span>
                     <strong>{liveMoney(evidence.medianPrice)}</strong>median of
-                    these records
+                    standard sales shown
                   </span>
                 )}
                 <p>
@@ -127,7 +127,12 @@ export function LiveSales({ property }: { property: LiveProperty }) {
                         <td>
                           <strong>{liveMoney(sale.price)}</strong>
                         </td>
-                        <td>{sale.tenure ?? "Not recorded"}</td>
+                        <td>
+                          {sale.tenure ?? "Not recorded"}
+                          {sale.category === "B" && (
+                            <small>Category B · excluded from median</small>
+                          )}
+                        </td>
                       </tr>
                     ))}
                   </tbody>

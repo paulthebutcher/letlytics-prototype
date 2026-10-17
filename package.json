@@ -11,7 +11,8 @@
     "image:generate": "node --import tsx scripts/generate-social-image.tsx",
     "test": "node --import tsx --test tests/*.test.ts",
     "data:enrich": "node --import tsx scripts/enrich-listings.ts",
-    "data:report": "node --import tsx scripts/report-enrichment.ts"
+    "data:report": "node --import tsx scripts/report-enrichment.ts",
+    "data:evidence": "node --import tsx scripts/refresh-evidence.ts"
   },
   "dependencies": {
     "leaflet": "1.9.4",
