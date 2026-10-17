@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T04:16:06.145Z",
+  "fetchedAt": "2026-10-17T10:47:48.852Z",
   "records": {
     "M2 1HN:Flat": {
       "policyVersion": 2,
@@ -14034,6 +14034,23 @@
       "caveat": "Recorded sales in the same postcode and property type are context, not a valuation or an exact property match. Bedrooms, floor area and condition are unknown. This small, selected cohort may not be representative; recent registrations can be missing.",
       "attribution": "Contains HM Land Registry data © Crown copyright and database right 2021. This data is licensed under the Open Government Licence v3.0.",
       "sourceUrl": "https://landregistry.data.gov.uk/app/ppd/"
+    },
+    "M15 4YU:Detached": {
+      "policyVersion": 2,
+      "status": "empty",
+      "postcode": "M15 4YU",
+      "propertyType": "Detached",
+      "fetchedAt": "2026-10-17T10:47:48.851Z",
+      "periodStart": "2023-10-17",
+      "sales": [],
+      "count": 0,
+      "medianPrice": null,
+      "truncated": false,
+      "scope": "Up to 12 detached sales in M15 4YU, past 36 months. Categories A and B, existing buildings only; mixed tenures. Median uses category A only.",
+      "caveat": "Recorded sales in the same postcode and property type are context, not a valuation or an exact property match. Bedrooms, floor area and condition are unknown. This small, selected cohort may not be representative; recent registrations can be missing.",
+      "attribution": "Contains HM Land Registry data © Crown copyright and database right 2021. This data is licensed under the Open Government Licence v3.0.",
+      "sourceUrl": "https://landregistry.data.gov.uk/app/ppd/",
+      "message": "No qualifying recorded sales found. This does not mean no properties have sold; recent registrations and excluded transaction types may be absent."
     }
   }
 }

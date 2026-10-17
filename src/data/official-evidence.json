@@ -334,6 +334,51 @@
         }
       ],
       "warnings": []
+    },
+    "R168274910": {
+      "listingId": "R168274910",
+      "attemptedAt": "2026-10-17T10:49:19.863Z",
+      "retrievedAt": "2026-10-17T10:49:19.863Z",
+      "status": "matched",
+      "message": "Exact property resolved through PropertyData; official datasets supplied through its property profile.",
+      "match": {
+        "uprn": "10023043883",
+        "address": "FLAT 31, 56, HIGH STREET, MANCHESTER, M4 1ED",
+        "postcode": "M4 1ED",
+        "sourceUrl": "https://www.rightmove.co.uk/properties/168274910",
+        "retrievedAt": "2026-10-17T10:49:16.102Z",
+        "method": "listing-address"
+      },
+      "epc": {
+        "certificateId": "8008-5375-5229-3797-5633",
+        "rating": "C",
+        "score": 69,
+        "areaSqM": 80,
+        "assessedAt": "2017-06-13",
+        "validUntil": "2027-06-12",
+        "sourceUrl": "https://find-energy-certificate.service.gov.uk/energy-certificate/8008-5375-5229-3797-5633",
+        "retrievedAt": "2026-10-17T10:49:20.190Z",
+        "verification": "official-certificate",
+        "excerpt": "Flat 31\n 56, High Street\n MANCHESTER\n M4 1ED; EPC C; 80 square metres."
+      },
+      "leases": [
+        {
+          "term": "125 years from 1 January 2004",
+          "startDate": "2004-01-01",
+          "endDate": "2129-01-01",
+          "propertyDescription": "Flat 31, 56 High Street, Manchester (M4 1ED)",
+          "sourceUrl": "https://use-land-property-data.service.gov.uk/datasets/leases",
+          "retrievedAt": "2026-10-17T10:49:19.863Z"
+        }
+      ],
+      "sales": [
+        {
+          "price": 185000,
+          "date": "2004-07-28",
+          "sourceUrl": "https://landregistry.data.gov.uk/data/ppi/transaction/90238206-43FD-4C5C-9374-5C5502E4ABB6/current"
+        }
+      ],
+      "warnings": []
     }
   }
 }

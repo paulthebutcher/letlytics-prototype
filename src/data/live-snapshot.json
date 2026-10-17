@@ -1,6 +1,6 @@
 {
   "market": "Manchester",
-  "fetchedAt": "2026-10-17T04:02:27.500Z",
+  "fetchedAt": "2026-10-17T10:46:50.048Z",
   "properties": [
     {
       "id": "R92178777",
@@ -23,7 +23,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1699,
         "monthlyLow": 1369,
@@ -31,7 +31,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M2 1HN",
-        "fetchedAt": "2026-10-17T04:13:54.620Z",
+        "fetchedAt": "2026-10-17T10:46:51.875Z",
         "comparables": [
           {
             "address": "Cross Street, Manchester, Greater Manchester M2, M2 4JE",
@@ -103,7 +103,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1699,
         "monthlyLow": 1369,
@@ -111,7 +111,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M2 1HN",
-        "fetchedAt": "2026-10-17T04:13:54.620Z",
+        "fetchedAt": "2026-10-17T10:46:51.875Z",
         "comparables": [
           {
             "address": "Cross Street, Manchester, Greater Manchester M2, M2 4JE",
@@ -183,7 +183,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1699,
         "monthlyLow": 1369,
@@ -191,7 +191,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M2 1HN",
-        "fetchedAt": "2026-10-17T04:13:54.620Z",
+        "fetchedAt": "2026-10-17T10:46:51.875Z",
         "comparables": [
           {
             "address": "Cross Street, Manchester, Greater Manchester M2, M2 4JE",
@@ -253,7 +253,7 @@
       "propertyType": "Flat",
       "bedrooms": 1,
       "floorAreaSqFt": 284,
-      "daysOnMarket": 424,
+      "daysOnMarket": 425,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/164386706",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/0de02dafe/164386706/0de02dafe18c5b9cb4f47efdd916578e.jpeg",
       "summary": "",
@@ -264,7 +264,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -272,7 +272,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -345,7 +345,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -353,7 +353,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -426,7 +426,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -434,7 +434,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -496,7 +496,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 649,
-      "daysOnMarket": 112,
+      "daysOnMarket": 113,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/170675129",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/5ec889eb6/170675129/5ec889eb66a63c06b28232c52a4d50d8.jpeg",
       "summary": "",
@@ -507,7 +507,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -515,7 +515,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -587,7 +587,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -595,7 +595,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -667,7 +667,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1049,
         "monthlyLow": 923,
@@ -675,7 +675,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.57,
         "searchPostcode": "M4 1PN",
-        "fetchedAt": "2026-10-17T04:14:05.272Z",
+        "fetchedAt": "2026-10-17T10:47:03.582Z",
         "comparables": [
           {
             "address": "Church Street, Manchester, M4, M4 1PN",
@@ -747,7 +747,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1049,
         "monthlyLow": 923,
@@ -755,7 +755,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.57,
         "searchPostcode": "M4 1PN",
-        "fetchedAt": "2026-10-17T04:14:05.272Z",
+        "fetchedAt": "2026-10-17T10:47:03.582Z",
         "comparables": [
           {
             "address": "Church Street, Manchester, M4, M4 1PN",
@@ -827,7 +827,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -835,7 +835,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -909,7 +909,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -917,7 +917,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -991,7 +991,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -999,7 +999,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -1072,7 +1072,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -1080,7 +1080,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -1153,7 +1153,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -1161,7 +1161,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -1234,7 +1234,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -1242,7 +1242,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -1315,7 +1315,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -1323,7 +1323,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -1375,87 +1375,6 @@
       "epcRating": null
     },
     {
-      "id": "R173698505",
-      "address": "Flat 57, Century Buildings, 14 St. Marys Parsonage, Manchester",
-      "preciseAddress": "FLAT 21, CENTURY BUILDINGS 14, ST MARY'S PARSONAGE, MANCHESTER, M3 2DD",
-      "postcode": "M3 2DD",
-      "price": 220000,
-      "lat": 53.48286,
-      "lng": -2.249143,
-      "propertyType": "Flat",
-      "bedrooms": 2,
-      "floorAreaSqFt": null,
-      "daysOnMarket": 206,
-      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/173698505",
-      "imageUrl": "https://media.rightmove.co.uk/property-photo/fb08457bf/173698505/fb08457bf8e82f86356de3e08e6d8d5c.jpeg",
-      "summary": "",
-      "providerDetails": {
-        "type": "Apartment",
-        "summary": "This well-presented two-bedroom apartment is ideally situated in Manchester city centre, next to the canal and Parsonage Gardens with excellent transport links. The property comprises an entrance hall, spacious lounge and kitchen area, two well-proportioned bedrooms with the master featuring an en-suite, separate bathroom, and private balcony.\n\nLocated within walking distance of the city centre and surrounded by local shops and amenities, this sought-after flat offers convenient city living. The asking price has been reduced by 20% from the original listing price."
-      },
-      "strategies": [
-        "Price reduced properties"
-      ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
-      "rent": {
-        "monthlyEstimate": 1452,
-        "monthlyLow": 1352,
-        "monthlyHigh": 1798,
-        "sampleSize": 15,
-        "radiusMiles": 0.17,
-        "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
-        "comparables": [
-          {
-            "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
-            "monthlyRent": 1452,
-            "bedrooms": 2,
-            "propertyType": "flat",
-            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/92393589"
-          },
-          {
-            "address": "1 Deansgate, Manchester, M3 1AZ",
-            "monthlyRent": 2500,
-            "bedrooms": 2,
-            "propertyType": "flat",
-            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91344585"
-          },
-          {
-            "address": "City Heights, Victoria Bridge Street, Salford, M3 , M3 5AS",
-            "monthlyRent": 1174,
-            "bedrooms": 2,
-            "propertyType": "flat",
-            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/93533667"
-          },
-          {
-            "address": "City Heights, Manchester, M3, M3 5AS",
-            "monthlyRent": 1599,
-            "bedrooms": 2,
-            "propertyType": "flat",
-            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94275561"
-          },
-          {
-            "address": "6a St Ann's Square., Manchester M2, M2 7HN",
-            "monthlyRent": 1369,
-            "bedrooms": 2,
-            "propertyType": "flat",
-            "listingUrl": "https://propertydata.co.uk/outbound/otm/17959421"
-          },
-          {
-            "address": "3 New Kings Head Yard, Salford M3, M3 7GH",
-            "monthlyRent": 1352,
-            "bedrooms": 2,
-            "propertyType": "flat",
-            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74433304"
-          }
-        ]
-      },
-      "annualServiceCharge": null,
-      "annualCouncilTax": null,
-      "tenure": null,
-      "epcRating": null
-    },
-    {
       "id": "R88970838",
       "address": "Century Buildings, St Mary`s Parsonage, Deansgate",
       "preciseAddress": "FLAT 29, CENTURY BUILDINGS 14, ST MARY'S PARSONAGE, MANCHESTER, M3 2DD",
@@ -1477,7 +1396,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -1485,7 +1404,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -1559,7 +1478,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -1567,7 +1486,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -1639,7 +1558,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": null,
       "annualServiceCharge": null,
       "annualCouncilTax": null,
@@ -1668,7 +1587,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -1676,7 +1595,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -1749,7 +1668,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -1757,7 +1676,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -1830,7 +1749,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -1838,7 +1757,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -1910,7 +1829,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2474,
         "monthlyLow": 1850,
@@ -1918,7 +1837,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.39,
         "searchPostcode": "M3 5ND",
-        "fetchedAt": "2026-10-17T04:14:17.347Z",
+        "fetchedAt": "2026-10-17T10:47:15.428Z",
         "comparables": [
           {
             "address": "The Edge, Clowes Street M3, M3 5NB",
@@ -1990,7 +1909,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -1998,7 +1917,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -2071,7 +1990,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -2079,7 +1998,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -2152,7 +2071,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -2160,7 +2079,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -2221,7 +2140,7 @@
       "propertyType": "Flat",
       "bedrooms": 1,
       "floorAreaSqFt": 505,
-      "daysOnMarket": 1058,
+      "daysOnMarket": 1059,
       "listingUrl": "https://propertydata.co.uk/outbound/otm/13983786",
       "imageUrl": "https://media.onthemarket.com/properties/13983786/1599912504/image-0-1024x1024.jpg",
       "summary": "",
@@ -2232,7 +2151,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -2240,7 +2159,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -2312,7 +2231,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -2320,7 +2239,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -2392,7 +2311,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -2400,7 +2319,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -2472,7 +2391,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -2480,7 +2399,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -2554,7 +2473,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -2562,7 +2481,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -2636,7 +2555,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -2644,7 +2563,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -2717,7 +2636,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -2725,7 +2644,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -2797,7 +2716,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -2805,7 +2724,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -2877,7 +2796,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -2885,7 +2804,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -2958,7 +2877,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -2966,7 +2885,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -3039,7 +2958,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -3047,7 +2966,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -3120,7 +3039,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2665,
         "monthlyLow": 1898,
@@ -3128,7 +3047,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.22,
         "searchPostcode": "M1 3AW",
-        "fetchedAt": "2026-10-17T04:14:32.773Z",
+        "fetchedAt": "2026-10-17T10:47:21.428Z",
         "comparables": [
           {
             "address": "Linter, Manchester New Square Manchester M1, M1 3AW",
@@ -3200,7 +3119,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -3208,7 +3127,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -3281,7 +3200,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -3289,7 +3208,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -3361,7 +3280,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -3369,7 +3288,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -3442,7 +3361,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -3450,7 +3369,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -3522,7 +3441,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -3530,7 +3449,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -3603,7 +3522,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -3611,7 +3530,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -3683,7 +3602,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -3691,7 +3610,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -3764,7 +3683,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -3772,7 +3691,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -3844,7 +3763,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -3852,7 +3771,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -3913,7 +3832,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 656,
-      "daysOnMarket": 678,
+      "daysOnMarket": 679,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/155731334",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/82399526d/155731334/82399526da41d5ee2201753b75d80799.jpeg",
       "summary": "",
@@ -3924,7 +3843,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -3932,7 +3851,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -4005,7 +3924,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2665,
         "monthlyLow": 1898,
@@ -4013,7 +3932,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.22,
         "searchPostcode": "M1 3AW",
-        "fetchedAt": "2026-10-17T04:14:32.773Z",
+        "fetchedAt": "2026-10-17T10:47:21.428Z",
         "comparables": [
           {
             "address": "Linter, Manchester New Square Manchester M1, M1 3AW",
@@ -4085,7 +4004,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -4093,7 +4012,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -4166,7 +4085,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1036,
         "monthlyLow": 901,
@@ -4174,7 +4093,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.72,
         "searchPostcode": "M1 6LQ",
-        "fetchedAt": "2026-10-17T04:14:34.222Z",
+        "fetchedAt": "2026-10-17T10:47:24.559Z",
         "comparables": [
           {
             "address": "Bracken House, 44-58 Charles Street, Manchester, M1, M1 7BD",
@@ -4247,7 +4166,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -4255,7 +4174,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -4328,7 +4247,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -4336,7 +4255,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -4409,7 +4328,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1001,
         "monthlyLow": 901,
@@ -4417,7 +4336,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.55,
         "searchPostcode": "M3 4PF",
-        "fetchedAt": "2026-10-17T04:14:37.154Z",
+        "fetchedAt": "2026-10-17T10:47:27.342Z",
         "comparables": [
           {
             "address": "Artillery House, Manchester, M3, M3 4PF",
@@ -4490,7 +4409,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -4498,7 +4417,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -4570,7 +4489,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -4578,7 +4497,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -4639,7 +4558,7 @@
       "propertyType": "Flat",
       "bedrooms": 1,
       "floorAreaSqFt": 433,
-      "daysOnMarket": 367,
+      "daysOnMarket": 368,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/151538393",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/b04bdd3bf/151538393/b04bdd3bfd8d41b43f945fc3f91f96f2.jpeg",
       "summary": "",
@@ -4650,7 +4569,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -4658,7 +4577,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -4731,7 +4650,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -4739,7 +4658,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -4812,7 +4731,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -4820,7 +4739,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -4893,7 +4812,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -4901,7 +4820,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -4973,7 +4892,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -4981,7 +4900,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -5054,7 +4973,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -5062,7 +4981,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -5135,7 +5054,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -5143,7 +5062,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -5215,7 +5134,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -5223,7 +5142,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -5296,7 +5215,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -5304,7 +5223,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -5377,7 +5296,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -5385,7 +5304,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -5459,7 +5378,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -5467,7 +5386,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -5540,7 +5459,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -5548,7 +5467,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -5620,7 +5539,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2297,
         "monthlyLow": 1850,
@@ -5628,7 +5547,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M4 5FQ",
-        "fetchedAt": "2026-10-17T04:14:40.497Z",
+        "fetchedAt": "2026-10-17T10:47:30.497Z",
         "comparables": [
           {
             "address": "Swan Street House, Manchester, M4, M4 5GB",
@@ -5701,7 +5620,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2665,
         "monthlyLow": 1898,
@@ -5709,7 +5628,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.22,
         "searchPostcode": "M1 3AW",
-        "fetchedAt": "2026-10-17T04:14:32.773Z",
+        "fetchedAt": "2026-10-17T10:47:21.428Z",
         "comparables": [
           {
             "address": "Linter, Manchester New Square Manchester M1, M1 3AW",
@@ -5782,7 +5701,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -5790,7 +5709,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -5864,7 +5783,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -5872,7 +5791,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -5944,7 +5863,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -5952,7 +5871,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -6024,7 +5943,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -6032,7 +5951,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -6104,7 +6023,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -6112,7 +6031,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -6185,7 +6104,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -6193,7 +6112,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -6266,7 +6185,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -6274,7 +6193,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -6347,7 +6266,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -6355,7 +6274,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -6428,7 +6347,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -6436,7 +6355,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -6498,7 +6417,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 897,
-      "daysOnMarket": 450,
+      "daysOnMarket": 451,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/163035548",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/4a83843c3/163035548/4a83843c3b4747886c6bb39328e99ed8.jpeg",
       "summary": "",
@@ -6510,7 +6429,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -6518,7 +6437,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -6591,7 +6510,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1001,
         "monthlyLow": 901,
@@ -6599,7 +6518,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.55,
         "searchPostcode": "M3 4PF",
-        "fetchedAt": "2026-10-17T04:14:37.154Z",
+        "fetchedAt": "2026-10-17T10:47:27.342Z",
         "comparables": [
           {
             "address": "Artillery House, Manchester, M3, M3 4PF",
@@ -6672,7 +6591,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1001,
         "monthlyLow": 901,
@@ -6680,7 +6599,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.55,
         "searchPostcode": "M3 4PF",
-        "fetchedAt": "2026-10-17T04:14:37.154Z",
+        "fetchedAt": "2026-10-17T10:47:27.342Z",
         "comparables": [
           {
             "address": "Artillery House, Manchester, M3, M3 4PF",
@@ -6752,7 +6671,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -6760,7 +6679,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -6832,7 +6751,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -6840,7 +6759,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -6912,7 +6831,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -6920,7 +6839,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -6992,7 +6911,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2665,
         "monthlyLow": 1898,
@@ -7000,7 +6919,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.22,
         "searchPostcode": "M1 3AW",
-        "fetchedAt": "2026-10-17T04:14:32.773Z",
+        "fetchedAt": "2026-10-17T10:47:21.428Z",
         "comparables": [
           {
             "address": "Linter, Manchester New Square Manchester M1, M1 3AW",
@@ -7072,7 +6991,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1036,
         "monthlyLow": 901,
@@ -7080,7 +6999,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.72,
         "searchPostcode": "M1 6LQ",
-        "fetchedAt": "2026-10-17T04:14:34.222Z",
+        "fetchedAt": "2026-10-17T10:47:24.559Z",
         "comparables": [
           {
             "address": "Bracken House, 44-58 Charles Street, Manchester, M1, M1 7BD",
@@ -7153,7 +7072,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7161,7 +7080,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -7233,7 +7152,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -7241,7 +7160,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -7314,7 +7233,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7322,7 +7241,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -7394,7 +7313,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -7402,7 +7321,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -7475,7 +7394,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2665,
         "monthlyLow": 1898,
@@ -7483,7 +7402,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.22,
         "searchPostcode": "M1 3AW",
-        "fetchedAt": "2026-10-17T04:14:32.773Z",
+        "fetchedAt": "2026-10-17T10:47:21.428Z",
         "comparables": [
           {
             "address": "Linter, Manchester New Square Manchester M1, M1 3AW",
@@ -7555,7 +7474,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -7563,7 +7482,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -7636,7 +7555,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7644,7 +7563,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -7717,7 +7636,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7725,7 +7644,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -7798,7 +7717,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7806,7 +7725,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -7880,7 +7799,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7888,7 +7807,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -7961,7 +7880,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -7969,7 +7888,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -8041,7 +7960,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2474,
         "monthlyLow": 1850,
@@ -8049,7 +7968,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.39,
         "searchPostcode": "M3 5ND",
-        "fetchedAt": "2026-10-17T04:14:17.347Z",
+        "fetchedAt": "2026-10-17T10:47:15.428Z",
         "comparables": [
           {
             "address": "The Edge, Clowes Street M3, M3 5NB",
@@ -8121,7 +8040,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -8129,7 +8048,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -8191,7 +8110,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 700,
-      "daysOnMarket": 331,
+      "daysOnMarket": 332,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/169392773",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/c1f1657a6/169392773/c1f1657a6d85ca5a4dd0b467c9d7e28f.jpeg",
       "summary": "",
@@ -8202,7 +8121,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -8210,7 +8129,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -8283,7 +8202,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1001,
         "monthlyLow": 901,
@@ -8291,7 +8210,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.55,
         "searchPostcode": "M3 4PF",
-        "fetchedAt": "2026-10-17T04:14:37.154Z",
+        "fetchedAt": "2026-10-17T10:47:27.342Z",
         "comparables": [
           {
             "address": "Artillery House, Manchester, M3, M3 4PF",
@@ -8364,7 +8283,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -8372,7 +8291,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -8444,7 +8363,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1001,
         "monthlyLow": 901,
@@ -8452,7 +8371,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.55,
         "searchPostcode": "M3 4PF",
-        "fetchedAt": "2026-10-17T04:14:37.154Z",
+        "fetchedAt": "2026-10-17T10:47:27.342Z",
         "comparables": [
           {
             "address": "Artillery House, Manchester, M3, M3 4PF",
@@ -8525,7 +8444,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -8533,7 +8452,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -8605,7 +8524,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -8613,7 +8532,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -8686,7 +8605,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -8694,7 +8613,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -8767,7 +8686,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -8775,7 +8694,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -8848,7 +8767,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -8856,7 +8775,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -8929,7 +8848,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -8937,7 +8856,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -9009,7 +8928,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -9017,7 +8936,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -9090,7 +9009,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -9098,7 +9017,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -9171,7 +9090,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -9179,7 +9098,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -9252,7 +9171,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -9260,7 +9179,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -9333,7 +9252,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -9341,7 +9260,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -9414,7 +9333,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -9422,7 +9341,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -9495,7 +9414,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -9503,7 +9422,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -9564,7 +9483,7 @@
       "propertyType": "Flat",
       "bedrooms": 1,
       "floorAreaSqFt": 409,
-      "daysOnMarket": 37,
+      "daysOnMarket": 38,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/147806954",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/821eeb87b/147806954/821eeb87b7b8ca7771ab7c2a48b368dc.jpeg",
       "summary": "",
@@ -9575,7 +9494,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -9583,7 +9502,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -9656,7 +9575,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -9664,7 +9583,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -9737,7 +9656,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -9745,7 +9664,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -9817,7 +9736,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -9825,7 +9744,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -9898,7 +9817,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -9906,7 +9825,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -9978,7 +9897,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -9986,7 +9905,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -10059,7 +9978,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -10067,7 +9986,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -10140,7 +10059,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -10148,7 +10067,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -10220,7 +10139,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -10228,7 +10147,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -10301,7 +10220,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -10309,7 +10228,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -10382,7 +10301,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -10390,7 +10309,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -10462,7 +10381,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -10470,7 +10389,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -10543,7 +10462,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -10551,7 +10470,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -10624,7 +10543,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2297,
         "monthlyLow": 1850,
@@ -10632,7 +10551,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M4 5FQ",
-        "fetchedAt": "2026-10-17T04:14:40.497Z",
+        "fetchedAt": "2026-10-17T10:47:30.497Z",
         "comparables": [
           {
             "address": "Swan Street House, Manchester, M4, M4 5GB",
@@ -10704,7 +10623,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -10712,7 +10631,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -10785,7 +10704,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -10793,7 +10712,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -10865,7 +10784,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2297,
         "monthlyLow": 1850,
@@ -10873,7 +10792,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M4 5FQ",
-        "fetchedAt": "2026-10-17T04:14:40.497Z",
+        "fetchedAt": "2026-10-17T10:47:30.497Z",
         "comparables": [
           {
             "address": "Swan Street House, Manchester, M4, M4 5GB",
@@ -10945,7 +10864,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -10953,7 +10872,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -11025,7 +10944,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -11033,7 +10952,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -11106,7 +11025,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -11114,7 +11033,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -11186,7 +11105,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -11194,7 +11113,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -11266,7 +11185,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -11274,7 +11193,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -11347,7 +11266,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -11355,7 +11274,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -11427,7 +11346,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -11435,7 +11354,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -11508,7 +11427,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1001,
         "monthlyLow": 901,
@@ -11516,7 +11435,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.55,
         "searchPostcode": "M3 4PF",
-        "fetchedAt": "2026-10-17T04:14:37.154Z",
+        "fetchedAt": "2026-10-17T10:47:27.342Z",
         "comparables": [
           {
             "address": "Artillery House, Manchester, M3, M3 4PF",
@@ -11589,7 +11508,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -11597,7 +11516,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -11669,7 +11588,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -11677,7 +11596,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -11750,7 +11669,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -11758,7 +11677,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -11831,7 +11750,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -11839,7 +11758,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -11912,7 +11831,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -11920,7 +11839,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -11993,7 +11912,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -12001,7 +11920,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -12073,7 +11992,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -12081,7 +12000,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -12154,7 +12073,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -12162,7 +12081,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -12235,7 +12154,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -12243,7 +12162,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -12315,7 +12234,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -12323,7 +12242,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -12384,7 +12303,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 635,
-      "daysOnMarket": 904,
+      "daysOnMarket": 905,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/143478152",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/b1c0e488e/143478152/b1c0e488efcc86a848e87ddb95d02587.jpeg",
       "summary": "",
@@ -12395,7 +12314,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -12403,7 +12322,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -12476,7 +12395,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -12484,7 +12403,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -12556,7 +12475,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -12564,7 +12483,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -12636,7 +12555,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -12644,7 +12563,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -12717,7 +12636,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -12725,7 +12644,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -12798,7 +12717,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -12806,7 +12725,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -12879,7 +12798,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -12887,7 +12806,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -12960,7 +12879,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -12968,7 +12887,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -13040,7 +12959,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -13048,7 +12967,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -13121,7 +13040,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -13129,7 +13048,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -13202,7 +13121,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -13210,7 +13129,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -13283,7 +13202,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -13291,7 +13210,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -13363,7 +13282,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -13371,7 +13290,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -13444,7 +13363,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -13452,7 +13371,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -13525,7 +13444,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -13533,7 +13452,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -13606,7 +13525,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -13614,7 +13533,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -13687,7 +13606,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2297,
         "monthlyLow": 1850,
@@ -13695,7 +13614,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M4 5FQ",
-        "fetchedAt": "2026-10-17T04:14:40.497Z",
+        "fetchedAt": "2026-10-17T10:47:30.497Z",
         "comparables": [
           {
             "address": "Swan Street House, Manchester, M4, M4 5GB",
@@ -13768,7 +13687,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -13776,7 +13695,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -13848,7 +13767,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -13856,7 +13775,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -13928,7 +13847,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -13936,7 +13855,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -14008,7 +13927,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -14016,7 +13935,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -14089,7 +14008,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -14097,7 +14016,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -14170,7 +14089,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -14178,7 +14097,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -14250,7 +14169,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -14258,7 +14177,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -14331,7 +14250,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -14339,7 +14258,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -14400,7 +14319,7 @@
       "propertyType": "Flat",
       "bedrooms": 1,
       "floorAreaSqFt": 893,
-      "daysOnMarket": 367,
+      "daysOnMarket": 368,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/167184686",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/f1c6f6201/167184686/f1c6f62011a75e70d1502b21f995f656.jpeg",
       "summary": "",
@@ -14411,7 +14330,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -14419,7 +14338,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -14492,7 +14411,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -14500,7 +14419,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -14561,7 +14480,7 @@
       "propertyType": "Detached",
       "bedrooms": null,
       "floorAreaSqFt": null,
-      "daysOnMarket": 404,
+      "daysOnMarket": 405,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/156790088",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/6f333be59/156790088/6f333be5991302ef6ce0573a2a3de415.jpeg",
       "summary": "",
@@ -14572,7 +14491,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": null,
       "annualServiceCharge": null,
       "annualCouncilTax": null,
@@ -14602,7 +14521,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -14610,7 +14529,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -14682,7 +14601,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -14690,7 +14609,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -14763,7 +14682,7 @@
         "High yield properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -14771,7 +14690,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -14843,7 +14762,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1681,
         "monthlyLow": 1200,
@@ -14851,7 +14770,7 @@
         "sampleSize": 15,
         "radiusMiles": 1.33,
         "searchPostcode": "M3 7FF",
-        "fetchedAt": "2026-10-17T04:14:49.415Z",
+        "fetchedAt": "2026-10-17T10:47:39.544Z",
         "comparables": [
           {
             "address": "Velour Close, Salford, Lancashire, M3, M3 6AP",
@@ -14924,7 +14843,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -14932,7 +14851,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -15005,7 +14924,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -15013,7 +14932,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -15085,7 +15004,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2171,
         "monthlyLow": 1850,
@@ -15093,7 +15012,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.43,
         "searchPostcode": "M15 4UA",
-        "fetchedAt": "2026-10-17T04:14:52.460Z",
+        "fetchedAt": "2026-10-17T10:47:42.612Z",
         "comparables": [
           {
             "address": "The Residences Manchester, Deansgate Square, Greater Manchester, M15 , M15 4UP",
@@ -15166,7 +15085,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -15174,7 +15093,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -15246,7 +15165,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -15254,7 +15173,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -15327,7 +15246,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -15335,7 +15254,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -15408,7 +15327,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2297,
         "monthlyLow": 1850,
@@ -15416,7 +15335,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M4 5FQ",
-        "fetchedAt": "2026-10-17T04:14:40.497Z",
+        "fetchedAt": "2026-10-17T10:47:30.497Z",
         "comparables": [
           {
             "address": "Swan Street House, Manchester, M4, M4 5GB",
@@ -15489,7 +15408,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -15497,7 +15416,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -15570,7 +15489,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -15578,7 +15497,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -15651,7 +15570,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -15659,7 +15578,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -15732,7 +15651,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -15740,7 +15659,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -15813,7 +15732,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2171,
         "monthlyLow": 1850,
@@ -15821,7 +15740,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.43,
         "searchPostcode": "M15 4UA",
-        "fetchedAt": "2026-10-17T04:14:52.460Z",
+        "fetchedAt": "2026-10-17T10:47:42.612Z",
         "comparables": [
           {
             "address": "The Residences Manchester, Deansgate Square, Greater Manchester, M15 , M15 4UP",
@@ -15894,7 +15813,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -15902,7 +15821,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -15975,7 +15894,7 @@
         "High yield properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -15983,7 +15902,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -16055,7 +15974,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -16063,7 +15982,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -16125,7 +16044,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 665,
-      "daysOnMarket": 112,
+      "daysOnMarket": 113,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/90174135",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/0efdad041/90174135/0efdad0417807ec694a478d3094756f8.jpeg",
       "summary": "",
@@ -16137,7 +16056,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -16145,7 +16064,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -16218,7 +16137,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -16226,7 +16145,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -16299,7 +16218,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -16307,7 +16226,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -16380,7 +16299,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1036,
         "monthlyLow": 901,
@@ -16388,7 +16307,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.72,
         "searchPostcode": "M1 6LQ",
-        "fetchedAt": "2026-10-17T04:14:34.222Z",
+        "fetchedAt": "2026-10-17T10:47:24.559Z",
         "comparables": [
           {
             "address": "Bracken House, 44-58 Charles Street, Manchester, M1, M1 7BD",
@@ -16461,7 +16380,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -16469,7 +16388,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -16542,7 +16461,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -16550,7 +16469,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -16623,7 +16542,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -16631,7 +16550,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -16703,7 +16622,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -16711,7 +16630,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -16763,9 +16682,8 @@
       "epcRating": null
     },
     {
-      "id": "R91604478",
-      "address": "Murray Mills, 50 Bengal Street, Manchester",
-      "preciseAddress": "72, MURRAYS MILLS 50, BENGAL STREET, MANCHESTER, M4 6LS",
+      "id": "Z73884071",
+      "address": "Murray Mills, 50 Bengal Street, Manchester M4",
       "postcode": "M4 6LS",
       "price": 350000,
       "lat": 53.483921,
@@ -16774,17 +16692,17 @@
       "bedrooms": 2,
       "floorAreaSqFt": 861,
       "daysOnMarket": 74,
-      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91604478",
-      "imageUrl": "https://media.rightmove.co.uk/property-photo/57bea58d3/91604478/57bea58d31e74aa3911b737d6de6a972.jpeg",
+      "listingUrl": "https://propertydata.co.uk/outbound/zoopla/73884071",
+      "imageUrl": "https://lid.zoocdn.com/u/1024/768/68510d72720a3077bcc5b0d72749b33551595294.jpg",
       "summary": "",
       "providerDetails": {
-        "type": "Apartment",
+        "type": "flat",
         "summary": "This property is within walking distance of Manchester city centre (population 547,627). This flat benefits from having no onward chain, so would be a more reliable transaction."
       },
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -16792,7 +16710,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -16866,7 +16784,7 @@
         "High yield properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -16874,7 +16792,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -16947,7 +16865,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -16955,7 +16873,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -17027,7 +16945,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -17035,7 +16953,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -17107,7 +17025,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -17115,7 +17033,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -17188,7 +17106,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -17196,7 +17114,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -17268,7 +17186,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -17276,7 +17194,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -17337,7 +17255,7 @@
       "propertyType": "Flat",
       "bedrooms": 3,
       "floorAreaSqFt": 1142,
-      "daysOnMarket": 100,
+      "daysOnMarket": 101,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/171576077",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/9220c7ecf/171576077/9220c7ecf0d9287d189205751e909e8f.jpeg",
       "summary": "",
@@ -17348,7 +17266,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2171,
         "monthlyLow": 1850,
@@ -17356,7 +17274,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.43,
         "searchPostcode": "M15 4UA",
-        "fetchedAt": "2026-10-17T04:14:52.460Z",
+        "fetchedAt": "2026-10-17T10:47:42.612Z",
         "comparables": [
           {
             "address": "The Residences Manchester, Deansgate Square, Greater Manchester, M15 , M15 4UP",
@@ -17428,7 +17346,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -17436,7 +17354,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -17508,7 +17426,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2171,
         "monthlyLow": 1850,
@@ -17516,7 +17434,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.43,
         "searchPostcode": "M15 4UA",
-        "fetchedAt": "2026-10-17T04:14:52.460Z",
+        "fetchedAt": "2026-10-17T10:47:42.612Z",
         "comparables": [
           {
             "address": "The Residences Manchester, Deansgate Square, Greater Manchester, M15 , M15 4UP",
@@ -17588,7 +17506,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -17596,7 +17514,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -17657,7 +17575,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 963,
-      "daysOnMarket": 367,
+      "daysOnMarket": 368,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/163574123",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/794ee70da/163574123/794ee70da912bec26c0d14ed3aaf5d67.jpeg",
       "summary": "",
@@ -17668,7 +17586,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -17676,7 +17594,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -17749,7 +17667,7 @@
         "High yield properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -17757,7 +17675,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -17830,7 +17748,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -17838,7 +17756,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -17911,7 +17829,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -17919,7 +17837,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -17992,7 +17910,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -18000,7 +17918,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -18062,7 +17980,7 @@
       "propertyType": "Detached",
       "bedrooms": 2,
       "floorAreaSqFt": 927,
-      "daysOnMarket": 331,
+      "daysOnMarket": 332,
       "listingUrl": "https://propertydata.co.uk/outbound/rightmove/169450664",
       "imageUrl": "https://media.rightmove.co.uk/property-photo/4b5e662c4/169450664/4b5e662c4edd822fe837da8ff9a1c687.jpeg",
       "summary": "",
@@ -18073,7 +17991,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1278,
         "monthlyLow": 1127,
@@ -18081,7 +17999,7 @@
         "sampleSize": 15,
         "radiusMiles": 1.92,
         "searchPostcode": "M15 4QG",
-        "fetchedAt": "2026-10-17T04:14:55.335Z",
+        "fetchedAt": "2026-10-17T10:47:45.597Z",
         "comparables": [
           {
             "address": "Sky Gardens 7 Spinners Way, Manchester M15, M15 4UX",
@@ -18154,7 +18072,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -18162,7 +18080,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -18236,7 +18154,7 @@
         "High yield properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -18244,7 +18162,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -18317,7 +18235,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -18325,7 +18243,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -18398,7 +18316,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -18406,7 +18324,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -18479,7 +18397,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -18487,7 +18405,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -18560,7 +18478,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2011,
         "monthlyLow": 1699,
@@ -18568,7 +18486,7 @@
         "sampleSize": 15,
         "radiusMiles": 1.71,
         "searchPostcode": "M1 2FR",
-        "fetchedAt": "2026-10-17T04:14:58.196Z",
+        "fetchedAt": "2026-10-17T10:47:48.322Z",
         "comparables": [
           {
             "address": "Brownslow Walk, Manchester M13, M13 9UQ",
@@ -18629,7 +18547,7 @@
       "propertyType": "Flat",
       "bedrooms": 1,
       "floorAreaSqFt": 535,
-      "daysOnMarket": 427,
+      "daysOnMarket": 428,
       "listingUrl": "https://propertydata.co.uk/outbound/otm/17689938",
       "imageUrl": "https://media.onthemarket.com/properties/17689938/1623659090/image-0-1024x1024.jpg",
       "summary": "",
@@ -18640,7 +18558,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -18648,7 +18566,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -18721,7 +18639,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -18729,7 +18647,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -18802,7 +18720,7 @@
         "Price reduced properties",
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -18810,7 +18728,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -18883,7 +18801,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -18891,7 +18809,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -18964,7 +18882,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -18972,7 +18890,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -19045,7 +18963,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -19053,7 +18971,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -19126,7 +19044,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -19134,7 +19052,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -19195,7 +19113,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": 667,
-      "daysOnMarket": 60,
+      "daysOnMarket": 61,
       "listingUrl": "https://propertydata.co.uk/outbound/otm/19235707",
       "imageUrl": "https://media.onthemarket.com/properties/19235707/1639615190/image-0-1024x1024.jpg",
       "summary": "",
@@ -19206,7 +19124,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -19214,7 +19132,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -19286,7 +19204,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -19294,7 +19212,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -19367,7 +19285,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1335,
         "monthlyLow": 1101,
@@ -19375,7 +19293,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M1 6HP",
-        "fetchedAt": "2026-10-17T04:14:20.669Z",
+        "fetchedAt": "2026-10-17T10:47:18.726Z",
         "comparables": [
           {
             "address": "2 Harter Street, Manchester City Centre, Manchester, M1, M1 6HY",
@@ -19448,7 +19366,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -19456,7 +19374,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -19528,7 +19446,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -19536,7 +19454,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -19608,7 +19526,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1304,
         "monthlyLow": 1213,
@@ -19616,7 +19534,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 2DD",
-        "fetchedAt": "2026-10-17T04:14:11.427Z",
+        "fetchedAt": "2026-10-17T10:47:09.500Z",
         "comparables": [
           {
             "address": "102 Century Buildings M3, M3 2DE",
@@ -19688,7 +19606,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1447,
         "monthlyLow": 1200,
@@ -19696,7 +19614,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.12,
         "searchPostcode": "M1 1JQ",
-        "fetchedAt": "2026-10-17T04:14:08.487Z",
+        "fetchedAt": "2026-10-17T10:47:06.821Z",
         "comparables": [
           {
             "address": "Chatsworth House, Manchester, M1, M1 1BY",
@@ -19757,7 +19675,7 @@
       "propertyType": "Flat",
       "bedrooms": 2,
       "floorAreaSqFt": null,
-      "daysOnMarket": 60,
+      "daysOnMarket": 61,
       "listingUrl": "https://propertydata.co.uk/outbound/otm/19764556",
       "imageUrl": "https://media.onthemarket.com/properties/19764556/1639714287/image-0-1024x1024.jpg",
       "summary": "",
@@ -19768,7 +19686,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -19776,7 +19694,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -19849,7 +19767,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -19857,7 +19775,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -19929,7 +19847,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2474,
         "monthlyLow": 1850,
@@ -19937,7 +19855,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.39,
         "searchPostcode": "M3 5ND",
-        "fetchedAt": "2026-10-17T04:14:17.347Z",
+        "fetchedAt": "2026-10-17T10:47:15.428Z",
         "comparables": [
           {
             "address": "The Edge, Clowes Street M3, M3 5NB",
@@ -20009,7 +19927,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -20017,7 +19935,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -20089,7 +20007,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2171,
         "monthlyLow": 1850,
@@ -20097,7 +20015,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.43,
         "searchPostcode": "M15 4UA",
-        "fetchedAt": "2026-10-17T04:14:52.460Z",
+        "fetchedAt": "2026-10-17T10:47:42.612Z",
         "comparables": [
           {
             "address": "The Residences Manchester, Deansgate Square, Greater Manchester, M15 , M15 4UP",
@@ -20169,7 +20087,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -20177,7 +20095,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -20250,7 +20168,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1452,
         "monthlyLow": 1352,
@@ -20258,7 +20176,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.17,
         "searchPostcode": "M3 1AZ",
-        "fetchedAt": "2026-10-17T04:13:59.321Z",
+        "fetchedAt": "2026-10-17T10:46:57.793Z",
         "comparables": [
           {
             "address": "No 1 Deansgate, Manchester City Centre, Manchester, M3, M3 1AZ",
@@ -20330,7 +20248,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1179,
         "monthlyLow": 1049,
@@ -20338,7 +20256,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M15 4QX",
-        "fetchedAt": "2026-10-17T04:14:46.523Z",
+        "fetchedAt": "2026-10-17T10:47:36.491Z",
         "comparables": [
           {
             "address": "Jordan St, Manchester M15, M15 4QX",
@@ -20411,7 +20329,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -20419,7 +20337,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -20491,7 +20409,7 @@
       "strategies": [
         "Price reduced properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1096,
         "monthlyLow": 997,
@@ -20499,7 +20417,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.09,
         "searchPostcode": "M4 1PH",
-        "fetchedAt": "2026-10-17T04:13:56.886Z",
+        "fetchedAt": "2026-10-17T10:46:54.781Z",
         "comparables": [
           {
             "address": "The Birchin, 1 Joiner Street, Northern Quarter, M4 1PH",
@@ -20572,7 +20490,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -20580,7 +20498,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -20653,7 +20571,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -20661,7 +20579,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -20734,7 +20652,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -20742,7 +20660,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -20815,7 +20733,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1426,
         "monthlyLow": 1296,
@@ -20823,7 +20741,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.11,
         "searchPostcode": "M4 1PP",
-        "fetchedAt": "2026-10-17T04:14:02.487Z",
+        "fetchedAt": "2026-10-17T10:47:01.086Z",
         "comparables": [
           {
             "address": "Joiner Street, Manchester M4, M4 1PR",
@@ -20896,7 +20814,7 @@
       "strategies": [
         "High yield properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 1482,
         "monthlyLow": 1352,
@@ -20904,7 +20822,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.07,
         "searchPostcode": "M15 4QJ",
-        "fetchedAt": "2026-10-17T04:14:43.468Z",
+        "fetchedAt": "2026-10-17T10:47:33.605Z",
         "comparables": [
           {
             "address": "Little Peter Street, Manchester, Greater Manchester M15, M15 4QJ",
@@ -20977,7 +20895,7 @@
       "strategies": [
         "Chain free properties"
       ],
-      "fetchedAt": "2026-10-17T04:02:27.500Z",
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
       "rent": {
         "monthlyEstimate": 2297,
         "monthlyLow": 1850,
@@ -20985,7 +20903,7 @@
         "sampleSize": 15,
         "radiusMiles": 0.24,
         "searchPostcode": "M4 5FQ",
-        "fetchedAt": "2026-10-17T04:14:40.497Z",
+        "fetchedAt": "2026-10-17T10:47:30.497Z",
         "comparables": [
           {
             "address": "Swan Street House, Manchester, M4, M4 5GB",
@@ -21028,6 +20946,87 @@
             "bedrooms": 3,
             "propertyType": "flat",
             "listingUrl": "https://propertydata.co.uk/outbound/rightmove/89559471"
+          }
+        ]
+      },
+      "annualServiceCharge": null,
+      "annualCouncilTax": null,
+      "tenure": null,
+      "epcRating": null
+    },
+    {
+      "id": "R91112784",
+      "address": "Silvercroft Street, Manchester",
+      "preciseAddress": "FLAT 3202, BLADE TOWER 15, SILVERCROFT STREET, MANCHESTER, M15 4YU",
+      "postcode": "M15 4YU",
+      "price": 405000,
+      "lat": 53.472126,
+      "lng": -2.255251,
+      "propertyType": "Detached",
+      "bedrooms": 2,
+      "floorAreaSqFt": 890,
+      "daysOnMarket": 89,
+      "listingUrl": "https://propertydata.co.uk/outbound/rightmove/91112784",
+      "imageUrl": "https://media.rightmove.co.uk/property-photo/ef0c1fa7e/91112784/ef0c1fa7ef9142f5c18f7a39d383e004.jpeg",
+      "summary": "",
+      "providerDetails": {
+        "type": "House",
+        "summary": "This detached house is in a high yield area, with properties in this postcode district on average achieving a 6.1% gross yield. It is walking distance (0.66 miles) from Manchester Metropolitan University. This property is within walking distance of Manchester city centre (population 547,627). It has good views."
+      },
+      "strategies": [
+        "High yield properties"
+      ],
+      "fetchedAt": "2026-10-17T10:46:50.048Z",
+      "rent": {
+        "monthlyEstimate": 1278,
+        "monthlyLow": 1127,
+        "monthlyHigh": 1452,
+        "sampleSize": 15,
+        "radiusMiles": 1.92,
+        "searchPostcode": "M15 4QG",
+        "fetchedAt": "2026-10-17T10:47:45.597Z",
+        "comparables": [
+          {
+            "address": "Sky Gardens 7 Spinners Way, Manchester M15, M15 4UX",
+            "monthlyRent": 1127,
+            "bedrooms": 2,
+            "propertyType": "detached_house",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74373676"
+          },
+          {
+            "address": "Ordsall Lane, Salford, M5 4XR",
+            "monthlyRent": 1400,
+            "bedrooms": 2,
+            "propertyType": "detached_house",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94192821"
+          },
+          {
+            "address": "Rolls Crescent, Hulme, Manchester M15, M15 5FS",
+            "monthlyRent": 1248,
+            "bedrooms": 2,
+            "propertyType": "detached_house",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74234992"
+          },
+          {
+            "address": "Hulme High Street, Manchester, M15 5JS",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "detached_house",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94151214"
+          },
+          {
+            "address": "Adelphi Wharf 1A, 11 Adelphi Street, Salford, Greater Manchester, M3, M3 6JN",
+            "monthlyRent": 1300,
+            "bedrooms": 2,
+            "propertyType": "detached_house",
+            "listingUrl": "https://propertydata.co.uk/outbound/rightmove/94315170"
+          },
+          {
+            "address": "Linen Court, Salford M3, M3 6JG",
+            "monthlyRent": 1200,
+            "bedrooms": 2,
+            "propertyType": "detached_house",
+            "listingUrl": "https://propertydata.co.uk/outbound/zoopla/74237088"
           }
         ]
       },
